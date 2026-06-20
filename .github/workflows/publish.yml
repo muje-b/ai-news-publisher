@@ -1,0 +1,55 @@
+name: AI News Auto-Publisher
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'   
+  workflow_dispatch:          
+
+concurrency:
+  group: publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run AI News Publisher
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          BLOG_MODEL: "nvidia/nemotron-3-super-120b-a12b"
+          TWEET_MODEL: "meta/llama-3.1-8b-instruct"
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          MAX_POSTS_PER_RUN: "3"
+          MIN_QUALITY_SCORE: "7"
+        run: python publisher.py
+
+      - name: Commit state changes
+        run: |
+          git config user.name "AI Auto-Publisher [bot]"
+          git config user.email "auto-publisher[bot]@users.noreply.github.com"
+          git add state.json drafts/ tweets/
+          git diff --staged --quiet || git commit -m "🔄 auto-update: state and drafts [skip ci]"
+          git push
