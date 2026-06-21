@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AI News Auto-Publisher v2 — NVIDIA NIM Edition (Pure Requests - GitHub Safe)
+AI News Auto-Publisher v2 — NVIDIA NIM Edition (Firewall Bypass + HF Fix)
 """
 
 import feedparser
@@ -17,7 +17,7 @@ from requests_oauthlib import OAuth1
 # CONFIGURATION
 # ============================================================
 NVIDIA_API_KEY = os.environ.get("NVIDIA_API_KEY", "")
-BLOG_MODEL = os.environ.get("BLOG_MODEL", "nvidia/nemotron-3-super-120b-a12b")
+BLOG_MODEL = os.environ.get("BLOG_MODEL", "nvidia/llama-3.1-nemotron-70b-instruct")
 TWEET_MODEL = os.environ.get("TWEET_MODEL", "meta/llama-3.1-8b-instruct")
 
 WP_URL = os.environ.get("WP_URL", "").rstrip("/")
@@ -34,6 +34,11 @@ MIN_QUALITY_SCORE = int(os.environ.get("MIN_QUALITY_SCORE", "7"))
 STATE_FILE = "state.json"
 DRAFTS_DIR = "drafts"
 TWEETS_DIR = "tweets"
+
+# BROWSER HEADERS TO BYPASS HOSTING FIREWALLS (Fixes 401 Errors)
+BROWSER_UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+}
 
 # ============================================================
 # DATA SOURCES
@@ -99,7 +104,7 @@ def call_nvidia(prompt, model=None, max_tokens=2048):
                 "Content-Type": "application/json",
             },
             json=payload,
-            timeout=120, # Nemotron thinking takes a bit longer
+            timeout=120,
         )
         if response.status_code == 200:
             return response.json()["choices"][0]["message"]["content"]
@@ -130,13 +135,20 @@ def fetch_rss_feeds():
 def fetch_huggingface_models():
     items = []
     try:
-        for m in requests.get("https://huggingface.co/api/models", params={"sort": "created", "direction": "-1", "limit": 5, "pipeline_tag": "text-generation"}, timeout=15).json():
-            items.append({
-                "title": f"New Model: {m.get('modelId', '')}", "link": f"https://huggingface.co/{m.get('modelId', '')}",
-                "summary": f"Author: {m.get('author', '')}. Tags: {', '.join(m.get('tags', [])[:6])}. Downloads: {m.get('downloads', 0):,}.",
-                "published": m.get("createdAt", ""), "source": "huggingface", "category": "Models", "type": "model",
-                "hash": get_hash(f"hf-{m.get('modelId', '')}")
-            })
+        response = requests.get("https://huggingface.co/api/models", params={"sort": "created", "direction": "-1", "limit": 5, "pipeline_tag": "text-generation"}, timeout=15)
+        data = response.json()
+        
+        # FIX: Ensure response is a list before looping
+        if isinstance(data, list):
+            for m in data:
+                items.append({
+                    "title": f"New Model: {m.get('modelId', '')}", "link": f"https://huggingface.co/{m.get('modelId', '')}",
+                    "summary": f"Author: {m.get('author', '')}. Tags: {', '.join(m.get('tags', [])[:6])}. Downloads: {m.get('downloads', 0):,}.",
+                    "published": m.get("createdAt", ""), "source": "huggingface", "category": "Models", "type": "model",
+                    "hash": get_hash(f"hf-{m.get('modelId', '')}")
+                })
+        else:
+            print(f"  ⚠ HuggingFace API returned unexpected format: {str(data)[:100]}")
     except Exception as e: print(f"  ⚠ HuggingFace error: {e}")
     return items
 
@@ -228,9 +240,16 @@ def generate_and_upload_image(item, post_id):
         img_url = f"https://image.pollinations.ai/prompt/{requests.utils.quote(img_prompt.strip())}?width=1200&height=630&nologo=true&seed={item['hash']}"
         img_res = requests.get(img_url, timeout=45)
         if img_res.status_code == 200 and len(img_res.content) > 5000:
-            med_res = requests.post(f"{WP_URL}/wp-json/wp/v2/media", headers={"Content-Disposition": 'attachment; filename="header.jpg"', "Content-Type": "image/jpeg"}, data=img_res.content, auth=(WP_USERNAME, WP_APP_PASSWORD), timeout=20)
+            # ADDED BROWSER_UA TO BYPASS FIREWALL
+            media_headers = {
+                "Content-Disposition": 'attachment; filename="header.jpg"', 
+                "Content-Type": "image/jpeg",
+                "User-Agent": BROWSER_UA["User-Agent"]
+            }
+            med_res = requests.post(f"{WP_URL}/wp-json/wp/v2/media", headers=media_headers, data=img_res.content, auth=(WP_USERNAME, WP_APP_PASSWORD), timeout=20)
             if med_res.status_code in [200, 201]:
-                requests.post(f"{WP_URL}/wp-json/wp/v2/posts/{post_id}", json={"featured_media": med_res.json().get("id")}, auth=(WP_USERNAME, WP_APP_PASSWORD), timeout=10)
+                # ADDED BROWSER_UA TO BYPASS FIREWALL
+                requests.post(f"{WP_URL}/wp-json/wp/v2/posts/{post_id}", headers=BROWSER_UA, json={"featured_media": med_res.json().get("id")}, auth=(WP_USERNAME, WP_APP_PASSWORD), timeout=10)
                 print(f"  🖼️ Featured image added")
     except Exception as e: print(f"  ⚠ Image failed: {e}")
 
@@ -240,16 +259,26 @@ def generate_and_upload_image(item, post_id):
 def publish_to_wordpress(title, content, item):
     full = f"""{content}
 <blockquote>📌 <strong>Source:</strong> <a href="{item.get('link', '')}" target="_blank">{item.get('source', '').replace('_', ' ').title()}</a></blockquote>"""
+    
     if all([WP_URL, WP_USERNAME, WP_APP_PASSWORD]):
         try:
-            res = requests.post(f"{WP_URL}/wp-json/wp/v2/posts", json={"title": title, "content": full, "status": "publish", "slug": safe_filename(title)}, auth=(WP_USERNAME, WP_APP_PASSWORD), timeout=30)
+            # ADDED BROWSER_UA TO BYPASS FIREWALL
+            res = requests.post(
+                f"{WP_URL}/wp-json/wp/v2/posts", 
+                headers=BROWSER_UA, 
+                json={"title": title, "content": full, "status": "publish", "slug": safe_filename(title)}, 
+                auth=(WP_USERNAME, WP_APP_PASSWORD), 
+                timeout=30
+            )
             if res.status_code in [200, 201]:
                 d = res.json()
                 print(f"  ✅ Published: {d.get('link', '')}")
                 generate_and_upload_image(item, d.get("id"))
                 return d.get("link")
-            else: print(f"  ⚠ WP error {res.status_code}: {res.text[:150]}")
-        except Exception as e: print(f"  ⚠ WP exception: {e}")
+            else: 
+                print(f"  ⚠ WP error {res.status_code}: {res.text[:150]}")
+        except Exception as e: 
+            print(f"  ⚠ WP exception: {e}")
     
     os.makedirs(DRAFTS_DIR, exist_ok=True)
     with open(f"{DRAFTS_DIR}/{safe_filename(title)}.html", "w") as f: f.write(f"<h1>{title}</h1>{full}")
@@ -273,7 +302,7 @@ def post_to_x(text):
 # ============================================================
 def main():
     print("=" * 55)
-    print(f"🤖 AI News Auto-Publisher (Nemotron Thinking)")
+    print(f"🤖 AI News Auto-Publisher (Nemotron + Firewall Fix)")
     print(f"   {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 55)
 
@@ -300,7 +329,7 @@ def main():
 
     for i, item in enumerate(new_items, 1):
         print(f"{'─'*55}\n[{i}/{len(new_items)}] {item['title'][:65]}")
-        print("  🔄 Generating blog post (Nemotron thinking)...")
+        print("  🔄 Generating blog post...")
         content = generate_blog_post(item)
         if not content: continue
 
