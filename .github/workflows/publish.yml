@@ -46,7 +46,7 @@ jobs:
           MIN_QUALITY_SCORE: "7"
         run: python publisher.py
 
-           - name: Commit state changes
+                - name: Commit state changes
         run: |
           git config user.name "AI Auto-Publisher [bot]"
           git config user.email "auto-publisher[bot]@users.noreply.github.com"
