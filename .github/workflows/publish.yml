@@ -45,14 +45,13 @@ jobs:
           MIN_QUALITY_SCORE: "7"
         run: python publisher.py
 
-      - name: Commit state changes
-         - name: Commit state changes
+      - name: Save state
         run: |
-          git config user.name "AI Auto-Publisher [bot]"
-          git config user.email "auto-publisher[bot]@users.noreply.github.com"
-          git add state.json || true
+          git config user.name "bot"
+          git config user.email "bot@bot.com"
+          git add state.json
           git add drafts/ || true
           git add tweets/ || true
-          git diff --staged --quiet || git commit -m "auto-update state [skip ci]"
+          git commit -m "update [skip ci]" || true
           git pull --rebase origin main || true
           git push
