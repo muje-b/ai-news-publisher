@@ -1,0 +1,1 @@
+New research on Emergent Alignment: Can Large Language Models (LLMs) detect when their outputs misalign with human ethics? arXiv:2606.19527v1 #AIethics #EmergentAlignment

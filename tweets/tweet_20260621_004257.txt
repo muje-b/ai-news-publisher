@@ -1,0 +1,1 @@
+Introducing ITNet: a learnable integral transform that unifies convolution, attention, and recurrence, offering a single framework for diverse inductive biases. #NeuralNetworks #AIResearch

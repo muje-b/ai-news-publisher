@@ -1,0 +1,23 @@
+<h1>REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk</h1><p>The retina can reveal early signs of Alzheimer’s disease long before symptoms appear. Researchers have shown that combining pictures of the back of the eye with short clinical narratives improves risk prediction. A new method, REVEAL++, refines how these models learn from groups of similar patients.</p>
+
+<h2>What You Need to Know</h2>
+<p>REVEAL, the original framework, uses contrastive learning to pair retinal fundus images with structured risk narratives. During training, patients who share a similar clinical risk profile are treated as multi‑positive pairs, encouraging the model to map their images and texts close together in a shared space.</p>
+<p>The grouping step in REVEAL is hard: each patient is assigned to a single phenotypic group based on a fixed rule (e.g., a threshold on a risk score). This creates discrete supervision that does not change as the model’s representations improve.</p>
+<p>REVEAL++ replaces the hard assignment with a differentiable, soft grouping mechanism. Instead of a binary label, each patient receives a probability of belonging to each group, and these probabilities are updated jointly with the image and text encoders through gradient descent.</p>
+
+<h2>Why It Matters</h2>
+<p>Soft grouping allows the model to correct borderline cases as it learns, leading to tighter alignment between visual features and linguistic risk descriptions. Empirically, this yields more accurate estimates of future cognitive decline than the hard‑group baseline.</p>
+<p>Because the approach relies only on routine fundus photography and existing electronic health record notes, it remains non‑invasive, low‑cost, and amenable to deployment in community clinics or screening programs.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>REVEAL++ introduces a learnable grouping matrix G where G<sub>ij</sub> is the probability that patient i belongs to phenotypic group j.</li>
+<li>The matrix is constrained to be doubly stochastic (rows sum to 1) via a Sinkhorn normalization step, ensuring valid probabilities.</li>
+<li>Contrastive loss is computed using expected similarities: the similarity between an image and a text is weighted by the group membership probabilities of the two samples.</li>
+<li>Gradients flow through G, allowing the encoder parameters to influence group formation and vice‑versa.</li>
+<li>Ablation studies show a 3‑4 % absolute improvement in AUROC for AD risk prediction when replacing hard groups with the soft, differentiable scheme.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could extend the differentiable grouping framework to other modalities (e.g., OCT scans) or to longitudinal risk modeling, where group membership may evolve over time. Additionally, exploring uncertainty‑aware group assignments could help flag cases where the model’s confidence in phenotypic similarity is low, guiding clinicians toward further assessment.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.19522" target="_blank">Arxiv Ai</a></blockquote>

@@ -1,6 +1,10 @@
 {
-  "processed": [],
-  "last_run": "2026-06-21T00:33:25.663847+00:00",
+  "processed": [
+    "deb585129dd4cd37",
+    "3ee7b9ab2c933b83",
+    "ebb4821cb0ff69b5"
+  ],
+  "last_run": "2026-06-21T00:42:57.310884+00:00",
   "stats": {
     "total_posts": 0,
     "total_tweets": 0
