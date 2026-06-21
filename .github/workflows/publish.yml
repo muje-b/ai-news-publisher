@@ -46,6 +46,7 @@ jobs:
         run: python publisher.py
 
       - name: Commit state changes
+         - name: Commit state changes
         run: |
           git config user.name "AI Auto-Publisher [bot]"
           git config user.email "auto-publisher[bot]@users.noreply.github.com"
@@ -53,4 +54,5 @@ jobs:
           git add drafts/ || true
           git add tweets/ || true
           git diff --staged --quiet || git commit -m "auto-update state [skip ci]"
+          git pull --rebase origin main || true
           git push
