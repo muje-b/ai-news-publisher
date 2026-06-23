@@ -1,0 +1,2 @@
+Introducing OpenFugu, a Python-based LLM orchestrator that streamlines the workflow from read to serve. Reimplementing Sakana Fugu's 'one model to command them all' concept. #MachineLearning #Python
+https://woor.ai/new-tool-openfugu/
