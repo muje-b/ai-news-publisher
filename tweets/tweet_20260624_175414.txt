@@ -1,0 +1,1 @@
+Reinforcement Learning Towards Broadly & Persistently Beneficial Models (arXiv:2606.24014v1) tackles model alignment in diverse, high-stakes settings to ensure AI systems benefit humanity. #AIAlignment #ReinforcementLearning

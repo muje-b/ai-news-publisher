@@ -1,0 +1,1 @@
+Discovering causal structures & inferring causal effects just got a boost! Check out the new survey on Federated Causal Discovery and Inference: arXiv:2606.23741v1 #CausalReasoning #MachineLearning

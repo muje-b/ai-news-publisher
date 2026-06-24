@@ -1,0 +1,22 @@
+<h1>A Survey on Federated Causal Discovery and Inference</h1><p>Federated learning lets institutions analyze data together without moving raw records, but when the aim is to uncover cause‑effect relationships the problem becomes more subtle. A recent survey paper gathers the scattered work on federated causal discovery (FCD) and federated causal inference (FCI), laying out how researchers can learn causal graphs and estimate effects while keeping data local. It explains the core ideas, the main algorithmic families, and the open questions that still need attention.</p>
+
+<h2>What You Need to Know</h2>
+<p>FCD and FCI address settings where data cannot be centralized because of privacy rules or communication limits. Instead of sharing raw observations, parties exchange only aggregates, encrypted messages, or local sufficient statistics. The goal is to recover a causal graph or estimate an intervention effect from these distributed pieces.</p>
+<p>The survey groups existing methods into two families. Constraint‑based approaches adapt conditional independence tests to a federated setting, often using secure multi‑party computation to compute joint statistics without revealing individual data. Score‑based approaches optimize a global causal score (e.g., BIC or a NOTEARS‑style loss) through distributed optimization, with each node contributing a local gradient or sufficient statistic and a central coordinator updating the model.</p>
+
+<h2>Why It Matters</h2>
+<p>Many high‑impact domains—healthcare, finance, and public policy—store data in isolated silos yet require causal insight to design safe interventions or policies. Without a shared repository, traditional causal tools cannot be applied directly, making federated techniques essential for reliable decision making.</p>
+<p>For newcomers, the lack of a unified overview has made it hard to compare algorithms, reproduce results, or spot gaps. This survey provides a clear taxonomy, lists the assumptions each method relies on, and points to common benchmark datasets, thereby lowering the barrier to entry and guiding future research.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Reviews over 120 papers from 2018 to 2024, split between discovery and inference contributions.</li>
+<li>Summarizes core assumptions such as linearity, Gaussian noise, faithfulness, or the availability of proxy variables.</li>
+<li>Reports typical communication costs cited in the studies (e.g., bits per round and number of rounds needed for convergence).</li>
+<li>Notes evaluation practices: synthetic DAGs, semi‑synthetic benchmarks like the Sachs protein‑cell data, and real federated health‑record collections.</li>
+<li>Highlights open challenges: coping with non‑i.i.d. data splits, preserving differential privacy guarantees, and scaling to high‑dimensional causal graphs.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The survey recommends three concrete research paths: designing federated algorithms that preserve Markov equivalence classes under heterogeneous data, integrating causal discovery steps into existing federated learning pipelines for better downstream prediction, and establishing shared, privacy‑aware benchmarks that report both statistical utility and privacy loss metrics.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.23741" target="_blank">Arxiv Ml</a></blockquote>
