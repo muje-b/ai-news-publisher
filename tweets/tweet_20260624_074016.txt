@@ -1,0 +1,2 @@
+Introducing Neuro-Symbolic Drive: leveraging Chain-of-Thought reasoning to drive VLA models with rule-grounded faithful reasoning. A promising approach to improving model performance! #NeuroSymbolicAI
+https://woor.ai/neuro-symbolic-drive-rule-grounded-faithful-reasoning-for-dr/

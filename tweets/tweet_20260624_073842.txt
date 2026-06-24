@@ -1,0 +1,2 @@
+Revolutionizing LLM reasoning! Introducing Strategy-Guided Policy Optimization for LLMs, distilling reasoning capabilities from strong to weak models #LLM #AIResearch
+https://woor.ai/beyond-trajectory-imitation-strategy-guided-policy-optimizat/
