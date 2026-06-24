@@ -1,0 +1,1 @@
+Unlocking reaction network secrets: Synergize MCMC & Chemical-Informed GP for interpretable governing equations from noisy chemical data #ChemicalInformatics #MachineLearning

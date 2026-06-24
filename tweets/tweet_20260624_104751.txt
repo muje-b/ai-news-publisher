@@ -1,0 +1,1 @@
+Language Model Agents can potentially aid in mechanistic interpretability by serving as helpful circuit explainers, as per new arXiv paper (arXiv:2606.24026v1) #MechanisticInterpretability
