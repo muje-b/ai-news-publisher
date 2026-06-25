@@ -1,0 +1,27 @@
+<h1>The Clinician's Veto: Navigating Trust, Liability, and Uncertainty in Autonomous AI Prescribing</h1><p>The idea of an AI that can write a prescription without a human clinician in the loop is moving from science fiction to policy reality. Recent U.S. legislation and a Utah pilot program have begun to grant autonomous AI systems the authority to prescribe medications, raising urgent questions about safety, accountability, and how clinicians should interact with these tools. A new pre‑print examines these challenges and proposes a framework that separates technical performance from the communicative and liability‑critical aspects of AI‑driven prescribing.</p>
+
+<h2>What You Need to Know</h2>
+<p>The paper, titled “The Clinician's Veto: Navigating Trust, Liability, and Uncertainty in Autonomous AI Prescribing,” surveys 136 U.S. prescribers to gauge attitudes toward AI that can act as an independent prescribing agent. It notes that while current regulatory pathways often rely on aggregate model performance metrics—such as overall accuracy or AUC—for device clearance, they do not mandate three specific safeguards:</p>
+<ol>
+<li>Calibrated per‑prediction confidence scores that can be used to gate actions (e.g., only allow prescribing when the model’s confidence exceeds a threshold).</li>
+<li>Explicit differentiation between two types of uncertainty: epistemic uncertainty, which stems from the model’s lack of knowledge and could be reduced with more data, and aleatoric uncertainty, which reflects inherent variability in patient presentation or disease biology.</li>
+<li>Inferential transparency at the point of decision, meaning the AI must provide enough information about its reasoning process to allow liability to be allocated appropriately if an adverse event occurs.</li>
+</ol>
+<p>The survey results show that a majority of clinicians would only trust an autonomous prescribing system if it offered calibrated confidence scores and clear uncertainty distinctions, and they expressed concern about who would be held liable when the AI’s recommendation leads to harm.</p>
+
+<h2>Why It Matters</h2>
+<p>As legislative efforts like H.R. 238 and Utah’s prescription‑renewal pilot move forward, the gap between technical readiness and regulatory safeguards could expose patients to preventable harm. Without per‑prediction confidence thresholds, an AI might prescribe a medication even when its internal estimate is poorly calibrated, increasing the risk of over‑ or under‑dosing. Likewise, conflating epistemic and aleatoric uncertainty obscures whether a mistake is due to a fixable knowledge gap in the model or an unavoidable clinical ambiguity, which affects both model improvement strategies and clinician oversight.</p>
+<p>Inferential transparency is essential for liability allocation. If a prescribing error occurs, regulators, insurers, and clinicians need to know whether the fault lay in the model’s training data, its algorithmic logic, or the clinician’s oversight. The paper argues that embedding these three elements into the AI’s output—not just as optional add‑ons but as required components for clearance—creates a “clinician’s veto” mechanism: prescribers can override or question the AI’s recommendation based on transparent, quantified uncertainty, thereby preserving professional judgment while still benefiting from automation.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Survey of 136 U.S. prescribers shows 68 % would require calibrated per‑prediction confidence before trusting autonomous prescribing.</li>
+<li>Only 22 % of current AI clearance guidelines mention uncertainty quantification; none differentiate epistemic vs. aleateric sources.</li>
+<li>The paper proposes a liability‑allocation matrix that links uncertainty type, confidence threshold, and clinician override to clear responsibility pathways.</li>
+<li>Ethical analysis suggests that without differentiated uncertainty communication, clinicians may either over‑rely on AI (ignoring genuine ambiguity) or under‑use it (discounting useful model insights).</li>
+<li>Pilot data from Utah’s prescription‑renewal program indicate a 12 % reduction in prescribing latency but a 5 % increase in flagged adverse events when AI operated without confidence gating.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work should focus on implementing calibrated confidence outputs and uncertainty decomposition in real‑world prescribing AI, then testing these features in controlled clinical trials that measure both patient outcomes and clinician satisfaction. Regulators could amend existing frameworks to require the three safeguards outlined in the paper as preconditions for market authorization, ensuring that the move toward autonomous prescribing is accompanied by robust trust, clarity, and accountability mechanisms.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.25108" target="_blank">Arxiv Ai</a></blockquote>
