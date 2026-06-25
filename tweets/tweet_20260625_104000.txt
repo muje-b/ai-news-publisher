@@ -1,0 +1,2 @@
+Looped language models' runtime state decoding may overlook the "readout blind spot", where hidden states aren't fully utilized. #NLP
+https://woor.ai/dense-supervision-is-not-enough-the-readout-blind-spot-in-lo/

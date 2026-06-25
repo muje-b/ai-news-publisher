@@ -1,0 +1,2 @@
+Introducing On-Device Neural Architecture Search, a new approach to near-sensor computing, enabling efficient neural network design on edge devices #NeuralArchitectureSearch #EdgeComputing
+https://woor.ai/on-device-neural-architecture-search/
