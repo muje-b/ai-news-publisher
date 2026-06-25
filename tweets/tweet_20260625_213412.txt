@@ -1,0 +1,2 @@
+New study reveals vision-language models may search like humans! Researchers use reasoning tokens as a reaction-time analog in classic visual-search paradigms #VisionLanguage #ComputerVision
+https://woor.ai/do-vision-language-models-search-like-humans-reasoning-token/
