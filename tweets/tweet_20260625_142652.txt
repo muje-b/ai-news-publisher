@@ -1,0 +1,2 @@
+New paper on Supervised Reinforcement Learning for DER coordination! arXiv:2606.24947v1. Decarbonizing power systems just got a boost. #DistributedEnergyResources #SustainableEnergy
+https://woor.ai/supervised-reinforcement-learning-for-the-coordination-of-di/
