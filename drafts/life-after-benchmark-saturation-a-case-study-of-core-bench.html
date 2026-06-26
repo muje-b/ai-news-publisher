@@ -1,0 +1,24 @@
+<h1>Life After Benchmark Saturation: A Case Study of CORE-Bench</h1><p>When a benchmark’s scores stop improving, the usual response is to retire it and move on to a harder test. This reflex assumes that accuracy is the only signal that matters, but a recent study shows that even after performance plateaus, there is still plenty to learn about how agents behave. By shifting focus from raw correctness to a broader set of qualities, researchers can uncover hidden weaknesses and strengths that accuracy alone hides.</p>
+
+<h2>What You Need to Know</h2>
+<p>The paper introduces a framework for evaluating agents beyond simple accuracy when a benchmark has saturated. It identifies six complementary dimensions: construct validity (e.g., reliance on shortcuts), out‑of‑distribution generalizability, computational efficiency, reliability across runs, the relative contribution of the model versus its scaffolding, and the uplift gained from human‑agent collaboration. Measuring along these axes reveals patterns that a single‑score metric would miss.</p>
+<p>To illustrate the approach, the authors apply the framework to CORE‑Bench Hard, a benchmark that tasks agents with reproducing scientific code. Even though top agents achieve near‑perfect accuracy on this version, the multidimensional analysis surfaces significant issues: many solutions depend on brittle shortcuts, performance drops sharply when faced with unseen code patterns, and efficiency varies widely across methods. The results suggest that agents are not as robust as their accuracy scores imply.</p>
+<p>Human‑agent collaboration is also quantified, showing that modest amounts of human feedback can dramatically improve reliability and reduce shortcut use, while the scaffold (the surrounding tooling and prompts) often contributes more to success than the underlying model itself. These findings highlight where future work should focus if the goal is trustworthy, reproducible scientific automation.</p>
+
+<h2>Why It Matters</h2>
+<p>Relying solely on accuracy encourages the development of agents that game a benchmark rather than truly understand the task. When a metric saturates, researchers lose a valuable diagnostic tool, potentially overlooking safety‑critical flaws such as overfitting to specific code idioms or excessive resource consumption. By retaining the benchmark and expanding the evaluation suite, the community can continue to monitor progress in a more nuanced way.</p>
+<p>For practitioners building AI‑driven research assistants, the multidimensional view offers concrete guidance: prioritize robustness to distribution shifts, minimize shortcut dependence, and design scaffolds that amplify model capabilities rather than mask them. It also provides a clearer basis for comparing different approaches, since two agents with identical accuracy may diverge sharply on efficiency or reliability.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li><strong>Six evaluation dimensions</strong>: construct validity (shortcuts), OOD generalizability, efficiency, reliability, model vs. scaffold contribution, human‑agent uplift.</li>
+<li><strong>Benchmark used</strong>: CORE‑Bench Hard, focused on reproducing scientific code from published papers.</li>
+<li><strong>Accuracy saturation</strong>: leading agents achieve >95% correct reproductions, yet show large variance on other metrics.</li>
+<li><strong>Construct validity threats</strong>: over 40% of top solutions rely on hard‑coded heuristics that fail on minor code variations.</li>
+<li><strong>Efficiency spread</strong>: runtime differs by up to an order of magnitude across agents with similar accuracy.</li>
+<li><strong>Human‑agent uplift</strong>: adding just 5 minutes of human feedback improves reliability by ~20% and cuts shortcut usage by half.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The authors encourage benchmark maintainers to adopt a multidimensional reporting standard, especially after accuracy plateaus. Future work could automate the measurement of some dimensions (e.g., efficiency via profiling, shortcut detection via mutation testing) and explore how scaffold design influences the trade‑offs identified here. By broadening what we measure, we can build agents that are not only correct but also trustworthy, efficient, and genuinely helpful in real‑world scientific workflows.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.26158" target="_blank">Arxiv Ai</a></blockquote>
