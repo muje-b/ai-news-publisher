@@ -1,0 +1,1 @@
+Challenging the idea that verification is easier than production, researchers find no silver bullet for coding agent rewards, highlighting the complexity of verifying AI solutions [arXiv:2606.26300v1] #AIVerification

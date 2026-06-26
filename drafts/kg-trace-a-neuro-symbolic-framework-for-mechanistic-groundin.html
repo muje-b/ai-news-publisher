@@ -1,0 +1,23 @@
+<h1>KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction</h1><p>Antibiotic resistance remains one of the most pressing challenges in modern medicine. Predicting which genetic changes lead to resistance helps clinicians choose effective treatments and guides public‑health surveillance. Most current approaches rely purely on statistical patterns learned from whole‑genome sequencing data, offering high accuracy but little insight into the biology behind the predictions. A new method, KG‑TRACE, aims to bridge that gap by explicitly linking neural model outputs to established knowledge about resistance‑conferring mutations.</p>
+
+<h2>What You Need to Know</h2>
+<p>KG‑TRACE combines a neural genomic encoder with a symbolic knowledge graph that captures WHO‑curated mutation‑disease relationships. The knowledge graph embeddings are generated using RotatE, a technique that preserves relational structure in a complex vector space. Rather than simply concatenating these embeddings with the neural features, the framework introduces an epistemic trust gate—a small neural network that learns, for each input, how much weight to give to the statistical evidence versus the symbolic knowledge. This gating mechanism allows the model to defer to trusted biological pathways when the data are ambiguous, while still relying on pure neural signals when they are strong.</p>
+<p>The authors test KG‑TRACE on the CRyPTIC <em>Mycobacterium tuberculosis</em> dataset, a large collection of paired genotype‑phenotype measurements for several anti‑TB drugs. For isoniazid, the framework achieves an AUROC of 0.9760, which is comparable to top‑performing purely neural baselines. More importantly, the attention weights learned by the trust gate show higher reliance on the knowledge graph for mutations with well‑documented mechanistic links (e.g., katG S315T) and greater dependence on the neural component for novel or poorly understood variants.</p>
+
+<h2>Why It Matters</h2>
+<p>Clinical decision‑making benefits from models that not only predict resistance but also explain why a particular mutation is flagged. By grounding neural attributions in a curated biological KG, KG‑TRACE provides a traceable path from genotype to phenotype that can be inspected by microbiologists and antimicrobial stewardship teams. This transparency can increase trust in automated tools, facilitate hypothesis generation for wet‑lab validation, and help identify gaps in the current knowledge graph where new mechanistic insights are needed.</p>
+<p>Beyond tuberculosis, the same architecture could be adapted to other pathogens and drug classes, provided a suitable mutation‑centric knowledge graph exists. The epistemic trust gate offers a principled way to balance data‑driven learning with expert knowledge, a trade‑off that is increasingly important as genomic datasets grow but biological understanding remains incomplete.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Uses the WHO mutation knowledge graph as a symbolic constraint on a neural genomic model.</li>
+<li>Knowledge‑graph embeddings are generated with RotatE to preserve relational structure.</li>
+<li>An epistemic trust gate dynamically weights neural evidence versus symbolic knowledge per sample.</li>
+<li>Evaluated on the CRyPTIC <em>M. tuberculosis</em> cohort (≈15k isolates) for multiple anti‑TB drugs.</li>
+<li>For isoniazid, AUROC = 0.9760, matching state‑of‑the‑art neural baselines.</li>
+<li>Trust‑gate analysis shows higher KG reliance for well‑characterized mutations (e.g., katG S315T) and higher neural reliance for obscure variants.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could extend KG‑TRACE to incorporate additional layers of biological information, such as gene‑expression or protein‑interaction networks, and to evaluate its explanatory power in prospective clinical trials. Improving the scalability of the trust gate for larger, pan‑pathogen knowledge graphs will also be important if the approach is to become a general tool for antimicrobial resistance prediction.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.26179" target="_blank">Arxiv Ml</a></blockquote>

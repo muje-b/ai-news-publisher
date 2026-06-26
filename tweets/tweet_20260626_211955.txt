@@ -1,0 +1,1 @@
+KG-TRACE: a neuro-symbolic framework for mechanistic grounding in antimicrobial resistance prediction. New research aims to bridge the gap between genomic data & actionable insights. #AntimicrobialResistance #MachineLearning
