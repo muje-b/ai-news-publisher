@@ -1,0 +1,2 @@
+Detecting & controlling sycophancy with cascading linear features, a new approach to model behavior steering via activation steering methods, announced in arXiv:2606.26155v1 #MachineLearning #AIResearch
+https://woor.ai/detecting-and-controlling-sycophancy-with-cascading-linear-f/
