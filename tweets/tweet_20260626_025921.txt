@@ -1,0 +1,2 @@
+New research on agentic persuasion: Diagnosing & mitigating compounding failures in foundation-model agents via taxonomic strategy retrieval (arXiv:2606.24976v1) #AI #AgenticPersuasion
+https://woor.ai/diagnosing-and-mitigating-compounding-failures-in-agentic-pe/
