@@ -1,0 +1,1 @@
+New research on #AlgorithmicFairness: "Statistical and Structural Approaches to Algorithmic Fairness" (arXiv:2606.26200v1) explores fairness in modern machine learning systems, a crucial step towards more equitable AI.

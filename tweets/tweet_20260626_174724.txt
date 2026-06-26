@@ -1,0 +1,1 @@
+Introducing COrigami: an AI pipeline for co-designing flat-foldable, visually recognizable origami! Researchers leverage generative AI to tackle complex folding rules & create stunning paper art. #OrigamiAI

@@ -1,0 +1,24 @@
+<h1>COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami</h1><p>Imagine describing a paper crane in a few sentences and watching a computer turn that description into a crease pattern that can be folded flat, looks recognizably like a crane, and obeys the strict mathematics of origami. That is the goal of COrigami, a new AI‑driven pipeline that bridges natural language input with the geometric rigor of flat‑foldable designs.</p>
+
+<h2>What You Need to Know</h2>
+<p>The pipeline starts with a text prompt, such as “make a flat‑foldable bird with outstretched wings.” A language model first generates a semantic stick‑figure sketch that captures the essential parts and proportions requested. This sketch serves as a high‑level scaffold for the subsequent steps.</p>
+<p>Next, the system computes a base packing: it places the stick‑figure’s limbs and body onto a square sheet in a way that leaves enough material for folds while keeping the overall shape compact. The packing respects the paper’s boundaries and avoids overlap, producing a feasible layout for crease assignment.</p>
+<p>From the packed layout, an optimization solver searches for a set of mountain and valley creases that satisfy Kawasaki’s theorem and Maekawa’s condition— the mathematical constraints that guarantee flat foldability. Once a valid crease pattern is found, a shaping module refines the geometry to enhance visual recognizability, adjusting angles and lengths so the folded model resembles the intended object. Finally, a lightweight post‑process smooths any minor artifacts, yielding a printable crease pattern ready for folding.</p>
+
+<h2>Why It Matters</h2>
+<p>Generative models excel at creating images or text where correctness can be judged loosely, but physical artifacts demand exact geometric compliance. Origami offers a concrete testbed: a design is either flat‑foldable or it is not, and the final shape can be evaluated visually. COrigami shows how AI can be guided by hard constraints rather than relying solely on statistical likelihood, opening a path for other domains where form and function must coexist, such as mechanical metamaterials or deployable structures.</p>
+<p>Beyond the technical challenge, the tool lowers the barrier for designers, educators, and hobbyists who may lack expertise in crease‑pattern mathematics. By translating plain language into manufacturable folds, it encourages experimentation with origami‑based art, educational models, and rapid prototyping of foldable devices.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Input: natural language description of a target origami shape.</li>
+<li>Step 1: language model produces a semantic stick‑figure skeleton.</li>
+<li>Step 2: base packing algorithm places the skeleton on a unit square.</li>
+<li>Step 3: constrained optimization solves for a flat‑foldable crease set (Kawasaki & Maekawa).</li>
+<li>Step 4: shaping module adjusts crease geometry for visual fidelity.</li>
+<li>Output: printable crease pattern that folds flat and resembles the described object.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The authors plan to extend COrigami to handle multi‑sheet assemblies, curved folds, and functional mechanisms such as hinges or locks. Integrating user feedback loops—where a designer can tweak the generated pattern and have the pipeline re‑optimize—could further bridge the gap between intuitive design and mathematical rigor, making computational origami accessible to a broader creative community.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.26299" target="_blank">Arxiv Ai</a></blockquote>

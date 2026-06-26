@@ -1,0 +1,22 @@
+<h1>Implementation of reinforcement learning in chemical reaction networks: application to phototaxis as curiosity-driven exploration</h1><p>When a single‑celled alga moves toward light, it does not simply follow a fixed rule; it constantly updates its internal guess about the world based on noisy sensory hits. A recent study reframes this behavior as a decision‑making problem where the cell balances exploration and exploitation, using concepts from reinforcement learning implemented directly in chemical reaction networks.</p>
+
+<h2>What You Need to Know</h2>
+<p>The authors model the alga’s sensory experience as a Partially Observable Markov Decision Process (POMDP). In this formulation, the true light intensity and direction are hidden variables, while the cell receives imperfect measurements each time step. From each observation the cell performs a memoryless Bayesian update to maintain a minimal internal belief state about the hidden environment.</p>
+<p>Reinforcement learning is then introduced to shape the cell’s tumbling probability. The reward signal is defined not by immediate nutrient gain but by the expected reduction in uncertainty about the light source—a curiosity‑driven objective. By coupling the POMDP belief update with a set of chemical reactions that encode the learning rule, the entire agent–environment loop can be realized as a synthetic biochemical circuit.</p>
+
+<h2>Why It Matters</h2>
+<p>Linking POMDP reasoning with concrete reaction dynamics shows how minimal cognitive functions could emerge from purely molecular processes. It offers a concrete blueprint for engineering synthetic cells that can adaptively navigate complex, uncertain environments without external computers.</p>
+<p>From a biological perspective, the work provides a testable hypothesis: real phototactic cells may internally compute belief updates and use curiosity‑like terms to bias their random walks. This bridges theory and experiment, suggesting new measurements—such as tracking internal biochemical states during runs and tumbles—to verify the proposed mechanism.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>The hidden state comprises light intensity and direction; observations are noisy photon counts.</li>
+<li>Belief update follows Bayes’ rule with a fixed prior, implemented via a set of reversible reactions that approximate multiplication and division.</li>
+<li>The reinforcement learning component adjusts the tumbling rate proportional to the expected information gain (mutual information) between action and future observations.</li>
+<li>Chemical species representing the belief state and the learning signal interact through mass‑action kinetics to produce the policy.</li>
+<li>Simulations show that the chemotactic drift emerges when the curiosity term outweighs a small baseline exploitation bias, reproducing experimentally observed run‑tumble patterns.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could implement the designed reaction network in a microfluidic platform using DNA strand displacement or enzyme‑based circuits to observe real‑time adaptive movement. Additionally, extending the framework to multi‑modal cues (chemical gradients combined with light) would test how cells integrate heterogeneous sensory information under the same POMDP‑reinforcement learning principle.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2606.26168" target="_blank">Arxiv Ml</a></blockquote>

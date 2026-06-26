@@ -1,0 +1,1 @@
+New arXiv preprint: Applying reinforcement learning to chemical reaction networks for curiosity-driven exploration of phototaxis in unicellular algae, navigating noisy sensory signals #AlgaeResearch #RLApplications
