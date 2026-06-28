@@ -1,0 +1,2 @@
+Introducing Deepseek-API: a reverse-engineered API for Deepseek chat, now compatible with OpenAI. Access V4 & R1 models via simple REST interface, no API keys or billing required. #OpenAI #DeepseekAPI
+https://woor.ai/new-tool-deepseek-api/
