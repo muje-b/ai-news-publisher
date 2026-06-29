@@ -1,0 +1,2 @@
+New research: MER-R1 challenges the notion that explicit reasoning boosts multimodal emotion recognition. Read the surprising findings in arXiv:2606.27652v1 #AIforEmotion #MultimodalLearning
+https://woor.ai/mer-r1-multimodal-emotion-reasoning-via-slow-fast-thinking-s/

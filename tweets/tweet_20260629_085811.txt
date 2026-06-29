@@ -1,0 +1,2 @@
+Introducing ODYSSEY, a categorical framework for verifiable, local truth-preserving foundation models. A new approach to ensuring AI model integrity. arXiv:2606.27593v1 #AIResearch #MachineLearning
+https://woor.ai/odyssey-constructing-verifiable-local-truth-preserving-found/
