@@ -1,0 +1,2 @@
+New arXiv paper: Grounded Iterative Language Planning reduces hallucination propagation in LLM agents via parameterized world models. A step towards more grounded AI. #LanguageModels
+https://woor.ai/grounded-iterative-language-planning-how-parameterized-world/
