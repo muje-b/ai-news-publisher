@@ -1,0 +1,2 @@
+Introducing a novel Symbolic Feedback-Driven Iterative Self-Refinement Framework for LLM planning, ensuring reliability & robustness. Read the paper: arXiv:2606.27757v1 #LLM #ArtificialIntelligence
+https://woor.ai/towards-reliable-and-robust-llm-planning-symbolic-feedback-d/
