@@ -1,0 +1,2 @@
+RANSAC scoring just got a boost! arXiv:2606.27385v1 introduces a new method for accurate RANSAC model scoring, moving beyond simple inlier counting. #ComputerVision #MachineLearning
+https://woor.ai/ransac-scoring-done-right/
