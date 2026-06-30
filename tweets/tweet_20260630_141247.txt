@@ -1,0 +1,2 @@
+Mesh intelligence requires a liquid substrate, enabling decentralized coordination & adaptation. No shared clock, model, or coordinator needed. New research: arXiv:2606.28413v1 #MeshIntelligence
+https://woor.ai/on-the-necessity-of-a-liquid-substrate-for-mesh-intelligence/
