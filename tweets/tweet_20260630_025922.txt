@@ -1,0 +1,2 @@
+New paper on understanding rollout error in graph world models (arXiv:2606.27780v1). A must-read for anyone working on planning with learned dynamics! #GraphWorldModels #RoboticsResearch
+https://woor.ai/understanding-rollout-error-in-graph-world-models/
