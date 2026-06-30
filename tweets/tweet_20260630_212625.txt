@@ -1,0 +1,2 @@
+Introducing IMCBench: a benchmark for multimodal LLMs in Image-grounded Medical Conversations. Enhancing medical AI with visual understanding. #MultimodalLLMs #MedicalAI
+https://woor.ai/imcbench-a-benchmark-for-multimodal-llms-in-image-grounded-m/

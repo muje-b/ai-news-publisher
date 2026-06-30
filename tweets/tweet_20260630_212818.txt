@@ -1,0 +1,2 @@
+Introducing S-GAI: a novel initialization method for sigmoidal MLPs that leverages dataset geometry to inform network weights. A game-changer for deep learning? #DeepLearning #MLP
+https://woor.ai/s-gai-spectral-geometry-aware-initialization-for-sigmoidal-m/
