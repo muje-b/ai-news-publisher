@@ -1,0 +1,2 @@
+Introducing an AI-powered pipeline for anomaly detection in office building energy consumption. LLM-driven recommendations help non-experts address noisy alerts #EnergyEfficiency #AIforSustainability
+https://woor.ai/an-agentic-ai-pipeline-for-appliance-level-energy-anomaly-de/
