@@ -1,0 +1,2 @@
+New framework for steering LLM trajectories via dynamic representation editing, enhancing reasoning & truth-seeking capabilities #LLM #ArtificialIntelligence
+https://woor.ai/search-for-truth-from-reasoning-a-dynamic-representation-edi/
