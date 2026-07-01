@@ -1,0 +1,2 @@
+Introducing Hierarchical Global Attention (HGA), a drop-in replacement for dense causal attention in pre-trained models #AttentionMechanisms #DeepLearning
+https://woor.ai/hierarchical-global-attention-hga/

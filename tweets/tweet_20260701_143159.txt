@@ -1,0 +1,2 @@
+Introducing RoPoLL: A robust panel of LLM judges, providing consensus scores & practical alternatives to traditional evaluation methods. Learn more: arXiv:2606.30931v1 #LLMResearch
+https://woor.ai/ropoll-robust-panel-of-llm-judges/
