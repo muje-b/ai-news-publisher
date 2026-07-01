@@ -1,0 +1,2 @@
+Optimizing reasoning models with early exits: When does stopping help? New study explores cost-aware approach to efficient computation, saving resources on redundant tasks #ReasoningModels #AIResearch
+https://woor.ai/when-does-learning-to-stop-help-a-cost-aware-study-of-early/

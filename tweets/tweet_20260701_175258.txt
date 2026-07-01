@@ -1,0 +1,2 @@
+Introducing Contrastive Reflection for Iterative Prompt Optimization! This new approach improves LLM agents for info retrieval by refining query synthesis & retrieval. #LLM #InformationRetrieval
+https://woor.ai/contrastive-reflection-for-iterative-prompt-optimization/

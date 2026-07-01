@@ -1,0 +1,2 @@
+New paper on arXiv: Non-commitment at sharp categorical readouts hinders few-step text generation, unlike image latents. Why the difference? #AIResearch #NLP
+https://woor.ai/why-do-few-step-text-latents-fail-when-image-latents-work-no/
