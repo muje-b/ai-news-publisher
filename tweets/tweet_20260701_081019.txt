@@ -1,0 +1,2 @@
+Unlocking LLM potential: From Search to Synthesis, a new approach trains LLMs as zero-shot workflow generators #AIResearch
+https://woor.ai/from-search-to-synthesis-training-llms-as-zero-shot-workflow/
