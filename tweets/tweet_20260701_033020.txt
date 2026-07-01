@@ -1,0 +1,2 @@
+Estimating the unknown just got a whole lot easier! Introducing the Covariance-Agnostic Neural Kalman Consensus Filter, revolutionizing online latent state estimation in AI! #AIresearch #MachineLearning
+https://woor.ai/learning-to-distributedly-estimate-under-partially-known-dyn/
