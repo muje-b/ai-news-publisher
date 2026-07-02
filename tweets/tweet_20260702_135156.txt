@@ -1,0 +1,2 @@
+Accelerate physics-constrained generative modeling with SNAP-FM, a novel approach that boosts efficiency & accuracy. Read the paper: arXiv:2607.00095v1 #GenerativeModeling #PhysicsInformedML
+https://woor.ai/snap-fm-sparse-nonlinear-accelerated-projection-for-physics/
