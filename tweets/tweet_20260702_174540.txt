@@ -1,0 +1,2 @@
+Train calibrated probabilistic forecasts with verifiable rewards! New paper on arXiv explores reinforcement learning for reliable weather predictions #Forecasting #MachineLearning
+https://woor.ai/verifiable-rewards-for-calibrated-probabilistic-forecasting/
