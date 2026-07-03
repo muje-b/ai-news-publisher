@@ -1,0 +1,2 @@
+Unlocking creativity: Researchers introduce CreativityNeuro, a method to boost divergent thinking & reduce mode collapse in language models. Read the new paper on arXiv: #AIforCreativity #LanguageModels
+https://woor.ai/creativityneuro-steering-language-model-weights-to-improve-d/

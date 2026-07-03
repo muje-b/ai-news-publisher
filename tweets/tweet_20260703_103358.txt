@@ -1,0 +1,2 @@
+Introducing Beyond Next-Token Prediction: an RLVR proof of concept for tool-use agents on Atlassian workflows. A game-changer for automating tasks within specific APIs #AtlassianWorkflows
+https://woor.ai/beyond-next-token-prediction-an-rlvr-proof-of-concept-for-to/
