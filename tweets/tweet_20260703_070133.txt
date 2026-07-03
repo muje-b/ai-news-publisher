@@ -1,0 +1,2 @@
+Introducing Wiola, a novel Small Language Model (SLM) architecture built from first principles, offering efficient performance & original design. #NLP #AI
+https://woor.ai/the-wiola-architecture-for-efficient-small-language-models/
