@@ -1,0 +1,86 @@
+<h1>Procedural Memory Distillation: Online Reflection for Self-Improving Language Models</h1>We need to produce a blog post 400-600 words, with specific HTML tags: <h2> for sections, <p> paragraphs, <ul><li> for bullet list, <strong> for emphasis. No <h1>, <body>. No buzzwords like revolutionary, groundbreaking, etc. Must be specific. Use about 400-600 words.
+
+We need to discuss the paper "Procedural Memory Distillation: Online Reflection for Self-Improving Language Models". Provide hook, what you need to know, why it matters, key details (bullets), what's next.
+
+Need to avoid buzzwords: no "revolutionary", "cutting-edge", "game-changing". Also avoid "groundbreaking". Keep tone factual.
+
+Let's produce about 500 words.
+
+Check word count. We'll aim ~520 words.
+
+We need to include <h2> sections, paragraphs, bullet list, bold tags for emphasis.
+
+Let's draft.
+
+First hook paragraph: maybe 2-3 sentences.
+
+Then <h2>What You Need to Know</h2> with 2-3 paragraphs.
+
+Then <h2>Why It Matters</h2> with 1-2 paragraphs.
+
+Then <h2>Key Details</h2> with bullet list (4-6 bullets). Each bullet inside <li>. Use <strong> for emphasis inside bullets if needed.
+
+Then <h2>What's Next</h2> with 1 paragraph.
+
+No other tags. Ensure no <h1> or <body>. Also no extra tags like <div>. Only allowed tags: <h2>, <p>, <ul>, <li>, <strong>. So ensure we only use those.
+
+Let's craft.
+
+Word count: Let's count roughly.
+
+We'll write and then count.
+
+Draft:
+
+<p>Language models improve when they can learn from each attempt, not just from a final score. Most current approaches look at whether a single rollout passes a verifier and then adjust the policy based on that binary outcome. This discards the step‑by‑step traces that show how the model arrived at an answer, even when the answer is wrong. The new work introduces a way to keep those traces, turn them into reusable procedural knowledge, and feed that knowledge back into the model during training.</p>
+
+<h2>What You Need to Know</h2>
+<p>The authors call their method Procedural Memory Distillation (PMD). During each training episode the model generates a rollout, and a verifier checks if the final answer is correct. Instead of stopping there, PMD records the entire sequence of actions and intermediate states that led to the outcome. Over many episodes it builds a memory of which action patterns repeatedly lead to success and which repeatedly lead to failure, regardless of the particular problem instance.</p>
+<p>That memory is then distilled: the frequent successful patterns are turned into soft targets for the policy, while the recurring failure patterns are used to steer the policy away from those behaviors. The distillation step updates the model’s weights directly, so the learned procedural knowledge becomes part of the model’s internal representation rather than staying in an external buffer.</p>
+<p>Because the memory aggregates signals across episodes and across policy updates, it captures regularities that episode‑local reinforcement learning updates miss. The method works on top of existing RLVR or SDPO pipelines, requiring only a logger for the rollout traces and a simple clustering or counting mechanism to extract the reusable patterns.</p>
+
+<h2>Why It Matters</h2>
+<p>Current self‑improving loops often stall when the model keeps making the same mistake on slightly different problems. By explicitly remembering which procedural steps cause those mistakes, PMD can reduce redundant errors and accelerate convergence. Experiments in the paper show measurable gains on math and code generation benchmarks where verifiable rewards are available.</p>
+<p>Beyond performance, the approach offers a clearer view of what the model has learned. The distilled procedural memory can be inspected to see which strategies the model favors, providing a useful diagnostic tool for researchers who want to understand failure modes without relying solely on final accuracy scores.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li><strong>Online collection:</strong> Each rollout’s action‑state trace is stored as it is generated.</li>
+<li><strong>Pattern extraction:</strong> Simple frequency counting or clustering identifies action sequences that appear above a threshold in successful versus failed rollouts.</li>
+<li><strong>Distillation loss:</strong> Successful patterns are added as target log‑probabilities; failed patterns are penalized via a negative‑likelihood term.</li>
+<li><strong>Weight update:</strong> The loss is back‑propagated through the policy network, merging procedural knowledge into the model’s parameters.</li>
+<li><strong>Compatibility:</strong> PMD plugs into existing RLVR or SDPO pipelines without changing the reward verifier.</li>
+<li><strong>Scalability:</strong> Memory size is kept bounded by discarding low‑frequency patterns, allowing the method to run on large‑scale language model training.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The authors suggest extending PMD to environments where verifiers are noisy or where the reward signal is sparse, using uncertainty estimates to weight the extracted patterns. They also propose exploring hierarchical procedural memories that capture sub‑routines across different task families, which could further improve generalization and reduce the need for massive amounts of rollout data.</p>
+
+Now count words.
+
+Let's count manually approximate.
+
+Paragraph 1 hook: "Language models improve when they can learn from each attempt, not just from a final score. Most current approaches look at whether a single rollout passes a verifier and then adjust the policy based on that binary outcome. This discards the step‑by‑step traces that show how the model arrived at an answer, even when the answer is wrong. The new work introduces a way to keep those traces, turn them into reusable procedural knowledge, and feed that knowledge back into the model during training."
+
+Word count: Let's count.
+
+Language(1) models2 improve3 when4 they5 can6 learn7 from8 each9 attempt,10 not11 just12 from13 a14 final15 score.16 Most17 current18 approaches19 look20 at21 whether22 a23 single24 rollout25 passes26 a27 verifier28 and29 then30 adjust31 the32 policy33 based34 on35 that36 binary37 outcome.38 This39 discards40 the41 step‑by‑step42 traces43 that44 show45 how46 the47 model48 arrived49 at50 an51 answer,52 even53 when54 the55 answer56 is57 wrong.58 The59 new60 work61 introduces62 a63 way64 to65 keep66 those67 traces,68 turn69 them70 into71 reusable72 procedural73 knowledge,74 and75 feed76 that77 knowledge78 back79 into80 the81 model82 during83 training84.
+
+So 84 words.
+
+Next <h2>What You Need to Know</h2> heading not counted? Probably not.
+
+Paragraph 1 under that: "The authors call their method Procedural Memory Distillation (PMD). During each training episode the model generates a rollout, and a verifier checks if the final answer is correct. Instead of stopping there, PMD records the entire sequence of actions and intermediate states that led to the outcome. Over many episodes it builds a memory of which action patterns repeatedly lead to success and which repeatedly lead to failure, regardless of the particular problem instance."
+
+Count:
+
+The1 authors2 call3 their4 method5 Procedural6 Memory7 Distillation8 (PMD).9 During10 each11 training12 episode13 the14 model15 generates16 a17 rollout,18 and19 a20 verifier21 checks22 if23 the24 final25 answer26 is27 correct.28 Instead29 of30 stopping31 there,32 PMD33 records34 the35 entire36 sequence37 of38 actions39 and40 intermediate41 states42 that43 led44 to45 the46 outcome.47 Over48 many49 episodes50 it51 builds52 a53 memory54 of55 which56 action57 patterns58 repeatedly59 lead60 to61 success62 and63 which64 repeatedly65 lead66 to67 failure,68 regardless69 of70 the71 particular72 problem73 instance74.
+
+74 words.
+
+Paragraph 2: "That memory is then distilled: the frequent successful patterns are turned into soft targets for the policy, while the recurring failure patterns are used to steer the policy away from those behaviors. The distillation step updates the model’s weights directly, so the learned procedural knowledge becomes part of the model’s internal representation rather than staying in an external buffer."
+
+Count:
+
+That1 memory2 is3 then4 distilled:5 the6 frequent7 successful8 patterns9 are10 turned11 into12 soft13 targets14 for15 the16 policy,17 while18 the19 recurring20 failure21 patterns22 are23 used24 to25 steer26 the27 policy28 away29 from30 those31 behaviors.3
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2607.01480" target="_blank">Arxiv Ai</a></blockquote>
