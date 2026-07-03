@@ -1,0 +1,1 @@
+Introducing Discrete Diffusion Language Models for interactive radiology report drafting! This innovative approach uses diffusion language models to generate text, enhancing report accuracy & efficiency #MedicalAI

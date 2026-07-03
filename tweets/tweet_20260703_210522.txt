@@ -1,0 +1,1 @@
+Introducing Domain Knowledge Based Temporal-Spatial Graph Convolution Network for ECG recognition! This innovative AI model leverages domain knowledge to improve ECG signal analysis. Read more: arXiv:2607.01282v1 #ECGRecognition #ArtificialIntelligence
