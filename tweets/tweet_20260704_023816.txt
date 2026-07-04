@@ -1,0 +1,2 @@
+Introducing Auto-FL-Research: a novel approach to agentic search for federated learning algorithms, streamlining FL research with informed algorithmic choices #FederatedLearning #AIResearch
+https://woor.ai/auto-fl-research-agentic-search-for-federated-learning-algor/

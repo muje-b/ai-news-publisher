@@ -1,0 +1,2 @@
+New paper: Scaling Laws for Grid-Based Approximate Nearest Neighbor Search in High Dimensions (arXiv:2607.01283v1). Grid-based approaches to ANN search get a modern boost! #ANN #HighDimensionalData
+https://woor.ai/scaling-laws-for-grid-based-approximate-nearest-neighbor-sea/
