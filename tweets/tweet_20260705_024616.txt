@@ -1,0 +1,2 @@
+Introducing opencode-solo, a read-only orchestrator that delegates to 6 specialized subagents for expert model planning & fast execution, all within isolated contexts #DevOps
+https://woor.ai/new-tool-opencode-solo/
