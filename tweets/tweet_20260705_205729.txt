@@ -1,0 +1,2 @@
+Libby will filter out AI-generated content, but not all of it. Lowpass by @jank0 explores the nuances of AI detection in digital libraries. #AIinMedia
+https://woor.ai/libby-will-filter-out-ai-content-kind-of/
