@@ -1,0 +1,2 @@
+Introducing watch-skill: AI tool to watch, review & improve video work. MCP, CLI & REST interfaces + scene-aware frames, OCR & local-first transcript. #AItools #VideoAnalysis
+https://woor.ai/new-tool-watch-skill/
