@@ -1,0 +1,2 @@
+Introducing bike4mind, the open-core AI workbench that seamlessly integrates notebooks, agents, RAG, voice, & images across top models like OpenAI, Anthropic, Google & more. Unlock your creativity with BSL support! #AIProductivity
+https://woor.ai/new-tool-bike4mind/
