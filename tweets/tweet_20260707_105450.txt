@@ -1,0 +1,2 @@
+Introducing QuantFlow: a federated Mamba-based post-Transformer model for time-series forecasting. Revolutionizing predictions in finance, energy, & more! #TimeSeriesForecasting #AIResearch
+https://woor.ai/quantflow-a-federated-mamba-based-post-transformer-foundatio/

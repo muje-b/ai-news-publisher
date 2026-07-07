@@ -1,0 +1,2 @@
+New research: 'ASK in the Dark' tackles partial observability in RL agents, enabling them to act on incomplete info. Read the paper: arXiv:2607.02686v1 #RL #AI
+https://woor.ai/ask-in-the-dark-uncertainty-gated-llm-assistance-under-parti/
