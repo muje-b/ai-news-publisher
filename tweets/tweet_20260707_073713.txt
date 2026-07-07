@@ -1,0 +1,2 @@
+New paper: "Auditing the Audit: Five Failure Modes in Benchmark-Validity Audits" (arXiv:2607.02586v1) explores governance frameworks & AI evaluation evidence #AIgovernance
+https://woor.ai/auditing-the-audit-five-failure-modes-in-benchmark-validity/

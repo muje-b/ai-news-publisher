@@ -1,0 +1,2 @@
+Introducing Oyster-II: a reinforcement learning approach for constructive safety alignment in Large Language Models. Ensuring safe & reliable LLMs for real-world applications. #LLMs #SafetyAlignment
+https://woor.ai/oyster-ii-reinforcement-learning-for-constructive-safety-ali/
