@@ -1,0 +1,2 @@
+Introducing GRAFT: a per-word pronunciation conditioning mechanism for text-to-speech neural codecs, enabling zero-shot fine-grained pronunciation control #TTS #SpeechSynthesis
+https://woor.ai/graft-grafted-reference-audio-for-fine-grained-pronunciation/

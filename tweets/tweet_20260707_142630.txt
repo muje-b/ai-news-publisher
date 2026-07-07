@@ -1,0 +1,2 @@
+Introducing SwarmResearch: a system of coding agents that persistently discover optimizations for open-ended problems. Learn more in the new arXiv paper [2607.02807v1] #AIResearch #AutonomousSystems
+https://woor.ai/swarmresearch-orchestrating-coding-agents-for-open-ended-dis/
