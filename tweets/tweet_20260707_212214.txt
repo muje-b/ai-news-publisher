@@ -1,0 +1,2 @@
+iFLYTEK's Embodied-Omni Technical Report (arXiv:2607.02542v1) presents a general-purpose embodied agent that can interpret multimodal instructions & anticipate environmental changes #AIResearch #EmbodiedCognition
+https://woor.ai/iflytek-embodied-omni-technical-report/
