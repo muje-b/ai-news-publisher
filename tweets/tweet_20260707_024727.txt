@@ -1,0 +1,2 @@
+Introducing Best-Local-Model_Agentic-Workflows_2026: head-to-head comparison of local LLMs for agentic workflows, featuring Hermes Agent & tool-eval-bench. #LocalLLMs #AgenticWorkflows
+https://woor.ai/new-tool-best-local-model_agentic-workflows_2026/
