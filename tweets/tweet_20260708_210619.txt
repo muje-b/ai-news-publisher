@@ -1,0 +1,2 @@
+Temporal disagg's sweet in-sample fit comes at the cost of amplified out-of-sample errors. The Granularity Paradox strikes again! #TimeSeriesForecasting #MachineLearning
+https://woor.ai/the-granularity-paradox-how-temporal-disaggregation-inflates/

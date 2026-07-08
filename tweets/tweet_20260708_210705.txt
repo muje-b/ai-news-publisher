@@ -1,0 +1,2 @@
+Unlocking LLM potential: Researchers introduce offline reinforcement learning to control large language model agents, paving the way for more efficient & effective training #LLM #AIResearch
+https://woor.ai/learning-to-control-llm-agent-harnesses-with-offline-reinfor/
