@@ -1,0 +1,2 @@
+Improving Large Language Model (LLM) agents through experience accumulation in object-centric environment modeling for agentic tasks, as presented in arXiv:2607.02846v1 #ArtificialIntelligence #MachineLearning
+https://woor.ai/object-centric-environment-modeling-for-agentic-tasks/
