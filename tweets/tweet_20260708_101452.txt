@@ -1,0 +1,2 @@
+Introducing Akashic: a low-overhead LLM inference service with MemAttention, designed for efficient multi-turn interactions in LLM-based agent systems #LLM #NLP
+https://woor.ai/akashic-a-low-overhead-llm-inference-service-with-memattenti/
