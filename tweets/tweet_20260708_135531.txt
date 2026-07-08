@@ -1,0 +1,2 @@
+Revolutionizing CAD design with AI! Researchers announce a new method using Foundation Models for automatic CAD generation, leveraging LLMs & VLMs to streamline the design process #AIinCAD
+https://woor.ai/foundation-models-for-automatic-cad-generation/

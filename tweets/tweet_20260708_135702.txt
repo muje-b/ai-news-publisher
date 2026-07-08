@@ -1,0 +1,2 @@
+Revolutionizing language agents with #InProcessRetrieval: Memory in the Loop allows agents to reason & act on internal knowledge, closing the loop & enhancing working memory. arXiv:2607.05690v1
+https://woor.ai/memory-in-the-loop-in-process-retrieval-as-extendedworking-m/
