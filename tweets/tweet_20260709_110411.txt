@@ -1,0 +1,2 @@
+Unlocking complex systems with LLM-powered reasoning in agent-based modeling! New arXiv paper (arXiv:2607.06757v1) explores the potential of large language models to analyze & improve ABM outcomes #ABM #LLM
+https://woor.ai/llm-powered-reasoning-in-agent-based-modeling/

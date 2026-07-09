@@ -1,0 +1,2 @@
+Introducing TriRoute: a unified learned routing framework for joint adaptive attention, experts, and KV-cache allocation, enabling efficient conditional computation in language models #NLP #AIResearch
+https://woor.ai/triroute-unified-learned-routing-for-joint-adaptive-attentio/
