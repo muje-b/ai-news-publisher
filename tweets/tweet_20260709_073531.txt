@@ -1,0 +1,2 @@
+Introducing QANTIS: a novel approach to hardware-calibrated sequential POMDP belief updates on IBM Heron, enabling more accurate autonomous decision-making under partial observability #AutonomousSystems
+https://woor.ai/qantis-hardware-calibrated-sequential-pomdp-belief-updates-o/
