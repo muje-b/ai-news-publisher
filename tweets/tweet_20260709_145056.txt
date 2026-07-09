@@ -1,0 +1,2 @@
+Introducing D2PO: a novel framework for optimizing diffusion samplers via dynamic preference. Enhance your generative models with this innovative approach! #GenerativeModels #DiffusionSolvers
+https://woor.ai/d2po-optimizing-diffusion-samplers-via-dynamic-preference/

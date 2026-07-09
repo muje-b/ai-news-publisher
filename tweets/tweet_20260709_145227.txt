@@ -1,0 +1,2 @@
+Addressing label skew in federated learning with #FederatedLearning: 'WHERE to Generate Matters' proposes budget-aware synthetic augmentation for improved global accuracy [arXiv:2607.06616v1]
+https://woor.ai/where-to-generate-matters-budget-aware-synthetic-augmentatio/
