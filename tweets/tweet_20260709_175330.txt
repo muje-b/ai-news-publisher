@@ -1,0 +1,2 @@
+NEST tackles dataset-level distribution shifts in complex systems, enabling more accurate long-term forecasting. Read the latest paper on arXiv: arXiv:2607.06607v1 #MachineLearning #Forecasting
+https://woor.ai/nest-tackling-dataset-level-distribution-shifts-via-regime-o/
