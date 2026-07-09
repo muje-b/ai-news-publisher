@@ -1,0 +1,2 @@
+Discover hidden patterns in large graphs with Community-Aware Sampling & Structural Entropy! arXiv:2607.05469v1 #GraphClustering #MachineLearning
+https://woor.ai/breaking-structural-isolation-scalable-graph-clustering-via/
