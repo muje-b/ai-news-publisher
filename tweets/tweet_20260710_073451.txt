@@ -1,0 +1,2 @@
+Introducing Context Graphs for Proactive Enterprise Agents (arXiv:2607.07721v1). Enhancing RAG & agentic frameworks for next-gen enterprise AI capabilities #EnterpriseAI #ArtificialIntelligence
+https://woor.ai/context-graphs-for-proactive-enterprise-agents/
