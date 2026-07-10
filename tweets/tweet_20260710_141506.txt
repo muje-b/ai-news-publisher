@@ -1,0 +1,2 @@
+Introducing Jet-Long: a new efficient long-context extension for LLMs, enabling dynamic bifocal RoPE & improving performance in retrieval-augmented generation tasks #NLP #AIResearch
+https://woor.ai/jet-long-efficient-long-context-extension-with-dynamic-bifoc/

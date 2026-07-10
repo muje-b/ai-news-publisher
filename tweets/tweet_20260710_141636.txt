@@ -1,0 +1,2 @@
+Unlock seamless control of hand prostheses & AR with our Graph Neural Network model for real-time gesture recognition using sEMG signals! #NeuralNetworks #ProstheticControl
+https://woor.ai/a-graph-neural-network-model-for-real-time-gesture-recogniti/
