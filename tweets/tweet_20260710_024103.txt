@@ -1,0 +1,2 @@
+Introducing AgentLens: a production-assessed benchmark for interactive code agents, evaluating their effectiveness in real-world scenarios #AI #CodeEvaluation
+https://woor.ai/agentlens-production-assessed-trajectory-reviews-for-coding/
