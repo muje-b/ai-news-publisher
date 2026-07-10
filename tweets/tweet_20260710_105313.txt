@@ -1,0 +1,2 @@
+Unlocking TGNs: Introducing Memory Backtracking & Topological Attribution for explainable temporal graph networks. Read the latest arXiv paper: 2607.07716v1 #TemporalGraphs #ExplainableAI
+https://woor.ai/towards-the-explainability-of-temporal-graph-networks-via-me/

@@ -1,0 +1,2 @@
+Rare positives in chest X-ray classification may be underdiagnosed due to thresholded subgroup effects, where those missed in the tail are overlooked. #MedicalAI #CXRclassification
+https://woor.ai/who-gets-missed-in-the-tail-thresholded-subgroup-underdiagno/
