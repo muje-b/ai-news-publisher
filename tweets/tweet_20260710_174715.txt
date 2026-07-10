@@ -1,0 +1,2 @@
+Introducing ReCoLoRA: a spectrum-aware recursive consolidation method for efficient fine-tuning of large language models. #ContinualLearning #NLP
+https://woor.ai/recolora-spectrum-aware-recursive-consolidation-for-continua/

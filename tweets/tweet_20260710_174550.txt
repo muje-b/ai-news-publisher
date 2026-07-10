@@ -1,0 +1,2 @@
+Introducing LiST: Lipschitz Scaling Training for robust & calibrated neural networks, ensuring reliable predictions. Read the paper on arXiv: 2607.07745 #NeuralNetworks #MachineLearning
+https://woor.ai/list-lipschitz-scaling-training-for-robust-and-calibrated-ne/

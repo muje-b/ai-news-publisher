@@ -1,0 +1,2 @@
+Introducing Infinity-Parser2: a large multimodal model that couples a controllable data-synthesis pipe, revolutionizing data generation #MultimodalModels #AIResearch
+https://woor.ai/infinity-parser2-technical-report/
