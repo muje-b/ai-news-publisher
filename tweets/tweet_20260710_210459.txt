@@ -1,0 +1,2 @@
+Introducing LLT: Local Linear Transformer for PDE Operator Learning. A new approach to learning PDE solution maps with neural operators. Read the paper: arXiv:2607.07718v1 #PDELearning #NeuralOperators
+https://woor.ai/llt-local-linear-transformer-for-pde-operator-learning/

@@ -1,0 +1,2 @@
+Introducing SHIFT: a new survival prediction model that bridges the gap between institutions with heterogeneous genomic data! arXiv:2607.07725v1 #Genomics #PrecisionMedicine
+https://woor.ai/shift-survival-prediction-from-incomplete-and-heterogeneous/
