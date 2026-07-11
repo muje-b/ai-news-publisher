@@ -355,11 +355,13 @@
     "5fdf7a2e04f494e8",
     "7e18cf312e0ecc75",
     "80680bdb66aba36a",
-    "62f52d88b688c691"
+    "62f52d88b688c691",
+    "ad4e4d350bbd2552",
+    "b9d1e982c843e2ba"
   ],
-  "last_run": "2026-07-11T16:56:16.267430+00:00",
+  "last_run": "2026-07-11T20:45:54.507091+00:00",
   "stats": {
-    "total_posts": 291,
+    "total_posts": 293,
     "total_tweets": 0
   }
 }
