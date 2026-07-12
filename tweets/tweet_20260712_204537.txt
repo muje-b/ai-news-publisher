@@ -1,0 +1,2 @@
+Introducing Morphe-AI: an AI-powered Android APK patching workspace with a multi-agent pipeline for analysis, target hunting, patch writing & deployment. Hook: 'System.loadLibrary("mylib")' #MorpheAI #AndroidSecurity
+https://woor.ai/new-tool-morphe-ai/
