@@ -1,0 +1,2 @@
+Introducing plandeck: a visual Kanban for long-running AI agents. Watch your agent's plan organize itself & dependencies unlock into Ready, with the critical path lighting up. #AIProductivity
+https://woor.ai/new-tool-plandeck/
