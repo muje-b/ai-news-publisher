@@ -1,0 +1,2 @@
+Boost LLM inference speed with Moderately Unstructured Sparse Weight Matrices! arXiv:2607.08786v1 #AIResearch #NLP
+https://woor.ai/accelerating-gpu-inference-of-large-language-models-with-mod/

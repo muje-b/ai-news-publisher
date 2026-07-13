@@ -1,0 +1,2 @@
+Accelerate MoE serving with Online Proactive Expert Placement, a new approach to expert parallelism, boosting efficiency in Mixture-of-Experts models #MoE #AIresearch
+https://woor.ai/director-accelerating-distributed-moe-serving-via-online-pro/
