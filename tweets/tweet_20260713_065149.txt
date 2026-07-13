@@ -1,0 +1,2 @@
+New AI framework for controlling security controls: Neuro-Agentic Control uses deep learning & LLMs to prevent costly OT cyberattacks #Cybersecurity #AI
+https://woor.ai/neuro-agentic-control-a-deep-learning-based-llm-powered-agen/

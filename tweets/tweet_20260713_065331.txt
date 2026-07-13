@@ -1,0 +1,2 @@
+Unlocking Alzheimer's secrets: iLENS, a novel AI model, uses LLM-guided mixture-of-experts to improve neuroimaging survival analysis. #AlzheimersResearch #AIinMedicine
+https://woor.ai/ilens-interpretable-llm-guided-mixture-of-experts-for-neuroi/
