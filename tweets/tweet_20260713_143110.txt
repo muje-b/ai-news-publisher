@@ -1,0 +1,2 @@
+Introducing LieBN: Batch Normalization over Lie Groups! This new method tackles manifold-valued measurements in ML tasks. Read the paper on arXiv: 2607.08783v1 #MachineLearning #GeometricML
+https://woor.ai/liebn-batch-normalization-over-lie-groups/

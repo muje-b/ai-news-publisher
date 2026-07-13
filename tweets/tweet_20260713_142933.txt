@@ -1,0 +1,2 @@
+Introducing MedRealMM: a real-world multimodal benchmark for Chinese online medical consultations, evaluating LLMs in real-world scenarios #AIinHealthcare #MedicalML
+https://woor.ai/medrealmm-a-real-world-multimodal-benchmark-for-chinese-onli/

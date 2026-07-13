@@ -1,0 +1,2 @@
+Introducing ARCANA, a multi-agent program synthesis framework for ARC-AGI-2 reasoning tasks, enabling collaborative problem-solving under strict rules. #ArtificialGeneralIntelligence
+https://woor.ai/arcana-a-reflective-multi-agent-program-synthesis-framework/
