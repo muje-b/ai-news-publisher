@@ -1,0 +1,1 @@
+Introducing CogniConsole: a formal abstraction for reliable LLM interactions. This framework externalizes inference-time control, enhancing reliability in large language models. arXiv:2607.08774v1 #LLM #AIResearch

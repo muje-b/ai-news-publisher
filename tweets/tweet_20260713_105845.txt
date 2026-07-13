@@ -1,0 +1,1 @@
+New research on Interval Certifications for Multilayered Perceptrons via Lattice Traversal (arXiv:2607.08773v1) tackles a crucial AI safety problem with a rigorous theoretical framework #AISafety

@@ -1,0 +1,1 @@
+Introducing Sticky Routing for MoE models: a memory-efficient inference technique that reduces expert activations. Learn more about this innovative approach in arXiv:2607.08780v1 #MoEModels #EfficientInference
