@@ -1,0 +1,2 @@
+New paper: arXiv:2607.09665v1 reveals formatting sensitivity in LLM benchmarking, where prompt wrappers with minor formatting changes can significantly impact model scores & lead predictions. #LLM #NLP
+https://woor.ai/format-sensitivity-index-token-controlled-prompt-wrapper-rob/
