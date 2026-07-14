@@ -1,0 +1,2 @@
+New arXiv: SciML in the Wild: A Diagnostic Study of When Structural Priors Help & When They Hurt. Exploring when SciML methods like NODEs & PDE-Net improve or impede model performance. #SciML
+https://woor.ai/sciml-in-the-wild-a-diagnostic-study-of-when-structural-prio/

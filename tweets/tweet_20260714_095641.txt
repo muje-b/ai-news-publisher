@@ -1,0 +1,2 @@
+Introducing YUKTI: a new IR system that turns natural-language situations into robust, verifiable decisions with uncertainty-typed propositions & regret certificates #NaturalLanguageProcessing
+https://woor.ai/yukti-from-natural-language-situations-to-robust-verifiable/

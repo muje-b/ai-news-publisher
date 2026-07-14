@@ -1,0 +1,2 @@
+Challenging the notion of objective truth, new research reveals that ground truth datasets are human constructions, not absolute facts [arXiv:2607.09668v1] #ArtificialIntelligence
+https://woor.ai/position-every-ground-truth-is-a-human-construction-not-an-o/
