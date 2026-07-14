@@ -1,0 +1,2 @@
+Exploring the limits of coding agents: what context is truly necessary for them to act? arXiv:2607.09691v1 #ArtificialIntelligence #MachineLearning
+https://woor.ai/what-context-does-a-coding-agent-actually-need-to-act/

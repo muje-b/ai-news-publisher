@@ -1,0 +1,2 @@
+Introducing AuditWeave: a tamper-evident, auditor-navigable evidence layer for AI-assisted & data-transformation workflows, ensuring transparency in regulated domains like audit #AIforAudit
+https://woor.ai/auditweave-a-tamper-evident-auditor-navigable-evidence-layer/
