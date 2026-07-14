@@ -1,0 +1,2 @@
+Researchers propose Reference-Based Distillation Detection in LLMs (arXiv:2607.09692v1) to identify & mitigate model distillation attacks. #LLMs #AIsecurity
+https://woor.ai/reference-based-distillation-detection-in-llms/
