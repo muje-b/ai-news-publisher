@@ -1,0 +1,2 @@
+Introducing GES-TSP: Graph Edge Sparsification for TSP! New research (arXiv:2607.09708v1) tackles large-scale TSP instances with exact solutions #TSP #Optimization
+https://woor.ai/ges-tsp-graph-edge-sparsification-for-tsp/
