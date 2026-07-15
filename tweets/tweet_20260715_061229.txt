@@ -1,0 +1,2 @@
+Introducing GRID: Grammar-Railed Decoding for Enterprise SQL Generation. Improving SQL output with strict adherence to enterprise rules, not just plausible text. #SQL #EnterpriseAI
+https://woor.ai/grid-grammar-railed-decoding-for-enterprise-sql-generation/
