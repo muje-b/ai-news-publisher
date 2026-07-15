@@ -1,0 +1,2 @@
+Introducing CARE-LoRA: a memory-efficient LoRA approach for fine-tuning large pre-trained models. Learn more: arXiv:2607.11940v1 #LSTM #DeepLearning
+https://woor.ai/care-lora-compressed-activation-reconstruction-for-memory-ef/
