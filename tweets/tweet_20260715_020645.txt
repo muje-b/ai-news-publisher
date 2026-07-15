@@ -1,0 +1,2 @@
+New research reveals that message format affects multi-hop agent relays, but its impact is tier-dependent. What does this mean for LLM agents? Read more: arXiv:2607.09678v1 #LLM #AIResearch
+https://woor.ai/faithful-not-corrective-message-format-effects-in-multi-hop/

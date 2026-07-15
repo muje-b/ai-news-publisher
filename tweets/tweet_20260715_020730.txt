@@ -1,0 +1,2 @@
+New research on Feedback-Coupled Memory Systems (FCMS) in continuous time! arXiv:2607.09714v1 explores closed-loop coordination through formalized rules #FCMS #NeuralNetworks
+https://woor.ai/feedback-coupled-memory-systems-in-continuous-time/
