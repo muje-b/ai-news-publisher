@@ -1,0 +1,2 @@
+Revolutionizing #SemiSupervisedLearning: Introducing Generalized Distribution-Free SSL with Risk Rewrite, a game-changing approach that breaks free from distributional assumptions! [arXiv:2607.11947v1]
+https://woor.ai/generalized-distribution-free-semi-supervised-learning-with/

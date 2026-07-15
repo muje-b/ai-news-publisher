@@ -1,0 +1,2 @@
+Researchers repair shape-prior shortcuts in long-range single-shot fringe projection profilometry, improving depth estimation in FPP networks (arXiv:2607.11928v1) #ComputerVision
+https://woor.ai/repairing-shape-prior-shortcuts-in-long-range-single-shot-fr/
