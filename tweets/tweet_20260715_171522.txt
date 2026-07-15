@@ -1,0 +1,2 @@
+New study: Query visibility affects KV-cache compression rankings. A matched-budget audit reveals surprising insights. Read the full paper: arXiv:2607.11942v1 #DataCompression #DatabaseResearch
+https://woor.ai/how-query-visibility-changes-kv-cache-compression-rankings-a/
