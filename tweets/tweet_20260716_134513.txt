@@ -1,0 +1,2 @@
+Introducing STKAN: Kolmogorov-Arnold Networks for Spatio-Temporal Forecasting. A novel approach to tackling complex traffic patterns. #SpatioTemporal #TrafficForecasting
+https://woor.ai/stkan-kolmogorov-arnold-networks-for-spatio-temporal-forecas/
