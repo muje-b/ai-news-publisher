@@ -1,0 +1,2 @@
+Get your food delivered from the comfort of your terminal! DoorDash launches limited beta of dd-cli, a command-line tool for developers & AI agents to search stores, build carts & place orders #DoorDash #cli
+https://woor.ai/yes-you-can-now-order-doordash-from-the-command-line/
