@@ -1,0 +1,2 @@
+Decoupling model updates for efficient transfer learning! Check out 'Beyond Backbone Backpropagation: A Decoupled Strategy' on arXiv #DeepLearning #TransferLearning
+https://woor.ai/beyond-backbone-backpropagation-a-decoupled-strategy-for-eff/

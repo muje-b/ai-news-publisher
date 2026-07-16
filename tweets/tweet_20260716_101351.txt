@@ -1,0 +1,2 @@
+Introducing OriginBlame: a new approach to AI training dataset provenance, addressing the practical gap in unlearning algorithms when data contributors request removal [arXiv:2607.13037v1] #AIethics
+https://woor.ai/originblame-record-and-token-level-data-provenance-for-ai-tr/
