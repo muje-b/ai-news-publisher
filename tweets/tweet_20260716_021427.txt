@@ -1,0 +1,2 @@
+LP Mining with LP2Graph: A Use Case for Railway Rescheduling. arXiv:2607.11980v1. Extracting insights from Mixed-Integer Linear Programming models to optimize railway rescheduling #RailwayOptimization
+https://woor.ai/lp-mining-with-lp2graph-a-use-case-for-railway-rescheduling/

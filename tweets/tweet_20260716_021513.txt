@@ -1,0 +1,2 @@
+Introducing BattVAE-GP: a generative model for long-horizon battery degradation with uncertainty quantification! #BatteryTech #GenerativeModeling
+https://woor.ai/battvae-gp-generative-modeling-of-long-horizon-battery-degra/
