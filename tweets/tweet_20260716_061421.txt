@@ -1,0 +1,2 @@
+New study reveals hidden flaws in LLM chain-of-thought reasoning via Interv. Grounding Audits: Black-Box Premise-Dependency Tests #LLM #AI
+https://woor.ai/interventional-grounding-audits-black-box-premise-dependency/

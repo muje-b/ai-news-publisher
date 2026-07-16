@@ -1,0 +1,2 @@
+Uncover how PyTorch's AD engine computes gradients in Physics-Informed Neural Networks. Dive into the math behind #PyTorch #PhysicsInformedNNs
+https://woor.ai/automatic-differentiation-from-scratch-how-pytorch-computes/
