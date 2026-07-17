@@ -1,0 +1,2 @@
+Researchers introduce ToolAnchor to enhance agentic tool-use capability in large language models, boosting long-horizon tasks #AI #ToolUse
+https://woor.ai/toolanchor-anchoring-counterfactual-context-to-boost-agentic/

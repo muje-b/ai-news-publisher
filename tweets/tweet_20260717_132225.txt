@@ -1,0 +1,2 @@
+Researchers propose Low-Latency Relay Selection in NR-V2X using Graph Isomorphism Networks with Edge Features to improve C-V2X connectivity in dense urban environments. #5G #V2X
+https://woor.ai/low-latency-relay-selection-in-nr-v2x-vehicular-communicatio/
