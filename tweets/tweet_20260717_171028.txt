@@ -1,0 +1,2 @@
+Patreon takes a stand against AI scraping: after initially asking bots to refrain, they're now working with Cloudflare to block AI models training on creators' content without permission #AIethics
+https://woor.ai/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocki/
