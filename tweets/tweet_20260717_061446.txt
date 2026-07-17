@@ -1,0 +1,2 @@
+Discover CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Black-Box Vision-Language Models. #VLMs #AIResearch
+https://woor.ai/carprt-class-aware-zero-shot-prompt-reweighting-for-black-bo/
