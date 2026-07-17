@@ -1,0 +1,2 @@
+Teaching AI agents safe behavior via human feedback & world models. New paper: Learning Safe Agent Behaviour from Human Preferences & Justifications via World Models #ArtificialIntelligence #Robotics
+https://woor.ai/learning-safe-agent-behaviour-from-human-preferences-and-jus/
