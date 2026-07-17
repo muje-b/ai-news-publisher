@@ -1,0 +1,116 @@
+<h1>RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics</h1>We need to write a blog post 400-600 words, with HTML structure: hook paragraph, then <h2>What You Need to Know</h2> (2-3 paragraphs), then <h2>Why It Matters</h2> (1-2 paragraphs), then <h2>Key Details</h2> (<ul><li> 4-6 bullets), then <h2>What's Next</h2> (1 paragraph). Only allowed tags: <h2>, <p>, <ul>, <li>, <strong>. No <h1> or <body>. No buzzwords like revolutionary. Must be specific.
+
+We need to mention paper RegNetAgents: a Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics. Provide hook, then details.
+
+We must stay within 400-600 words (inclusive). Let's aim ~460 words.
+
+We must avoid buzzwords: no "revolutionary", "game-changing", "cutting-edge", etc. Use factual language.
+
+Make sure not to include other tags like <div>, <span>, etc.
+
+We must not use <h1> or <body>. Use <h2> only.
+
+Let's craft.
+
+Word count: Need to count.
+
+I'll write then count.
+
+Paragraphs:
+
+Hook paragraph: maybe ~70 words.
+
+What You Need to Know: 2-3 paragraphs, each maybe ~80 words.
+
+Why It Matters: 1-2 paragraphs, each ~70 words.
+
+Key Details: bullet list 4-6 bullets, each bullet maybe ~15-20 words.
+
+What's Next: 1 paragraph ~50 words.
+
+Total ~460.
+
+Let's draft.
+
+Hook paragraph:
+
+"Identifying the genes that drive tumor formation remains a core challenge in cancer genomics. Regulatory relationships—how transcription factors influence target genes—vary across bulk tumor profiles and single‑cell measurements, making it difficult to prioritize candidates that are consistently implicated. A new framework, RegNetAgents, tackles this problem by coordinating several specialized AI agents that jointly evaluate evidence from two large regulatory network resources."
+
+Count words: Let's count manually.
+
+"Identifying(1) the2 genes3 that4 drive5 tumor6 formation7 remains8 a9 core10 challenge11 in12 cancer13 genomics.14 Regulatory15 relationships—how16 transcription17 factors18 influence19 target20 genes—vary21 across22 bulk23 tumor24 profiles25 and26 single‑cell27 measurements,28 making29 it30 difficult31 to32 prioritize33 candidates34 that35 are36 consistently37 implicated.38 A39 new40 framework,41 RegNetAgents,42 tackles43 this44 problem45 by46 coordinating47 several48 specialized49 AI50 agents51 that52 jointly53 evaluate54 evidence55 from56 two57 large58 regulatory59 network60 resources61."
+
+61 words. Good.
+
+Now <h2>What You Need to Know</h2> then paragraphs.
+
+Paragraph1: describe the framework: multi-agent LangGraph DAG, integrates TCGA bulk ARACNe networks and GREmLN single‑cell networks. Provide brief.
+
+Paragraph2: process steps: dual-network classification, OncoKB filtering, MoA assignment, ranking.
+
+Paragraph3 (optional): output: candidate list with evidence consistency categories.
+
+Let's write ~80 words each.
+
+Paragraph1 text:
+
+"The system builds on a LangGraph directed‑acyclic graph where each node is an AI agent responsible for a distinct task. One agent loads TCGA‑derived ARACNe regulatory networks from bulk tumor samples, another loads the GREmLN compendium of single‑cell‑derived networks, and a third aligns the two representations so that genes and edges can be compared directly."
+
+Count words.
+
+Let's count.
+
+"The1 system2 builds3 on4 a5 LangGraph6 directed‑acyclic7 graph8 where9 each10 node11 is12 an13 AI14 agent15 responsible16 for17 a18 distinct19 task.20 One21 agent22 loads23 TCGA‑derived24 ARACNe25 regulatory26 networks27 from28 bulk29 tumor30 samples,31 another32 loads33 the34 GREmLN35 compendium36 of37 single‑cell‑derived38 networks,39 and40 a41 third42 aligns43 the44 two45 representations46 so47 that48 genes49 and50 edges51 can52 be53 compared54 directly55."
+
+55 words.
+
+Paragraph2:
+
+"For a user‑specified focal gene, the framework runs a dual‑network classification step that predicts whether the gene acts as a regulator in each network. Candidates that pass this test are filtered using OncoKB annotations to retain only those with known cancer relevance. Finally, a mode‑of‑action agent assigns each retained edge as activating or repressing based on the signed weight of the ARACNe interaction."
+
+Count words.
+
+"For1 a2 user‑specified3 focal4 gene,5 the6 framework7 runs8 a9 dual‑network10 classification11 step12 that13 predicts14 whether15 the16 gene17 acts18 as19 a20 regulator21 in22 each23 network.24 Candidates25 that26 pass27 this28 test29 are30 filtered31 using32 OncoKB33 annotations34 to35 retain36 only37 those38 with39 known40 cancer41 relevance.42 Finally,43 a44 mode‑of‑action45 agent46 assigns47 each48 retained49 edge50 as51 activating52 or53 repressing54 based55 on56 the57 signed58 weight59 of60 the61 ARACNe62 interaction63."
+
+63 words.
+
+Paragraph3 (optional):
+
+"The agents then compute a consistency score: edges present in both TCGA and GREmLN receive the highest rank, edges unique to one source are ranked lower, and all scores are combined with the MoA confidence to produce a final ordered list of regulatory drivers for the focal gene."
+
+Count.
+
+"The1 agents2 then3 compute4 a5 consistency6 score:7 edges8 present9 in10 both11 TCGA12 and13 GREmLN14 receive15 the16 highest17 rank,18 edges19 unique20 to21 one22 source23 are24 ranked25 lower,26 and27 all28 scores29 are30 combined31 with32 the33 MoA34 confidence35 to36 produce37 a38 final39 ordered40 list41 of42 regulatory43 drivers44 for45 the46 focal47 gene48."
+
+48 words.
+
+Now <h2>Why It Matters</h2> paragraphs.
+
+Paragraph1:
+
+"Cross‑network validation reduces false positives that arise when a regulatory link is an artifact of a single data type. By requiring evidence from both bulk tumor and single‑cell contexts, RegNetAgents highlights relationships that are robust across cellular heterogeneity, which is crucial for identifying drivers that operate in multiple tumor subpopulations."
+
+Count.
+
+"Cross‑network1 validation2 reduces3 false4 positives5 that6 arise7 when8 a9 regulatory10 link11 is12 an13 artifact14 of15 a16 single17 data18 type.19 By20 requiring21 evidence22 from23 both24 bulk25 tumor26 and27 single‑cell28 contexts,29 RegNetAgents30 highlights31 relationships32 that33 are34 robust35 across36 cellular37 heterogeneity,38 which39 is40 crucial41 for42 identifying43 drivers44 that45 operate46 in47 multiple48 tumor49 subpopulations50."
+
+50 words.
+
+Paragraph2 (optional):
+
+"The framework also streamlines downstream experimental planning. Researchers receive a ranked list where each entry includes the network(s) supporting the link, the predicted mode of action, and the cancer‑gene annotation, allowing them to prioritize validation assays such as CRISPR perturbations or reporter assays with a clear rationale."
+
+Count.
+
+"The1 framework2 also3 streamlines4 downstream5 experimental6 planning.7 Researchers8 receive9 a10 ranked11 list12 where13 each14 entry15 includes16 the17 network(s)18 supporting19 the20 link,21 the22 predicted23 mode24 of25 action,26 and27 the28 cancer‑gene29 annotation,30 allowing31 them32 to33 prioritize34 validation35 assays36 such37 as38 CRISPR39 perturbations40 or41 reporter42 assays43 with44 a45 clear46 rationale47."
+
+47 words.
+
+Now <h2>Key Details</h2> then <ul><li> bullets 4-6.
+
+We need 4-6 bullets. Let's do 5 bullets.
+
+Each bullet maybe ~15-20 words.
+
+Bullet1
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2607.14097" target="_blank">Arxiv Ai</a></blockquote>

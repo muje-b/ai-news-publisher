@@ -1,0 +1,1 @@
+Researchers unveil QFireNet, a quantum-enhanced U-Net for accurate wildfire segmentation from Sentinel-2 imagery, advancing satellite-based wildfire detection. #WildfireDetection #QuantumAI
