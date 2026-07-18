@@ -1,0 +1,2 @@
+Imagine giving directions like a local: DialogueVPR uses conversational language to aid visual place recognition, revolutionizing geo-localization #GeoLocalization #AIResearch
+https://woor.ai/dialoguevpr-towards-conversational-visual-place-recognition/
