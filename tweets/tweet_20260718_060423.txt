@@ -1,0 +1,2 @@
+New paper: "Capability from Access Structure, Not Scale" challenges the Platonic Representation Hypothesis (PRH) with lower bounds & pre-registered tests for hybrid sequence models. #NLP #AIResearch
+https://woor.ai/capability-from-access-structure-not-scale-lower-bounds-and/

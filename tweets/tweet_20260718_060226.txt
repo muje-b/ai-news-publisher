@@ -1,0 +1,2 @@
+Improving multi-domain retrieval with Certified Domain Consistency, ensuring relevant but wrong-domain evidence is minimized with conformal risk guarantees [arXiv:2607.14157v1] #InformationRetrieval
+https://woor.ai/certified-domain-consistency-for-multi-domain-retrieval-labe/
