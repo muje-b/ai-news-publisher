@@ -1,0 +1,2 @@
+Introducing RENEW: a method for learning world models & repairing model exploitation from preferences, improving sample efficiency in offline RL. arXiv:2607.14180v1 #OfflineRL
+https://woor.ai/renew-towards-learning-world-models-and-repairing-model-expl/
