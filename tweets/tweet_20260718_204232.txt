@@ -1,0 +1,2 @@
+Introducing Claude's 1Password integration! Now, Anthropic's chatbot can securely access stored credentials, streamlining password management & enhancing user experience. #1Password #Claude
+https://woor.ai/claude-can-now-use-your-1password-credentials-for-you/
