@@ -1,0 +1,2 @@
+Introducing 'mentor', a new skill for AI coding agents that analyzes your local Claude Code & OpenAI Codex history, providing actionable insights to improve your coding skills. #AIcoding #DeveloperTools
+https://woor.ai/new-tool-mentor/
