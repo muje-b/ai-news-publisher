@@ -1,0 +1,2 @@
+Can coding agents solve ARC-AGI-3 with executable world models, simplification & verification? New research explores the requirements for AGI [link to arXiv:2607.15439v1] #AGIresearch
+https://woor.ai/do-coding-agents-need-executable-world-models-simplification/
