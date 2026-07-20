@@ -1,0 +1,2 @@
+New research: Large Language Models evaluated for technical market analysis. Study (arXiv:2607.15414v1) explores their potential in processing market data. #AItrading #QuantFinance
+https://woor.ai/ai-trading-evaluating-large-language-models-for-technical-ma/

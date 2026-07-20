@@ -1,0 +1,2 @@
+Deciphering AI black boxes: researchers explore using Prolog expert systems to explain & make transparent trained deep reinforcement learning policies #ExplainableAI
+https://woor.ai/from-black-box-to-executable-logic-explainable-reinforcement/
