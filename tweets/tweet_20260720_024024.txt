@@ -1,0 +1,2 @@
+Introducing software-periodic-table: a comprehensive, 115-element ontology for LLM-based coding agents, now in TypeScript. Unlock efficient coding with our composition framework! #LLM #TypeScript
+https://woor.ai/new-tool-software-periodic-table/
