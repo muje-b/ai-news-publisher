@@ -1,0 +1,1 @@
+Introducing Cura 1T: a specialized model for agentic healthcare, tackling high-stakes communication, expert reasoning & workflow execution. Read the paper: arXiv:2607.15314v1 #ArtificialIntelligenceInHealthcare

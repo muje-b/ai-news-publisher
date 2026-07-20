@@ -1,0 +1,1 @@
+New arXiv paper (2607.15293v1) presents a novel approach to computing Circular-Dyadic Convolution Error in O(NlogN) time using the Hadamard transform. #MachineLearning #SignalProcessing

@@ -1,0 +1,25 @@
+<h1>Structure of the Circular-Dyadic Convolution Error</h1><p>When implementing convolutions for large signals, engineers often choose between the fast Fourier transform (FFT) and the Hadamard transform because both run in \(O(N\log N)\) time. The Hadamard version is attractive: it only requires additions, subtractions, and sign flips, staying entirely in real arithmetic. However, swapping the FFT’s complex‑valued DFT for the Hadamard transform is not a drop‑in replacement; it injects a systematic algebraic error that changes the output values. A recent arXiv paper dissects this error, showing where it vanishes, how it spreads through the result, and what governs its average magnitude.</p>
+
+<h2>What You Need to Know</h2>
+<p>The authors first prove that, regardless of the input data, two specific input indices and two corresponding output indices are always computed exactly when the Hadamard transform is used in place of the DFT. These positions are fixed by the dyadic ordering of the transform; permuting the output vector cannot move the error away from them. In other words, the error pattern contains a built‑in set of zero‑error locations that no simple re‑ordering can eliminate.</p>
+<p>Second, they analyze the linear operator that maps the true circular‑convolution result to the Hadamard‑based approximation. This operator is almost full rank: its rank differs from \(N\) by only a logarithmic term, meaning the error affects nearly every degree of freedom. The null space—those input perturbations that produce zero error—has dimension on the order of \(\log N\), a tiny subspace compared with the full signal space.</p>
+<p>Third, the expected error over random inputs collapses to a single scalar quantity called the alignment scalar. The paper derives a closed‑form expression for this scalar by averaging over all possible input vectors. Consequently, the mean squared error can be predicted from this one number, which depends only on the length \(N\) and the specific dyadic‑circular mismatch.</p>
+
+<h2>Why It Matters</h2>
+<p>For applications that rely on exact convolution—such as filtering in communications, polynomial multiplication, or certain neural‑network layers—knowing where the Hadamard‑based method is guaranteed to be correct lets designers safeguard critical data points. For example, one could place pilot symbols or checksum bits at the error‑free indices to detect when the approximation is being used inadvertently.</p>
+<p>The near‑full‑rank nature of the error operator tells practitioners that the approximation is not merely a low‑perturbation tweak; it fundamentally reshapes most of the output spectrum. This insight helps when deciding whether to accept the Hadamard approach or to invest in the slightly more costly FFT, especially in hardware where complex arithmetic incurs extra power or area costs.</p>
+<p>Finally, reducing the expected error to a single alignment scalar simplifies performance budgeting. Engineers can compute the scalar once for a given transform size and then estimate the average error without Monte‑Carlo simulation, streamlining design‑space exploration for systems that trade off precision against computational efficiency.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li><strong>Exact error‑free points:</strong> two input positions and their corresponding output positions are always correct under the Hadamard substitution.</li>
+<li><strong>Irremovable by reordering:</strong> no permutation of the output vector can shift the error away from these fixed locations.</li>
+<li><strong>Error operator rank:</strong> the operator approximating circular convolution with the Hadamard transform has rank \(N - O(\log N)\); only a logarithmic‑dimensional subspace yields zero error.</li>
+<li><strong>Null‑space size:</strong> the set of inputs that produce no error scales as \(\log N\), far smaller than the ambient dimension \(N\).</li>
+<li><strong>Alignment scalar:</strong> a single scalar \(\alpha(N)\) captures the expected error; its closed‑form expression is derived via averaging over all input vectors.</li>
+<li><strong>Practical implication:</strong> mean‑squared error ≈ \(\alpha(N)^2\) for random inputs, enabling quick error estimates without simulation.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The paper opens several avenues for further work. One direction is to investigate whether structured input classes (e.g., sparse or band‑limited signals) exhibit even smaller error than the alignment scalar predicts. Another is to design hybrid algorithms that apply the Hadamard transform to sub‑blocks where the error‑free positions align with data of interest, reserving the FFT for the remaining regions. Finally, extending the analysis to multidimensional dyadic‑circular convolutions could reveal whether similar error‑free points exist in higher‑dimensional transforms, which would be valuable for image and video processing pipelines.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2607.15293" target="_blank">Arxiv Ml</a></blockquote>
