@@ -1,0 +1,2 @@
+New arXiv paper: A Transportable Threshold-Based Framework for Interpretable Classification of Medical Data. Overcoming black-box models to boost AI adoption in medicine #MedicalAI
+https://woor.ai/a-transportable-threshold-based-framework-for-interpretable/

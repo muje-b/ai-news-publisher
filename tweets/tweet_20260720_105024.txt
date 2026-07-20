@@ -1,0 +1,2 @@
+Introducing DrawingVQA, a new benchmark for multi-depth visual-textual reasoning on construction drawings, pushing the limits of multimodal large language models #ConstructionTech #AIResearch
+https://woor.ai/drawingvqa-a-real-world-benchmark-for-multi-depth-visual-tex/
