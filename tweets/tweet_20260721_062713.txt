@@ -1,0 +1,2 @@
+Democratizing AI just got a boost! New research on small language models enables local deployment, making AI more accessible to all. Read the paper: arXiv:2607.16202v1 #AIDemocratization
+https://woor.ai/democratizing-ai-with-small-language-models-structured-bench/
