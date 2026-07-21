@@ -1,0 +1,2 @@
+Meet Masked Diffusion Language Models: powerful, steerable text-based world models for agentic RL. arXiv:2607.16204v1 #RL #AIResearch
+https://woor.ai/masked-diffusion-language-models-are-strong-and-steerable-te/
