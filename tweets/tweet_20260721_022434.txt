@@ -1,0 +1,2 @@
+Introducing AnovaX, a local, multi-agent voice assistant leveraging LLM planning, typed executors & adaptive recovery, revolutionizing desktop voice assistants #AIResearch #VoiceAssistants
+https://woor.ai/anovax-a-local-multi-agent-voice-assistant-with-llm-planning/

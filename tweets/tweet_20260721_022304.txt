@@ -1,0 +1,2 @@
+Introducing Stochastic Reset Pathfinding (SRP), a novel episodic learning problem on directed graphs. Learn more: arXiv:2607.15440v1 #MachineLearning #GraphTheory
+https://woor.ai/stochastic-reset-pathfinding-path-level-regret-for-cascading/
