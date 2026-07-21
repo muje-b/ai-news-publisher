@@ -1,0 +1,2 @@
+LLMs in cyber defense face new threats: a survey on methods, challenges & emerging risks. Read the latest research on mitigating LLM vulnerabilities: arXiv:2607.16227v1 #CyberSecurity #LLM
+https://woor.ai/llm-unlearning-for-cyber-defense-a-survey-on-methods-challen/

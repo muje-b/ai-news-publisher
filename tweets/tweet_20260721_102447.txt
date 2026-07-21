@@ -1,0 +1,2 @@
+Researchers identify structured confound in RLHF, revealing potential bias in human feedback preference data #AIethics
+https://woor.ai/rater-state-bias-in-rlhf-preference-data-an-audit-framework/
