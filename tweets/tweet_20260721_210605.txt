@@ -1,0 +1,2 @@
+New paper on Deterministic Replay for AI Agent Systems (arXiv:2607.16200v1) proposes a method to reproduce & debug AI agent behavior, improving trust & reliability in LLM-based systems #AIReproducibility #MLDebugging
+https://woor.ai/deterministic-replay-for-ai-agent-systems/
