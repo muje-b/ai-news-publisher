@@ -1,0 +1,2 @@
+Researchers tackle noisy-label learning with Orthogonal Gradient Constraints, preventing memorization of corrupted labels. A game-changer for robust neural networks! #NoisyLabelLearning #AIResearch
+https://woor.ai/orthogonal-gradient-constraints-shape-noisy-label-memorizati/
