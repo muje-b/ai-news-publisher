@@ -1,0 +1,2 @@
+Expanding the frontiers of LLM compression! New research explores "Beyond Single-Dimensional Compression: The Compound Sparsity Frontier of Large Language Models" (arXiv:2607.18280v1) #AIResearch #NLP
+https://woor.ai/beyond-single-dimensional-compression-the-compound-sparsity/
