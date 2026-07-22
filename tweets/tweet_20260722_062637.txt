@@ -1,0 +1,2 @@
+Unlock scalable ad-hoc analysis with BatchDAG: LLM-planned execution graphs for enterprise data. Introducing a new approach to harnessing LLMs for exhaustive, complex queries. #LLMs #DataAnalysis
+https://woor.ai/batchdag-llm-planned-execution-graphs-for-scalable-ad-hoc-an/

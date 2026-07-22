@@ -1,0 +1,2 @@
+Introducing Phionyx, a deterministic AI runtime architecture with structured state management & pre-response governance, aiming to improve AI reliability & trustworthiness #DeterministicAI
+https://woor.ai/phionyx-a-deterministic-ai-runtime-architecture-with-structu/
