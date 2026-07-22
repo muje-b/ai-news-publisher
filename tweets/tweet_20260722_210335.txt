@@ -1,0 +1,2 @@
+Introducing E-SpecFormer, an Edge-Efficient Transformer for end-to-end RF Spectrum Monitoring, enabling automatic modulation analysis on the edge #EdgeAI #SpectrumMonitoring
+https://woor.ai/edge-efficient-transformer-for-end-to-end-rf-spectrum-monito/
