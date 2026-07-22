@@ -1,0 +1,2 @@
+Optimize your LLM queries with latency-aware routing! New paper: Beyond Accuracy and Cost: Latency-Aware LLM Query Routing for Dynamic Workloads #LLM #AIResearch
+https://woor.ai/beyond-accuracy-and-cost-latency-aware-llm-query-routing-for/

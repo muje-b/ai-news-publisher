@@ -1,0 +1,2 @@
+Discover AI tools at scale with a twist: leveraging DNS for autonomous agent navigation. New research explores the potential of DNS for AI tool discovery in arXiv:2607.18242v1 #AIResearch #AutonomousAgents
+https://woor.ai/ai-tool-discovery-at-scale-all-you-need-is-dns/
