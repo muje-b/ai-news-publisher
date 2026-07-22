@@ -1,0 +1,2 @@
+New framework from arXiv: 'From Agent Failure Paths to Quantified Residual Risk' tackles agentic AI's growing risk as it crosses trust boundaries faster than current models can represent #AIResilience
+https://woor.ai/from-agent-failure-paths-to-quantified-residual-risk-a-compo/

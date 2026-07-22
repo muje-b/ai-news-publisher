@@ -1,0 +1,2 @@
+New research on SAAG (Structured Agent Assessment and Grounding) highlights the limitations of exact-match eval in agent-calling, revealing nuanced failure modes #AIResearch #AgentEvaluation
+https://woor.ai/saag-structured-agent-assessment-and-grounding/
