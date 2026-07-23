@@ -1,0 +1,2 @@
+Introducing FormulaSPIN: AI-powered formula generation for spreadsheets, making data analysis more accessible to all. arXiv:2607.19354v1 #ArtificialIntelligence
+https://woor.ai/formulaspin-self-play-fine-tuning-for-natural-language-to-sp/
