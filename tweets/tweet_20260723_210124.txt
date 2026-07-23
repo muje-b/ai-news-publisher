@@ -1,0 +1,2 @@
+Introducing CruiseBench: a new benchmark for predicting Remaining Useful Life (RUL) of engines, ensuring safe operation. #AerospaceEngineering #PredictiveMaintenance
+https://woor.ai/cruisebench-a-real-flight-aligned-n-cmapss-benchmark-for-eng/
