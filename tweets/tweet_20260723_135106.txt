@@ -1,0 +1,2 @@
+New research: Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX. Read the paper: arXiv:2607.19353v1 #ConfidentialComputing #AIInference
+https://woor.ai/benchmarking-confidential-gpu-inference-on-nvidia-h100-under/

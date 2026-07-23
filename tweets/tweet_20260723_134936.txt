@@ -1,0 +1,2 @@
+Introducing LISA: Linear-Indexed Sparse Attention for efficient long-context reasoning. A game-changer for large-scale models like DeepSeek-R1? #AIResearch #NLP
+https://woor.ai/lisa-linear-indexed-sparse-attention-for-efficient-long-cont/
