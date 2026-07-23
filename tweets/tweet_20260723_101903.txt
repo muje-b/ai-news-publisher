@@ -1,0 +1,2 @@
+New study on LLMs & external knowledge sources: do they weigh information equally or prioritize sensationalism? arXiv:2607.19355v1 #AIethics #InformationDiscernment
+https://woor.ai/information-discernment-in-large-language-models/

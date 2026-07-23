@@ -1,0 +1,2 @@
+Introducing FineServe: a fine-grained dataset & characterization of global LLM serving workloads. A game-changer for optimizing online language models. #LLM #AIResearch
+https://woor.ai/fineserve-a-fine-grained-dataset-and-characterization-of-glo/

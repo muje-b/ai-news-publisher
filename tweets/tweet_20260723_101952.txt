@@ -1,0 +1,2 @@
+Introducing NEXUS: a structured runtime safety framework for tool-using LLM agents. Enhance safety monitoring & prevent high-impact actions. Read the paper: arXiv:2607.19356v1 #LLM #SafetyFirst
+https://woor.ai/nexus-structured-runtime-safety-for-tool-using-llm-agents/
