@@ -1,0 +1,2 @@
+Researchers introduce OpenEvoShield, a dual non-stationary defense for LLM-based MAS attacks in open-world scenarios. Enhancing safety in critical applications. #AIsecurity #MultiAgentSystems
+https://woor.ai/openevoshield-dual-non-stationary-continual-defense-for-open/
