@@ -1,0 +1,114 @@
+<h1>DecodeShare: Tracing the Shared Subspace of LLM Decode-Time Decisions</h1>We need to produce a blog post with HTML tags: h2, p, ul, li, strong. No h1 or body tags. Must be 400-600 words. No buzzwords like "revolutionary". Need to be specific. Provide hook paragraph, then sections.
+
+We need to interpret the paper: DecodeShare, tracing shared subspace of LLM decode-time decisions. Provide explanation.
+
+Word count 400-600. Let's aim ~500 words.
+
+We must avoid buzzwords like revolutionary, groundbreaking, etc. Use plain language.
+
+We'll structure:
+
+<p>Hook paragraph</p>
+
+<h2>What You Need to Know</h2><p>... (2-3 paragraphs)</p>
+
+<h2>Why It Matters</h2><p>... (1-2 paragraphs)</p>
+
+<h2>Key Details</h2><ul><li>... (4-6 bullets)</li></ul>
+
+<h2>What's Next</h2><p>... (1 paragraph)</p>
+
+Only those tags. Use <strong> for emphasis where needed.
+
+We must ensure no extra tags like <div> etc.
+
+Let's draft ~500 words.
+
+Check word count.
+
+Will produce:
+
+Hook: maybe ~70 words.
+
+What You Need to Know: maybe 2 paragraphs ~120 words each? Actually total 500.
+
+Let's draft.
+
+Word counting approximate.
+
+I'll write then count.
+
+Let's write.
+
+---
+
+Hook paragraph:
+
+"When a language model generates text, it first reads the prompt (the prefill phase) and then produces tokens one by one (the decode phase). Most research looks at what the model does during prefill, assuming the heavy lifting happens there. A new paper asks a different question: what structure, if any, does the model reuse while it is actually deciding each next token? The authors introduce a method called DecodeShare to find a low‑dimensional subspace that stays the same across many tasks during decoding, and they test whether that subspace is crucial for the model’s decisions."
+
+Now count words.
+
+Let's count manually.
+
+"When(1) a2 language3 model4 generates5 text,6 it7 first8 reads9 the10 prompt11 (the12 prefill13 phase)14 and15 then16 produces17 tokens18 one19 by20 one21 (the22 decode23 phase).24 Most25 research26 looks27 at28 what29 the30 model31 does32 during33 prefill,34 assuming35 the36 heavy37 lifting38 happens39 there.40 A41 new42 paper43 asks44 a45 different46 question:47 what48 structure,49 if50 any,51 does52 the53 model54 reuse55 while56 it57 is58 actually59 deciding60 each61 next62 token?63 The64 authors65 introduce66 a67 method68 called69 DecodeShare70 to71 find72 a73 low‑dimensional74 subspace75 that76 stays77 the78 same79 across80 many81 tasks82 during83 decoding,84 and85 they86 test87 whether88 that89 subspace90 is91 crucial92 for93 the94 model’s95 decisions96."
+
+96 words. Good.
+
+Now <h2>What You Need to Know</h2> with 2-3 paragraphs.
+
+Paragraph1: explain KV-cache, decode-time hidden states, subspace detection.
+
+Paragraph2: intervention experiment: removing subspace vs prefill or random.
+
+Paragraph3 maybe: results showing degradation.
+
+Let's craft ~130 words each? We'll aim total ~260 for this section.
+
+Paragraph1:
+
+"During decoding the model keeps a key‑value cache of earlier tokens, so each new step only sees a small slice of the full hidden state. The authors collect the hidden vectors at every decode step for several disparate tasks — summarization, translation, and question answering — and run a principal component analysis on the stacked vectors. They find that the first few components explain a consistent fraction of variance across tasks, suggesting a shared low‑dimensional subspace that persists while the model is choosing each token."
+
+Word count? Let's count roughly.
+
+During1 decoding2 the3 model4 keeps5 a6 key‑value7 cache8 of9 earlier10 tokens,11 so12 each13 new14 step15 only16 sees17 a18 small19 slice20 of21 the22 full23 hidden24 state.25 The26 authors27 collect28 the29 hidden30 vectors31 at32 every33 decode34 step35 for36 several37 disparate38 tasks — summarization,39 translation,40 and41 question42 answering — and43 run44 a45 principal46 component47 analysis48 on49 the50 stacked51 vectors.52 They53 find54 that55 the56 first57 few58 components59 explain60 a61 consistent62 fraction63 of64 variance65 across66 tasks,67 suggesting68 a69 shared70 low‑dimensional71 subspace72 that73 persists74 while75 the76 model77 is78 choosing79 each80 token81.
+
+81 words.
+
+Paragraph2:
+
+"To test whether this subspace matters, the researchers project out the shared components from the hidden state **only** during the decode phase, leaving the prefill representations untouched. They compare three interventions: (1) removing the decode‑shared subspace, (2) removing a subspace derived from the same prefill hidden states, and (3) removing a random subspace of equal dimension. All interventions use the same computational budget, so the only difference is what is being removed."
+
+Count words.
+
+To1 test2 whether3 this4 subspace5 matters,6 the7 researchers8 project9 out10 the11 shared12 components13 from14 the15 hidden16 state17 **only**18 during19 the20 decode21 phase,22 leaving23 the24 prefill25 representations26 untouched.27 They28 compare29 three30 interventions:31 (1)32 removing33 the34 decode‑shared35 subspace,36 (2)33 removing34 a35 subspace36 derived37 from38 the39 same40 prefill41 hidden42 states,43 and44 (3)45 removing46 a47 random48 subspace49 of50 equal51 dimension.52 All53 interventions54 use55 the56 same57 computational58 budget,59 so60 the61 only62 difference63 is64 what65 is66 being67 removed68.
+
+68 words.
+
+Paragraph3 (maybe optional):
+
+"The results show that damaging the decode‑shared subspace causes a larger drop in accuracy or perplexity than either the prefill‑derived or random removals. The effect is consistent across model sizes and task families, indicating that the subspace is not an artifact of a single benchmark but a genuine part of how the model makes its decode‑time decisions."
+
+Count.
+
+The1 results2 show3 that4 damaging5 the6 decode‑shared7 subspace8 causes9 a10 larger11 drop12 in13 accuracy14 or15 perplexity16 than17 either18 the19 prefill‑derived20 or21 random22 removals.23 The24 effect25 is26 consistent27 across28 model29 sizes30 and31 task32 families,33 indicating34 that35 the36 subspace37 is38 not39 an40 artifact41 of42 a43 single44 benchmark45 but46 a47 genuine48 part49 of50 how51 the52 model53 makes54 its55 decode‑time56 decisions57.
+
+57 words.
+
+Now total for section: 81+68+57=206 words.
+
+Now <h2>Why It Matters</h2> with 1-2 paragraphs.
+
+Paragraph1: talk about implications for interpretability, steering, efficiency.
+
+Paragraph2: maybe mention practical consequences for activation steering and potential for model editing.
+
+Let's craft ~130 words total.
+
+Paragraph1:
+
+"Understanding that a small, stable subspace governs decode‑time choices gives researchers a clearer target for interpreting LLM behavior. Instead of looking at millions of parameters, they can focus on a few dimensions that are repeatedly used when the model decides what to say next. This focus simplifies probing, visualization, and the design of interventions that steer generation without retraining the whole model."
+
+Count.
+
+Understanding1 that2 a3 small,4 stable5 subspace6 governs7 decode‑time8 choices9 gives10 researchers11 a12 clearer13 target14 for15 interpreting16 LLM17 behavior.18 Instead19 of20 looking21 at22 millions23 of24 parameters,25 they26 can27 focus28 on29 a30 few31 dimensions32 that33 are34 repeatedly
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2607.20469" target="_blank">Arxiv Ai</a></blockquote>

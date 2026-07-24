@@ -1,0 +1,1 @@
+Researchers explore Adaptive Depth in Looped Transformers, diagnosing learned halting gates & trajectory readouts. This work aims to optimize test-time computation in Looped Transformers [arXiv:2607.20519v1] #Transformers
