@@ -1,0 +1,2 @@
+Accelerate AI performance with JAXBench: a benchmarking tool for autonomous TPU kernel optimization. Read the latest research: arXiv:2607.20466v1 #AIperformance #MachineLearning
+https://woor.ai/jaxbench-benchmarking-autonomous-tpu-kernel-optimization/

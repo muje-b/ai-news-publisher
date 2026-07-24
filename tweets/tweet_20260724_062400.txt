@@ -1,0 +1,2 @@
+New arXiv: "Stochastic Sampling is Epistemically Shallow" exposes the gap between temperature variation & model diversity in LLMs, questioning the reliability of repeated runs #LLMs #AIresearch
+https://woor.ai/stochastic-sampling-is-epistemically-shallow-the-dimensional/
