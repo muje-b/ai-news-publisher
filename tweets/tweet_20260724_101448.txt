@@ -1,0 +1,2 @@
+Introducing InferenceBench: a new benchmark for open-ended LLM inference optimization by AI agents. Accelerating AI research & development. #AIResearch #LLM
+https://woor.ai/inferencebench-a-benchmark-for-open-ended-llm-inference-opti/

@@ -1,0 +1,2 @@
+Introducing DataPrep-Bench: a benchmark for evaluating LLMs as training data preparators, showcasing the impact of data quality on model capabilities #LLMs #NLP
+https://woor.ai/dataprep-bench-benchmarking-llms-as-training-data-preparator/
