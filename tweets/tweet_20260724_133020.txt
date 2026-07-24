@@ -1,0 +1,2 @@
+Introducing Generative Bayesian Filtering for State Estimation (arXiv:2607.20521v1)! A new approach to estimating dynamic system states by switching among latent modes #StateEstimation #MachineLearning
+https://woor.ai/generative-bayesian-filtering-for-state-estimation/

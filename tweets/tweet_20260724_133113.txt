@@ -1,0 +1,2 @@
+PhantomFill: When forms demand answers, language models improvise. New research reveals the surprising ways AI fills in the gaps [arXiv:2607.20492v1] #LanguageModels
+https://woor.ai/phantomfill-when-the-form-demands-an-answer-language-models/
