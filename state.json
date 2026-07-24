@@ -567,11 +567,13 @@
     "8ceda757be38a9b1",
     "7b3d8764cf070b1d",
     "7a2e33bd2177a4c7",
-    "cdc65a920f0a92f0"
+    "cdc65a920f0a92f0",
+    "2b073f5d2caeb82a",
+    "ed1f2994131ea003"
   ],
-  "last_run": "2026-07-23T21:01:24.526504+00:00",
+  "last_run": "2026-07-24T02:25:40.289830+00:00",
   "stats": {
-    "total_posts": 494,
+    "total_posts": 496,
     "total_tweets": 0
   }
 }
