@@ -1,0 +1,2 @@
+Meta Planning of Data, Tuning, & Inference boosts Large Language Model capabilities. Read the latest arXiv paper: 2607.20470v1 #LLMs #NLP
+https://woor.ai/plane-meta-planning-of-data-tuning-and-inference-for-extract/

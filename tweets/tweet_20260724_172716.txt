@@ -1,0 +1,2 @@
+New study highlights the risk of misdiagnoses due to AI-generated medical text watermarks. Evaluating LLM watermarks in medical texts is crucial to ensure accurate patient care. #MedicalAI #HealthTech
+https://woor.ai/marking-the-wrong-symptoms-evaluating-llm-watermarks-in-medi/
