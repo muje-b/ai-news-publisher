@@ -1,0 +1,2 @@
+Introducing OptMem: a permanent, append-only memory for AI agents. 2 text files, 4 commands & a Python harness. Say goodbye to data loss & hello to seamless AI continuity. #AI #OptMem
+https://woor.ai/new-tool-optmem/
