@@ -1,0 +1,2 @@
+Introducing aar-loop: a manual Reflexion tool to help you run After Action Reviews & write concrete lessons to prevent AI session mistakes. Improve your agent's performance with data-driven insights #AIImprovement
+https://woor.ai/new-tool-aar-loop/
