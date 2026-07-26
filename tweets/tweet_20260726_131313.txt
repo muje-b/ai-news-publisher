@@ -1,0 +1,1 @@
+Introducing Prompt Architect Pro, a Python desktop app that harnesses local Ollama LLMs to analyze raw texts & images, extracting & structuring visual descriptions for AI-driven insights #AIpowered #LLMtools

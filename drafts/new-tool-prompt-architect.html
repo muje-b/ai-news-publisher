@@ -1,0 +1,24 @@
+<h1>New Tool: Prompt-architect</h1><p>When working with generative models, turning a vague idea into a precise prompt often feels like guesswork. Prompt Architect Pro steps in as a desktop utility that takes raw text or image input, parses it with a local Ollama‑powered language model, and outputs a clean JSON structure ready for AI image generators.</p>
+
+<h2>What You Need to Know</h2>
+<p>The application is written in Python and runs locally, so no external API calls are required. It loads an Ollama LLM (such as Llama 3 or Mistral) installed on the same machine, feeds it the supplied source material, and asks the model to produce a detailed visual description. That description is then reformatted into a JSON object that matches the schema expected by ComfyUI’s prompt node.</p>
+<p>Prompt Architect Pro stores every extracted prompt in an embedded SQLite database. From there you can view, edit, tag, or delete entries without leaving the app. The interface also lets you select a VRAM hardware profile—low, medium, or high—so the underlying Ollama model adjusts its context size and token limits to fit your GPU memory.</p>
+<p>A companion ComfyUI node reads directly from the same SQLite file. When you drop the node into a workflow, it queries the database for the selected prompt ID and injects the JSON into the sampler, eliminating the need to copy‑paste strings between programs.</p>
+
+<h2>Why It Matters</h2>
+<p>Manually crafting prompts for diffusion models is time‑consuming and error‑prone. By automating the extraction of visual details from existing notes, sketches, or reference photos, the tool reduces the trial‑and‑error cycle and helps maintain consistency across a series of generations.</p>
+<p>Because everything runs on your own hardware, you keep full control over data privacy. No prompts or source images leave your machine, which is important for proprietary concepts or client work that cannot be uploaded to third‑party services.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Python‑based desktop app with a simple Qt/PySide interface.</li>
+<li>Uses a locally hosted Ollama LLM to generate structured visual descriptions.</li>
+<li>Outputs JSON prompts compatible with ComfyUI’s native prompt node.</li>
+<li>Built‑in SQLite database for storage, tagging, and quick retrieval of prompts.</li>
+<li>Adjustable VRAM profiles (low/medium/high) that tune Ollama’s context length to your GPU.</li>
+<li>Includes a ComfyUI custom node that reads prompts directly from the database.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The roadmap adds support for exporting prompts to other UI front‑ends such as Automatic1111 and InvokeAI, plus a command‑line mode for batch processing folders of images or text files. Future releases may also introduce prompt versioning and diff views to track how edits affect the final output.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://github.com/lololerigolo60/Prompt-architect" target="_blank">Github</a></blockquote>
