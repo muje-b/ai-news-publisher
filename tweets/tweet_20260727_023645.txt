@@ -1,0 +1,2 @@
+Introducing micro-vllm, a tiny, educational Python tool (13K LOC) for exploring LLM inference, scheduling, KV-cache management & GPU execution. Try it with the `--gpu` flag to see it in action! #LLM #AIResearch
+https://woor.ai/new-tool-micro-vllm/
