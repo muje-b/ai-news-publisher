@@ -1,0 +1,2 @@
+Measuring the Dependency Gap: Diagnosing Inter-Column Fidelity in Tabular Generative Models. New paper on synthetic data preservation [arXiv:2607.21636v1] #TabularGenerativeModels
+https://woor.ai/measuring-the-dependency-gap-diagnosing-inter-column-fidelit/

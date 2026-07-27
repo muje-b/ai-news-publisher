@@ -1,0 +1,2 @@
+Introducing a goal-agnostic control framework for PDEs, enabling flexible control strategies for complex systems #ControlTheory #PDEs
+https://woor.ai/toward-goal-agnostic-joint-embedding-predictive-control-of-p/
