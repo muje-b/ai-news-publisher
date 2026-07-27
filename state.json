@@ -631,11 +631,14 @@
     "61c016514a9f8cec",
     "53ae30eeac720ddf",
     "a0ef9ae849bd185a",
-    "285637682dc88cb8"
+    "285637682dc88cb8",
+    "a2d345e160d46dfb",
+    "c3d61c53b57ae46b",
+    "1768a7bb49239bae"
   ],
-  "last_run": "2026-07-27T17:45:28.375451+00:00",
+  "last_run": "2026-07-27T21:08:45.998256+00:00",
   "stats": {
-    "total_posts": 542,
+    "total_posts": 545,
     "total_tweets": 0
   }
 }

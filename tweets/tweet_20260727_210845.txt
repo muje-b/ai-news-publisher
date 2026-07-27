@@ -1,0 +1,2 @@
+Boost meta-reinforcement learning with Quasi-Monte Carlo weight initialization! Explore its efficacy in arXiv:2607.21637v1 #MetaRL #QMC
+https://woor.ai/quasi-monte-carlo-initialization-for-meta-reinforcement-lear/
