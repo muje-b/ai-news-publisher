@@ -1,0 +1,1 @@
+Introducing MotifRole-Diff: a risk-optimal role-aware corruption method for masked molecular graph diffusion, enhancing molecular graph generation with a more nuanced approach #MolecularGraphDiffusion #MachineLearning
