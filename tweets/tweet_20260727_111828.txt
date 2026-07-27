@@ -1,0 +1,2 @@
+Introducing Drift Stable Quantum Federated Learning for Intelligent Services! arXiv:2607.21647v1 enables distributed clients to train quantum neural networks securely. #QuantumAI #FederatedLearning
+https://woor.ai/a-drift-stable-quantum-federated-learning-for-intelligent-se/

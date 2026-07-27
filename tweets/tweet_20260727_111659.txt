@@ -1,0 +1,2 @@
+New paper on Logic Gate Networks (LGNs) explores depth scalability, revealing novel insights into their computation capabilities #QuantumComputing
+https://woor.ai/on-the-depth-scalability-of-logic-gate-networks/
