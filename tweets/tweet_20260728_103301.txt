@@ -1,0 +1,2 @@
+Can LLMs be trusted? Same question, different answers: Evaluating LLM reliability beyond accuracy [arXiv:2607.22554v1] #LLM #AIreliability
+https://woor.ai/same-question-different-answers-evaluating-llm-reliability-b/

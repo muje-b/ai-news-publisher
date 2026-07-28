@@ -1,0 +1,2 @@
+Introducing Codifying the Judge: Scalable Evaluation via Program Distillation (arXiv:2607.22561v1). A new approach to reduce costs & improve LLM-as-a-judge efficiency. #AIResearch #EvaluationMethods
+https://woor.ai/codifying-the-judge-scalable-evaluation-via-program-distilla/
