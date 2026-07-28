@@ -1,0 +1,2 @@
+Introducing SeT-Diff: a semantic foundation model for HPC telemetry & time-series data, enabling accurate & flexible digital twins for data centers & compute nodes #HPC #DigitalTwin
+https://woor.ai/set-diff-towards-semantic-foundation-models-for-hpc-telemetr/
