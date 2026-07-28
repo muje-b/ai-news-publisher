@@ -1,0 +1,2 @@
+Introducing Semalith v1.4, a 184M safety classifier achieving state-of-the-art prompt-injection detection with 44x fewer parameters than Llama-Guard-3-8B. #LanguageModelSafety #AIResearch
+https://woor.ai/semalith-v14-a-calibrated-184m-safety-classifier-achieving-s/
