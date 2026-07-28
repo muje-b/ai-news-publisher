@@ -1,0 +1,2 @@
+Introducing CausalGate: a novel approach to transformer module pruning via causal importance distillation. Improving adaptive inference for Large Language Models. #NLP
+https://woor.ai/causalgate-causal-importance-distillation-for-transformer-mo/
