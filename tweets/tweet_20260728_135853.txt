@@ -1,0 +1,2 @@
+Introducing MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models. Enhancing SLMs to adapt to evolving real-world rules. #ContinualLearning #NLP
+https://woor.ai/miita-memory-induced-inference-time-adaptation-for-continual/

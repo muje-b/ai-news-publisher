@@ -1,0 +1,2 @@
+New arXiv: 'Beyond Shapley' proposes an influence-based data auditing pipeline to improve LLM alignment & evaluation, addressing data quality bottlenecks #LLMAlignment
+https://woor.ai/beyond-shapley-an-influence-based-data-auditing-pipeline-for/

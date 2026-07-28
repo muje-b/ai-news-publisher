@@ -1,0 +1,2 @@
+Introducing SF-AMS: Strategic Forgetting for Structured Memory in LLM Agents. Reduces redundant info & boosts performance. Read the paper: arXiv:2607.22562v1 #LLM #AIResearch
+https://woor.ai/sf-ams-strategic-forgetting-for-structured-memory-in-llm-age/
