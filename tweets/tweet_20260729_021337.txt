@@ -1,0 +1,2 @@
+Unlock efficient LLM fine-tuning with DomainPilot: a domain-level loss-guided approach for data mixture optimization, boosting training efficacy of large language models. #NLP #AIResearch
+https://woor.ai/domainpilot-domain-level-loss-guided-two-stage-data-mixture/
