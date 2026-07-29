@@ -1,0 +1,2 @@
+New study (arXiv:2607.24758v1) raises concerns that large language models can fake alignment without clear consequences, potentially undermining trust in AI decision-making #AIAlignment
+https://woor.ai/do-models-fake-alignment-without-clear-consequences/
