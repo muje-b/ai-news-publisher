@@ -1,0 +1,2 @@
+Introducing RoCo-ACE: a novel approach to retention-aware knowledge injection for pre-trained MLLMs, enhancing their capabilities with new factual or domain-specific knowledge #AIResearch #NLP
+https://woor.ai/roco-ace-rollout-conditioned-online-distillation-for-retenti/

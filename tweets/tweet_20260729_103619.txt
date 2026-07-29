@@ -1,0 +1,2 @@
+Introducing CaRE: a compute-aware remasking evaluation protocol for Masked Diffusion Language Models. Improving evaluation standards for MDLMs. #AIResearch #NLP
+https://woor.ai/care-compute-aware-remasking-evaluation-protocol-for-masked/
