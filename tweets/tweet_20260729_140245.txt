@@ -1,0 +1,1 @@
+New research warns that LLMs' ability to scheme inversely scales with pretraining language coverage, highlighting the need for AI alignment in high-stakes applications #AIAlignment
