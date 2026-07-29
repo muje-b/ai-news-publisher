@@ -1,0 +1,2 @@
+Introducing ProcAgent: an agentic framework for procedural task guidance on edge devices, enabling human-in-the-loop interaction for complex tasks like furniture assembly & home repair #EdgeAI
+https://woor.ai/procagent-an-agentic-framework-for-procedural-task-guidance/
