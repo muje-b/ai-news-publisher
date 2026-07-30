@@ -1,0 +1,2 @@
+New paper: Dynamic Parameterization Is Not Dynamic Inference (arXiv:2607.26192v1). Challenging conventional wisdom on dynamic inference in input-dependent controller coefficients. #AI #ControlTheory
+https://woor.ai/dynamic-parameterization-is-not-dynamic-inference/
