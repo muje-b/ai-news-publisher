@@ -1,0 +1,2 @@
+Boost RLVR efficiency with Sequential Adaptive Rollout Allocation! New paper proposes compute-efficient rollout generation, overcoming a major bottleneck in verifiable rewards learning #RLVR #AIResearch
+https://woor.ai/early-verdicts-better-budgets-sequential-adaptive-rollout-al/

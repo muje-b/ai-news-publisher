@@ -1,0 +1,2 @@
+New paper on arXiv: 'Between Gradient & Natural Gradient: A Continuum of LoRA Initializations' [2607.26247] #LoRA #AIResearch
+https://woor.ai/between-gradient-and-natural-gradient-a-continuum-of-lora-in/

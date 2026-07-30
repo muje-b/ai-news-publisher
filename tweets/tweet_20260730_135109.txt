@@ -1,0 +1,2 @@
+Introducing Weak-to-Strong On-Policy Distillation! arXiv:2607.26246v1. Aligning student & teacher token-level distributions for improved policy learning #DeepRL #Distillation
+https://woor.ai/weak-to-strong-on-policy-distillation/
