@@ -1,0 +1,2 @@
+Researchers discover emergent sparsity in frozen random CNN feature extractors for deep reinforcement learning (arXiv:2607.26059v1) #DeepRL #NeuralNetworks
+https://woor.ai/emergent-sparsity-in-frozen-random-cnn-feature-extractors-fo/

@@ -1,0 +1,2 @@
+Introducing Meta-Learned Reward Shaping for Reinforcement Learning from Human Feedback! arXiv:2607.26094v1 This innovative approach aligns large language models with human feedback #RLHF #MetaLearning
+https://woor.ai/meta-learned-reward-shaping-for-reinforcement-learning-from/
