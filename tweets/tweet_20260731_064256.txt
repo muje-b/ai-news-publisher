@@ -1,0 +1,2 @@
+Introducing TraceCoder: a new approach to explainable & auditable code generation with position-key snippet versioning, shedding light on the black-box outputs of LLM-based coding agents #ExplainableAI
+https://woor.ai/tracecoder-explainable-and-auditable-code-generation-with-po/

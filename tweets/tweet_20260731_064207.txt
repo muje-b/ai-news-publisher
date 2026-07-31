@@ -1,0 +1,2 @@
+Introducing GoGoTB: a novel RTL verification approach with specification-grounded coverage closure. Reduces IC front-end engineering effort. Learn more: arXiv:2607.26181v1 #Verification #ICDesign
+https://woor.ai/gogotb-agentic-rtl-verification-with-specification-grounded/
