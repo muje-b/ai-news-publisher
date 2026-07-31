@@ -1,0 +1,2 @@
+New study on reasoning performance: Representational Quality for Mathematical Problem-Solving in RL vs SFT Fine-Tuned Models. #ArtificialIntelligence #MachineLearning
+https://woor.ai/probing-the-origins-of-reasoning-performance-representationa/

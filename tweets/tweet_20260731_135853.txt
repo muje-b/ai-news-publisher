@@ -1,0 +1,2 @@
+New arXiv: Regularizing modality contribution drift in multimodal continual learning (MMCL) to adapt to changing data distributions! [arXiv:2607.27260v1] #MultimodalLearning
+https://woor.ai/regularizing-modality-contribution-drift-in-multimodal-conti/
