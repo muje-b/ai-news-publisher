@@ -1,0 +1,2 @@
+Rethinking EEG-based disease diagnosis with a new approach that decouples instance representation learning from subject-level supervision. Read the paper: arXiv:2607.27274v1 #EEG #Neuroscience
+https://woor.ai/rethinking-eeg-based-disease-diagnosis-decoupling-instance-r/
