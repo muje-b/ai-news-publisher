@@ -1,0 +1,2 @@
+Introducing Top-$k$ Pareto Bandits: a new approach to multi-objective slate selection, optimizing hypervolume regret in stochastic bandit problems #MultiObjectiveOptimization #BanditProblems
+https://woor.ai/top-k-pareto-bandits-hypervolume-regret-for-multi-objective/
