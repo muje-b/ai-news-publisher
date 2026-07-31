@@ -1,0 +1,2 @@
+Introducing GuideSkill: evolving executable LLM agent skills for guideline-grounded clinical reasoning. Enhancing LLMs with CPGs for more accurate diagnostic criteria retrieval #MedicalAI
+https://woor.ai/guideskill-evolving-executable-llm-agent-skills-for-guidelin/
