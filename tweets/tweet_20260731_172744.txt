@@ -1,0 +1,2 @@
+New research reveals post-training quantization may not be as lossless as claimed. Read 'Flat Score, Amplified Failures' on arXiv:2607.27275v1 #Quantization #LLM
+https://woor.ai/flat-score-amplified-failures-how-the-error-budget-masks-dam/
