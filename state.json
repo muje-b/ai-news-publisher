@@ -709,11 +709,14 @@
     "025855eb9f0e7a95",
     "97a20a5f6de1adab",
     "1da21b93cc16d695",
-    "932ad6b0ae37a6f8"
+    "932ad6b0ae37a6f8",
+    "3d7423ec8d9c6228",
+    "bbf0fe0dd6314885",
+    "a503f2e2beff190f"
   ],
-  "last_run": "2026-08-01T02:30:17.804746+00:00",
+  "last_run": "2026-08-01T06:27:22.530115+00:00",
   "stats": {
-    "total_posts": 614,
+    "total_posts": 617,
     "total_tweets": 0
   }
 }
