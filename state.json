@@ -718,11 +718,14 @@
     "13380feffaa4ee7b",
     "6895bd8e36c16238",
     "958fb2c086fd4db5",
-    "8a84c53ddc103c7c"
+    "8a84c53ddc103c7c",
+    "759d269c79c31dc2",
+    "4f30ce65ca296e6f",
+    "32c16ea15160de08"
   ],
-  "last_run": "2026-08-01T13:12:51.985215+00:00",
+  "last_run": "2026-08-01T16:58:08.529328+00:00",
   "stats": {
-    "total_posts": 623,
+    "total_posts": 626,
     "total_tweets": 0
   }
 }
