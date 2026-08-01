@@ -1,0 +1,2 @@
+New study reveals evaluation scores for language models are perishable, making them less reliable over time. arXiv:2607.26191v1 #NLP #AIResearch
+https://woor.ai/position-evaluation-scores-are-perishable-knowledge-claims/
