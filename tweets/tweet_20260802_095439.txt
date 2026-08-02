@@ -1,0 +1,1 @@
+Introducing kimi-k3-in-c: a 2.78 trillion-param Kimi K3 model running inference on a single CPU in 8.24 GB RAM, all in portable C99 with no BLAS, framework, or GPU. Mind-bending performance! #AIonCPU #C99
