@@ -1,0 +1,2 @@
+Introducing bindwidth, an evidence-aware on-prem LLM inference sizing & TCO calculator, built with JavaScript. Get accurate cost estimates & optimize your LLM deployments with our new tool! #LLM #OnPrem
+https://woor.ai/new-tool-bindwidth/
