@@ -1,0 +1,1 @@
+Legacy SQL just got a reboot! New Databricks tool leverages AI agents to rewrite outdated SQL at scale, saving devs time & effort. Read more on how this innovation is transforming data management [link to article] #AIinDataManagement

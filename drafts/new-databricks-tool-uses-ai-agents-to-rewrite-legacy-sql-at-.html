@@ -1,0 +1,23 @@
+<h1>New Databricks tool uses AI agents to rewrite legacy SQL at scale - InfoWorld</h1><p>Databricks has introduced a new utility that employs AI agents to automatically refactor large volumes of legacy SQL code. The tool scans existing queries, applies language‑model‑driven transformations, and outputs updated SQL that preserves original semantics while adopting modern syntax and performance patterns.</p>
+
+<h2>What You Need to Know</h2>
+<p>The utility is built on Databricks’ Lakehouse platform and integrates with the Unity Catalog for metadata access. It uses a fleet of specialized AI agents, each tuned for a particular refactoring task—such as converting deprecated joins, replacing legacy hints with optimizer‑friendly syntax, or materializing common table expressions. Users can run the tool via a CLI or notebook interface, specifying a directory of SQL files or a set of query IDs from the query history.</p>
+<p>Under the hood, the agents rely on a fine‑tuned large language model that has been trained on a corpus of Databricks‑internal SQL patterns and public SQL standards. The model suggests edits, which are then validated by a rule‑based checker that ensures the rewritten query returns identical results on a sample dataset. If validation fails, the agent iterates up to three times before flagging the query for manual review.</p>
+
+<h2>Why It Matters</h2>
+<p>Legacy SQL often accumulates technical debt as organizations adopt newer features like Delta Lake, time‑travel queries, or adaptive query execution. Manually rewriting thousands of lines of code is error‑prone and consumes valuable engineering cycles that could be spent on analytics development. Automating this process reduces the risk of introducing bugs while accelerating migration to newer SQL dialects.</p>
+<p>Beyond immediate code cleanup, the tool helps enforce governance standards. By converting non‑compliant patterns into approved forms, it makes it easier for data‑engineering teams to apply uniform security policies, cost‑monitoring rules, and performance benchmarks across the enterprise.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Supports ANSI SQL, Databricks SQL, and common legacy dialects such as HiveQL and T-SQL.</li>
+<li>Can process batches of up to 10,000 SQL files in a single run, with parallel agent execution.</li>
+<li>Generates a diff report showing original and revised code, plus a confidence score for each change.</li>
+<li>Integrates with Databricks Jobs, allowing automated refactoring as part of CI/CD pipelines.</li>
+<li>Requires Unity Catalog enabled for metadata lookup; works with both managed and external tables.</li>
+<li>Provides an opt‑in mode that preserves original comments and formatting for documentation continuity.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Databricks plans to extend the agent framework to other languages used in the Lakehouse, including Python and Scala, enabling end‑to‑end code modernization. Future releases will incorporate feedback loops from production execution metrics, allowing the AI agents to prioritize refactoring that yields measurable performance gains.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPVElaNjlNRjJSY3Fic1RrbUszYzI4ZWUxbEpXUW9hYnhXR1ZQVHZIRnVmMjdMQ1hLWFhoREVfZmcwdV9vcWFjVmdPMDlvU3V4QnMyWFVwUHZDNGJlck9QXzh0Z1VaVXdLV0lfYkw1TlRuYmJzemp3RzlFRHptRjRiWmpIU1B1Y3VhR2x6Qm1ZYng0WXpSQ2ZfZmIyS3Vqelpqb2stSndMUUZvSlZSenpQeFZ3?oc=5" target="_blank">Google News Ai</a></blockquote>
