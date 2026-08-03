@@ -1,0 +1,2 @@
+Introducing ThinkReset: a learnable intermediate interface for long-horizon reasoning. Boosting performance on complex problems with chain-of-thought reasoning #AIResearch #ReasoningSystems
+https://woor.ai/thinkreset-learnable-intermediate-interface-construction-for/
