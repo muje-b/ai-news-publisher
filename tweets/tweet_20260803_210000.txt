@@ -1,0 +1,2 @@
+Introducing SEDR-Seq2P: a lightweight dilated residual sequence-to-point network for multi-task industrial #NILM, tackling measurement noise & concurrent machine operation challenges [arXiv:2607.28693v1]
+https://woor.ai/sedr-seq2p-a-lightweight-dilated-residual-sequence-to-point/

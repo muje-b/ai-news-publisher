@@ -1,0 +1,2 @@
+Introducing LARA, a lightweight method for efficient adaptation in residual streams, enabling composable alignment & adaptation. Read more: arXiv:2607.28669v1 #AIResearch #AdaptationTechniques
+https://woor.ai/lara-lightweight-adapters-in-the-residual-stream-for-composa/

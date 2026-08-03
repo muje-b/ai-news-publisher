@@ -756,11 +756,14 @@
     "5f08bb3ffea25826",
     "55d0b51956c88a72",
     "60b0b1a035ad8462",
-    "9be1ee18c9f05cab"
+    "9be1ee18c9f05cab",
+    "5b05b1143accbcb2",
+    "10a27c08fefb08f7",
+    "c6d88a384f716d9f"
   ],
-  "last_run": "2026-08-03T17:50:10.521036+00:00",
+  "last_run": "2026-08-03T21:00:45.663259+00:00",
   "stats": {
-    "total_posts": 652,
+    "total_posts": 655,
     "total_tweets": 0
   }
 }
