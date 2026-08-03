@@ -1,0 +1,2 @@
+Researchers introduce LAWFUL, a framework to determine if neural networks learn governing laws behind physical systems, not just mimic data patterns #AI #Physics
+https://woor.ai/lawful-law-aligned-witness-for-faithful-use-of-latents/
