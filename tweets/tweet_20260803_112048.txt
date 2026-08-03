@@ -1,0 +1,2 @@
+Large Language Models (LLMs) may ace medical exams, but can they safely guide clinical decisions in real-world chaos? Not yet, according to new research #AIinMedicine #ClinicalDecisionSupport
+https://woor.ai/reasoning-in-real-world-clinical-care-why-large-language-mod/
