@@ -1,0 +1,24 @@
+<h1>New Tool: bespoke</h1><p>When most software teams talk about scaling, they think about serving thousands of users with the same codebase. Bespoke flips that idea on its head: it is a platform that creates a single‑use application, tailored to one person, and then hands the entire lifecycle over to language‑model agents. The concept is simple enough to grasp in a sentence, but the implications stretch across how we build, maintain, and even think about personal software.</p>
+
+<h2>What You Need to Know</h2>
+<p>Bespoke is built in Go and exposes a thin API that lets you describe the desired behavior of a personal tool in natural language or a structured spec. Once the description is submitted, a fleet of LLM agents interprets the request, writes the necessary Go code, compiles it, and deploys the resulting binary to a sandboxed environment. The agents also take on ongoing responsibilities: they monitor logs, apply patches, and update dependencies without human intervention.</p>
+<p>Because the output is meant for a single user, the platform can optimise aggressively for that individual's workflow. There is no need to accommodate edge cases that would bloat a generic product. The generated binary is typically a few megabytes, starts instantly, and runs with the privileges of the user who requested it. All source code remains private to the user unless they explicitly share it.</p>
+<p>The project’s README highlights a playful challenge: “Steal the idea before you steal the code.” It encourages readers to consider the underlying concept—LLM‑driven, single‑purpose software—before diving into the Go implementation. The repository currently has 12 stars, indicating early interest from developers curious about agent‑operated tooling.</p>
+
+<h2>Why It Matters</h2>
+<p>Today, most personal productivity tools are either monolithic apps that try to serve many use cases or scripts that require manual upkeep. Bespoke removes the maintenance burden by delegating it to agents that can understand intent and act on it continuously. For someone who needs a custom shortcut, a tiny data transformer, or a personal notification bot, the platform delivers a working solution without the user ever writing a line of code.</p>
+<p>From a broader perspective, the approach hints at a future where software creation is less about writing lines of logic and more about specifying outcomes. If the agent loop proves reliable, it could lower the barrier for domain experts to obtain precisely the tool they need, reducing reliance on generic software that often includes unnecessary features.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Language: Go (compiled to a static binary)</li>
+<li>Agent loop: LLM interprets spec → writes code → builds → deploys → monitors</li>
+<li>Target audience: individuals who need a one‑off utility (e.g., custom file renamer, personal API wrapper)</li>
+<li>Sandboxing: each binary runs in an isolated environment with limited system access</li>
+<li>Update mechanism: agents can pull new dependencies and apply security patches automatically</li>
+<li>License: MIT (source available, but the generated binary is for the user’s exclusive use)</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The maintainers plan to expose a simple web front‑end where users can type a description and receive a downloadable binary in seconds. They are also experimenting with finer‑grained agent roles—one for code generation, another for testing, and a third for operational monitoring—to improve reliability. Early adopters are encouraged to try the platform for niche tasks and share feedback on the agent loop’s performance and safety guarantees.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://github.com/bketelsen/bespoke" target="_blank">Github</a></blockquote>

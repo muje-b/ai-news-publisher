@@ -1,0 +1,1 @@
+Introducing 'PowerGuard' - a machine learning powered tool to detect electricity theft using smart meter data. Built with Python, it's a game-changer for utility companies. #SmartGrid #EnergyEfficiency
