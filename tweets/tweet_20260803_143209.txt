@@ -1,0 +1,2 @@
+AI-powered diagnosis just got a boost: MPP-GNN detects Alzheimer's disease using fMRI scans, adapting to individual brain patterns #AlzheimersResearch #NeuroAI
+https://woor.ai/mpp-gnn-subject-adaptive-community-detection-for-fmri-based/

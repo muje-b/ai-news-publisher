@@ -1,0 +1,2 @@
+Introducing ViSAGE: a self-correcting memory system for long-form video understanding. Continually updates multimedia rules for improved multimodal agent performance #AIResearch #MultimodalLearning
+https://woor.ai/visage-constructing-self-correcting-memories-for-long-form-v/

@@ -1,0 +1,2 @@
+Introducing Hierarchical Copula-Gumbel-Top-K Routing: a novel approach for controlling two-sided dependence in frozen mixture-of-experts models #MachineLearning #DeepLearning
+https://woor.ai/hierarchical-copula-gumbel-top-texorpdfstringkk-routing-two/
