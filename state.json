@@ -774,11 +774,14 @@
     "69d121453b365e8e",
     "b0ccc7688a4a9bcf",
     "239a1d5abd13ecf8",
-    "bf841f08daea749d"
+    "bf841f08daea749d",
+    "3cc1d075abd40b89",
+    "d5514a287675aea2",
+    "cf1de865ddeb277d"
   ],
-  "last_run": "2026-08-04T17:45:47.801269+00:00",
+  "last_run": "2026-08-04T21:10:24.765822+00:00",
   "stats": {
-    "total_posts": 664,
+    "total_posts": 667,
     "total_tweets": 0
   }
 }
