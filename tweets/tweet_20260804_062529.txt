@@ -1,0 +1,1 @@
+Unlocking OR with LLMs: New research proposes uncertainty-aware simulation-based inference for deploying large language models in operations research, bridging the gap between AI & OR. Read the paper: arXiv:2608.00019v1 #ORwithLLMs

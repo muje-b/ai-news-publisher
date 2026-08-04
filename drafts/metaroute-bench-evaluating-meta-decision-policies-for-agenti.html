@@ -1,0 +1,24 @@
+<h1>MetaRoute-Bench: Evaluating Meta-Decision Policies for Agentic Workflow Routing</h1><p>When building agentic systems, developers face a constant stream of small choices: answer the user directly, break the request into sub‑tasks, call an external tool, run a snippet of code, hand the work to a specialist model, check an intermediate result, or try a recovery strategy after a failure. These meta‑decisions are woven into the orchestration layer, yet most evaluations only report the final answer accuracy. MetaRoute‑Bench changes that by exposing the routing logic itself, allowing researchers to compare policies on a common execution model and see how each choice influences success, latency, and cost.</p>
+
+<h2>What You Need to Know</h2>
+<p>The benchmark consists of 180 synthetic task profiles that cover three broad domains: data analysis, research‑oriented querying, and document processing. Each profile encodes a specific goal, the required data inputs, and a set of permissible actions (direct answer, decomposition, tool use, code execution, delegation, verification, recovery). Eight distinct routing policies are pitted against these profiles, ranging from simple heuristics (always answer, always decompose) to more sophisticated strategies that learn or compose decisions based on task features.</p>
+<p>To reduce variance, each policy is evaluated with 30 paired random seeds, meaning that for every seed the same stochastic elements (e.g., tool latency, model nondeterminism) are shared across all policies. This yields 43,200 execution traces in total. The trace data record not only whether the final answer was correct but also the number of steps taken, the cumulative latency, and the estimated compute cost incurred at each decision point.</p>
+<p>Preliminary results show that a task‑aware compositional policy—one that selects actions based on the predicted difficulty and resource profile of the current sub‑task—achieves the highest combined score across accuracy, latency, and cost. It consistently outperforms static heuristics and even some learned policies that do not condition on task characteristics.</p>
+
+<h2>Why It Matters</h2>
+<p>Current agentic frameworks treat routing as an opaque black box, making it hard to tell whether a system’s success comes from strong underlying models or from clever decision‑making. By separating the routing logic from the execution environment, MetaRoute‑Bench lets researchers attribute performance gains to specific meta‑decision strategies. This transparency is essential for reproducing results, diagnosing failures, and iterating on policy design.</p>
+<p>Beyond research clarity, the benchmark has practical implications for product teams. Understanding the trade‑offs between latency and cost helps engineers configure agents for real‑world constraints—for example, favoring faster, cheaper routes in a chatbot setting while reserving more expensive verification steps for high‑stakes document workflows. The shared execution model also means that improvements in one policy can be directly compared to another without re‑instrumenting the entire system.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li><strong>180 synthetic task profiles</strong> spanning data analysis, research, and document processing.</li>
+<li><strong>Eight routing policies</strong> ranging from static rules to learned, compositional approaches.</li>
+<li><strong>30 paired random seeds</strong> ensuring controlled stochastic variation across policies.</li>
+<li><strong>43,200 execution traces</strong> capturing success, latency, and cost for every decision.</li>
+<li><strong>Task‑aware compositional policy</strong> shows the best overall trade‑off in preliminary runs.</li>
+<li><strong>Open‑source benchmark</strong> released with code and data to enable reproducible comparison.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>The authors plan to expand MetaRoute‑Bench with real‑world task suites, additional policies that incorporate reinforcement learning, and tools for visualizing decision trajectories. By inviting the community to contribute new profiles and policies, the benchmark aims to become a shared yardstick for evaluating how agentic systems choose their next step—turning an opaque internal mechanism into an observable, improvable component.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.00107" target="_blank">Arxiv Ml</a></blockquote>
