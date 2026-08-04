@@ -1,0 +1,2 @@
+Introducing Progressive$^2$: a novel teacher-student distillation method for substantial model compression, achieving efficient knowledge transfer with improved accuracy! #AIResearch #KD
+https://woor.ai/progressive2-a-teacher-student-progressive-co-evolving-knowl/

@@ -1,0 +1,2 @@
+Introducing PCINN: a Physics-Chemistry-Informed Neural Network for real-time SALD coverage prediction & reliable kinetics inversion, enabling efficient & scalable ALD processes #ALD #MaterialsScience
+https://woor.ai/a-physics-chemistry-informed-neural-network-pcinn-for-real-t/

@@ -1,0 +1,2 @@
+New arXiv: Inference-Time Policy Alignment for Fair RL addresses performance-reward tradeoff, ensuring fairness in reward design without sacrificing agent performance. #FairRL #ReinforcementLearning
+https://woor.ai/inference-time-policy-alignment-for-fair-reinforcement-learn/
