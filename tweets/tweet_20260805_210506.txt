@@ -1,0 +1,2 @@
+Researchers propose self-organising digital circuits that adapt to faults in real-time, potentially revolutionising fault tolerance in classical computing #QuantumInspiredClassics
+https://woor.ai/self-organising-digital-circuits/
