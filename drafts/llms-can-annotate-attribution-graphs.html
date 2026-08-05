@@ -1,0 +1,23 @@
+<h1>LLMs Can Annotate Attribution Graphs</h1><p>Researchers often need to understand how language models solve a task by looking at the internal activations that fire during inference. One way to do this is circuit tracing, which maps out groups of features or MLP neurons—called supernodes—that work together to produce a behavior. The hardest part of circuit tracing is deciding which individual features belong together; this step is usually done by hand and can take a lot of time.</p>
+
+<h2>What You Need to Know</h2>
+<p>The paper introduces a pipeline that lets a language model perform that grouping automatically. First, they generate short natural‑language descriptions of each feature (for example, “activates when the model sees the word ‘Paris’”). Then they feed those descriptions to another LLM and ask it to cluster the features into supernodes. The model receives a prompt that lists the descriptions and is instructed to return groups that seem to share a common function.</p>
+<p>To check whether the LLM‑made supernodes are sensible, the authors use automated interpretability metrics that score how well a group’s description predicts its activation pattern on held‑out examples. They compare these scores to those obtained from supernodes created by human annotators on the same set of features. The results show that the LLM groups are just as interpretable as the human ones.</p>
+<p>As a concrete test, they apply the pipeline to a two‑hop “Capitals” task where the model must first infer a country from a city and then output that country’s capital. The LLM correctly identified a supernode that corresponds to the intermediate hop (the country representation) in 97 out of 100 random prompts, indicating high reliability.</p>
+
+<h2>Why It Matters</h2>
+<p>Manual annotation of supernodes limits how quickly researchers can explore new models or tasks. By automating this step, the pipeline reduces the human effort required for circuit tracing from hours to minutes per experiment. This makes it feasible to run large‑scale ablation studies or to compare many model variants without needing a dedicated team of annotators for each run.</p>
+<p>Because the method relies only on feature descriptions, it can be applied to any model for which such descriptions can be generated—whether the features are individual neurons, attention heads, or higher‑level concepts. The approach therefore offers a generic shortcut for turning raw activation data into a structured, interpretable graph that highlights the computational pathways a model uses.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Feature descriptions are produced by an existing automated interpretability tool that translates activation patterns into short text.</li>
+<li>The clustering LLM receives a prompt that lists all descriptions and is asked to output JSON‑style groups.</li>
+<li>Automated interpretability scores measure prediction accuracy of a group’s description on a validation set.</li>
+<li>On the two‑hop Capitals benchmark, the LLM recovered the correct intermediate supernode in 97 % of prompts.</li>
+<li>A proof‑of‑concept shows the pipeline can be used for open‑ended exploration, suggesting new hypotheses about model behavior without manual labeling.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could extend the pipeline to handle hierarchical clustering, allowing researchers to zoom in and out of different levels of abstraction. Additionally, integrating human feedback in the loop might help refine the LLM’s clustering criteria for especially ambiguous features, further closing the gap between fully automatic and human‑guided circuit analysis.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.02632" target="_blank">Arxiv Ml</a></blockquote>

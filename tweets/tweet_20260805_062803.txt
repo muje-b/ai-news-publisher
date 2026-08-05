@@ -1,0 +1,1 @@
+New research: LLMs can annotate attribution graphs (arXiv:2608.02632v1). Circuit tracing reveals internal computation of language models, opening up new avenues for understanding AI decision-making. #LLMs #AIExplainability

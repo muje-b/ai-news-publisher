@@ -1,0 +1,1 @@
+Introducing HyperAgent: a new approach to planning & acting for LLM agents using tool-schema hypergraphs. Enhancing tool-use capabilities for complex real-world tasks. #LLM #AIResearch

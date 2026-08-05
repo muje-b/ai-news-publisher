@@ -1,0 +1,1 @@
+Escape the LLM homogeneity with Meta-Persona Anchoring & Sequential Temperature Scaling! New arXiv paper reveals a way to break free from the "Artificial Hivemind" effect in Large Language Models #LLM #AIResearch
