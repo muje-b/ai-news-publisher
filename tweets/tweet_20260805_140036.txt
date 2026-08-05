@@ -1,0 +1,2 @@
+Unlocking phenotypic drug discovery: new method learns molecular representations from cellular phenotypes with structure preservation #PhenotypicDrugDiscovery #MolecularRepresentations
+https://woor.ai/learning-molecular-representations-from-cellular-phenotypes/

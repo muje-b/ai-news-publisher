@@ -1,0 +1,2 @@
+New paper: Output-Aware Rotation for INT2 KV-Cache Quantization (arXiv:2608.02691v1). Optimizing KV cache for long-context large language models to reduce memory & bandwidth bottlenecks #KVCacheOptimization
+https://woor.ai/output-aware-rotation-for-int2-kv-cache-quantization/
