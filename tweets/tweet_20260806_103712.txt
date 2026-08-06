@@ -1,0 +1,2 @@
+Introducing FinPerMA: a groundbreaking benchmark for LLM agents, ensuring personalized assistants meet high-stakes demands. Read the latest research on arXiv:2608.04095v1 #LLM #PersonalizedAssistants
+https://woor.ai/finperma-a-theory-informed-event-grounded-personalized-memor/
