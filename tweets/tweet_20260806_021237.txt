@@ -1,0 +1,2 @@
+New study: GeoID-PINN tackles regional epidemic inference with geographic coupling, accounting for reporting & external infection effects. arXiv:2608.02633 #Epidemiology #PublicHealth
+https://woor.ai/geoid-pinn-identifiability-aware-regional-epidemic-inference/

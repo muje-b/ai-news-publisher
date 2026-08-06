@@ -1,0 +1,2 @@
+New study: CT-HEG, a bidirectional event graph, improves ICU mortality prediction by modeling irregular clinical observations. Read the full paper on arXiv:2608.02663v1 #ICUmedicine #MedicalAI
+https://woor.ai/ct-heg-a-bidirectional-timestamp-attributed-event-graph-for/

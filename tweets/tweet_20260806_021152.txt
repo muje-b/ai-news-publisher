@@ -1,0 +1,2 @@
+Introducing BAP-SQL: a tool for budget-aware observation planning in text-to-SQL, empowering agents to dynamically shape their observations #AI #MachineLearning
+https://woor.ai/bap-sql-budget-aware-observation-planning-for-agentic-text-t/
