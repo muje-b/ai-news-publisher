@@ -1,0 +1,2 @@
+New paper proposes a self-verifying agent instrument to prevent commitment drift in long-horizon agents #AI #Verification
+https://woor.ai/the-llm-proposes-the-executive-disposes-a-self-verifying-age/

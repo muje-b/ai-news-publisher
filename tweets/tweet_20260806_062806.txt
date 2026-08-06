@@ -1,0 +1,2 @@
+Introducing FinProBench: a framework for evaluating financial AI agents with role-grounded rubrics inspired by professional deliverables. Aligning AI assessment with real-world expertise. #FinancialAI
+https://woor.ai/finprobench-evaluating-financial-ai-agents-with-role-grounde/
