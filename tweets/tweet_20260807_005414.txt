@@ -1,0 +1,2 @@
+Introducing a trust-region framework for adaptive moment estimation. This new approach aims to improve understanding of behavior in complex systems. Read the paper on arXiv:2608.04026v1 #MachineLearning #Optimization
+https://woor.ai/a-trust-region-framework-for-moment-estimation/
