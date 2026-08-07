@@ -1,0 +1,2 @@
+Introducing AuroSFT for adapter-state multi-task fine-tuning, a new approach to optimize heterogeneous data mixtures #DeepLearning #MultitaskLearning
+https://woor.ai/beyond-full-model-rollback-aurosft-for-adapter-state-multi-t/

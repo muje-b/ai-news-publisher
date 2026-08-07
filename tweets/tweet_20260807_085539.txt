@@ -1,0 +1,2 @@
+Revolutionize talking-head videos with PD-GS: Phoneme-Driven 3D Gaussian Splatting for photorealistic, fast rendering. Read the new paper on arXiv: arXiv:2608.05218v1 #ComputerVision #AIResearch
+https://woor.ai/pd-gs-phoneme-driven-3dgs-for-audio-driven-talking-heads/
