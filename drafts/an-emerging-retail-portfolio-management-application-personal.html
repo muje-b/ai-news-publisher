@@ -1,0 +1,24 @@
+<h1>An Emerging Retail Portfolio Management Application: Personalized, Tax-Aware Reinforcement Learning with Natural Language Goals</h1><p>Imagine telling your investment app in plain English that you need steady growth but must sell a few shares next month for a down payment, and receiving a portfolio that balances growth, tax efficiency, and that upcoming cash need without you having to tweak sliders or fill out forms. The paper describes a fully built system that does exactly that, bridging the gap between institutional‑grade portfolio tools and the everyday retail investor.</p>
+
+<h2>What You Need to Know</h2>
+<p>The application consists of a FastAPI backend paired with a simple web dashboard. Users type a natural‑language goal such as “I want steady growth but need to sell some shares next month for a down payment.” The frontend sends this text to a goal‑classification module that maps the intent to one of six predefined investment mandates (e.g., growth, income, capital preservation, tax‑efficient drawdown, etc.). Once a mandate is selected, a three‑phase reinforcement learning pipeline generates a live portfolio recommendation that is routed through an integrated broker API for execution.</p>
+<p>The first RL phase learns a base allocation policy from historical market data using a standard reward function focused on risk‑adjusted returns. The second phase adds a tax‑aware reward shaping layer that penalizes actions likely to trigger short‑term capital gains or wash‑sale violations, encouraging the agent to favor long‑term holdings and harvest losses where beneficial. The third phase enforces hard constraints such as liquidity needs (e.g., ensuring enough cash is available for the down‑payment sale) and regulatory limits, projecting the policy forward to produce a final, broker‑ready set of trades.</p>
+<p>The system was integration‑tested against a simulated broker environment and then connected to a live sandbox account to verify that orders are transmitted correctly, that tax‑aware adjustments appear in the proposed trades, and that the dashboard updates in real time as market conditions change.</p>
+
+<h2>Why It Matters</h2>
+<p>Retail investors typically rely on robo‑advisors that apply static rules or on expensive institutional platforms that require high minimums and specialized IT support. By allowing users to express goals in everyday language and automatically translating those goals into a tax‑sensitive, RL‑driven portfolio, the paper shows how advanced quantitative techniques can be made accessible without sacrificing personalization or compliance.</p>
+<p>Moreover, the three‑phase RL design separates concerns: learning return‑focused behavior, layering tax considerations, and then enforcing constraints. This modularity makes it easier to update each component—swap in a new tax model, adjust the mandate list, or integrate additional data sources—without overhauling the entire system, a practical advantage for long‑term maintenance.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>FastAPI serves REST endpoints for goal ingestion, mandate classification, and RL inference.</li>
+<li>Six investment mandates cover growth, income, preservation, tax‑efficient drawdown, balanced, and speculative profiles.</li>
+<li>Phase 1 RL uses a Proximal Policy Optimization (PPO) algorithm trained on 10 years of equity and bond return data.</li>
+<li>Phase 2 adds a differentiable tax penalty based on realized gains, loss‑harvesting opportunities, and jurisdiction‑specific rules.</li>
+<li>Phase 3 applies a constraint‑projection step to meet liquidity targets (e.g., cash needed within 30 days) and position limits.</li>
+<li>The dashboard displays the recommended trades, expected after‑tax return, and a tax‑impact breakdown in real time.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work includes expanding the mandate set to incorporate ESG preferences, integrating real‑time market news via a language‑model encoder to adjust the RL policy dynamically, and conducting a user study with actual retail investors to measure satisfaction, tax outcome improvements, and ease of use compared with existing robo‑advisors.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.05255" target="_blank">Arxiv Ml</a></blockquote>

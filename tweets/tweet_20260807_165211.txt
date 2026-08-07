@@ -1,0 +1,1 @@
+Introducing AuroOFT for Expressive Quantized Orthogonal Fine-Tuning! This innovative approach enables parameter-efficient adaptation of low-bit language models. Read more: arXiv:2608.05253v1 #QuantizedLearning #NLP
