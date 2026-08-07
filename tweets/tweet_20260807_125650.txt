@@ -1,0 +1,2 @@
+New research on disentangling 3D modeling from spatial reasoning (arXiv:2608.05242v1). A fresh paradigm for spatial reasoning that decouples 3D modeling from spatial reasoning. #3DModeling #SpatialReasoning
+https://woor.ai/disentangling-3d-modeling-from-spatial-reasoning/

@@ -1,0 +1,2 @@
+Introducing Otter, a 15.3M-parameter human chess AI that predicts human move selection by modeling play as a time-aware, history-conditioned process #ChessAI #ArtificialIntelligence
+https://woor.ai/otter-a-time-aware-history-conditioned-human-chess-ai/
