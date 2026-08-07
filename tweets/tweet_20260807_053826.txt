@@ -1,0 +1,2 @@
+Researchers at Woodpecker Distillation expose reasoning bugs in strong language models, highlighting limitations in even the most capable AI systems. #AI #MachineLearning
+https://woor.ai/woodpecker-distillation-weak-models-diagnose-reasoning-bugs/

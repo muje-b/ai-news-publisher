@@ -1,0 +1,2 @@
+Decoupling perception from description in multimodal models is key. New paper (arXiv:2608.05238v1) tackles the self-supervision trap in aligning time series with language #MultimodalLearning #AIResearch
+https://woor.ai/decoupling-perception-from-description-computation-grounded/
