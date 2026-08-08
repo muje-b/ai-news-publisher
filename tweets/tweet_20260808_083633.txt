@@ -1,0 +1,2 @@
+Cloudflare just launched Kitesurf, a cloud-hosted browser designed for AI agents, using less computing power than Chromium for common automation tasks! #AI #Cloudflare
+https://woor.ai/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/
