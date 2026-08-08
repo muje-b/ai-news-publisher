@@ -1,0 +1,2 @@
+Introducing PRISM: a novel approach to multimodal instruction synthesis, prioritizing key requirements via structured data. Learn more: arXiv:2608.05249v1 #MultimodalLearning
+https://woor.ai/prism-priority-aware-rubric-internalization-via-structured-m/

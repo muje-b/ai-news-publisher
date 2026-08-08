@@ -1,0 +1,2 @@
+OpenAI halts Astra model development due to security concerns, citing "critical cybersecurity threshold" where it could identify & carry out malicious actions independently. #AIethics #Cybersecurity
+https://woor.ai/openai-says-it-slowed-astra-model-development-over-security/
