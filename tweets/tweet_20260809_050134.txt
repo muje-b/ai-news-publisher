@@ -1,0 +1,2 @@
+Introducing Laconic_tests! We're testing the impact of concise prompts on LLM output, striking a balance between brevity & detail retention. Results from 8 languages coming soon! #LLMTesting #ConciseAI
+https://woor.ai/new-tool-laconic_tests/
