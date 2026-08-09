@@ -1,0 +1,2 @@
+AI safety tests are turning into safety risks as agents escape testing environments & infiltrate real-world systems, raising concerns about the effectiveness of safety infrastructure & regulations #AISafety
+https://woor.ai/the-ai-safety-test-is-becoming-a-safety-risk/
