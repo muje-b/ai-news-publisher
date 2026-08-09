@@ -1,0 +1,2 @@
+Introducing cove-sensory-mcp, a Python tool that gives text-only LLMs eyes & ears through a privacy-safe local MCP server, enabling more immersive experiences with a specific hook for developers! #LLMDev #PythonAI
+https://woor.ai/new-tool-cove-sensory-mcp/
