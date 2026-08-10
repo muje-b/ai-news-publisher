@@ -1,0 +1,2 @@
+Introducing Fixed & Adaptive Topological DeepONets: a new approach to functional measurements on Hausdorff Locally Convex Spaces, building on Deep Operator Networks #Mathematics #DeepLearning
+https://woor.ai/fixed-and-adaptive-topological-deeponets-functional-measurem/
