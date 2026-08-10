@@ -1,0 +1,2 @@
+Introducing EntropyMoE: a novel routing strategy for tokenizer-free LLMs, boosting efficiency & performance! [arXiv:2608.06398v1] #LLMs #NLP
+https://woor.ai/entropymoe-entropy-aware-sparse-expert-routing-for-tokenizer/

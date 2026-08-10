@@ -1,0 +1,2 @@
+New paper on Adversarial Causal Intervention Falsification (arXiv:2608.06427v1) reveals generative models can deceive with fake causal structures #CausalML #GenerativeModels
+https://woor.ai/adversarial-causal-intervention-falsification/
