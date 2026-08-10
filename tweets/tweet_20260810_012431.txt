@@ -1,0 +1,2 @@
+Introducing sidetap, a Python tool that enables LLM agents to tap, type & read iPhone screens over USB, supporting 9 languages! Now you can control your iPhone from Windows using a custom hook. #sidetap #AIIntegration
+https://woor.ai/new-tool-sidetap/
