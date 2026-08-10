@@ -1,0 +1,2 @@
+Sharding prevents LLM oversight failures & adversarial exploitation by distributing checks across multiple nodes, ensuring thorough evaluation. (arXiv:2608.06422v1) #LLM #AIsecurity
+https://woor.ai/sharding-prevents-llm-oversight-failures-and-adversarial-exp/

@@ -1,0 +1,2 @@
+Discover how to predict middle-layer attention in MLLMs for visual token pruning with the new arXiv paper [2608.06411v1] #MLLM #VisionLanguage
+https://woor.ai/learning-to-predict-middle-layer-attention-in-mllms-for-visu/
