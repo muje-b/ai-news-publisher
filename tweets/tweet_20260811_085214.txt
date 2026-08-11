@@ -1,0 +1,2 @@
+LLM agents in supply chains may access private info, affecting bargaining power. New research explores implications for procurement & negotiation in autonomous procurement systems #AIinSupplyChain
+https://woor.ai/when-llm-agents-negotiate-private-information-and-dynamic-ba/
