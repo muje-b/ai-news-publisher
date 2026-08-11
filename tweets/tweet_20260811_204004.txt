@@ -1,0 +1,2 @@
+Revolutionizing wildfire prediction with #DataDrivenFirefighting: a new method segments fire zones using data-driven approaches, outperforming traditional grid-based models (arXiv:2608.07472v1)
+https://woor.ai/data-driven-fire-zone-segmentation-for-improved-short-term-w/
