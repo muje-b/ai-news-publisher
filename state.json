@@ -879,11 +879,13 @@
     "41e7bf292bba6d81",
     "c8c1b994b5e28240",
     "4e084e7073264dcd",
-    "73d71ec14f4c0169"
+    "73d71ec14f4c0169",
+    "9b41c9e10eabb5e3",
+    "0a13be19d8ced07c"
   ],
-  "last_run": "2026-08-11T08:53:26.852615+00:00",
+  "last_run": "2026-08-11T13:00:22.327658+00:00",
   "stats": {
-    "total_posts": 761,
+    "total_posts": 763,
     "total_tweets": 0
   }
 }
