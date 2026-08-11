@@ -1,0 +1,2 @@
+New research reveals a "Knowing-Saying Gap" in language models: probes detect errors with near-perfect accuracy, but confidence scores often miss them. #NLP #LanguageModels
+https://woor.ai/the-knowing-saying-gap-when-probes-see-errors-that-confidenc/
