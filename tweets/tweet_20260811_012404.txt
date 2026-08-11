@@ -1,0 +1,2 @@
+New paper: Beyond Attention in BiomeGPT-Style Microbiome Transformers via Signed Integrated Gradients Attribution. arXiv:2608.06486v1 #MachineLearning #Microbiome
+https://woor.ai/beyond-attention-signed-integrated-gradients-attribution-in/

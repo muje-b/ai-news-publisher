@@ -1,0 +1,2 @@
+Introducing MiGHT-EHR: a game-changing transformer model for analyzing heterogeneous temporal EHRs, revolutionizing healthcare insights! #MedicalAI #EHR
+https://woor.ai/might-ehr-a-multi-task-graph-transformer-for-heterogeneous-t/
