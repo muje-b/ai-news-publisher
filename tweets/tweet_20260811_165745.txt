@@ -1,0 +1,2 @@
+Discover new bounds for finite constant frontiers & auditable regret certificates in average-reward RL! #RLResearch #MachineLearning
+https://woor.ai/finite-constant-frontiers-and-auditable-regret-certificates/
