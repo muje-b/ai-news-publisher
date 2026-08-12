@@ -1,0 +1,2 @@
+Introducing UserToolBench: a benchmark for personalized decision making in tool-use LLMs, hiding user profiles to test adaptability #AIforGood #LLMs
+https://woor.ai/usertoolbench-a-user-profile-hidden-benchmark-for-personaliz/
