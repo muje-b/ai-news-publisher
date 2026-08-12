@@ -1,0 +1,2 @@
+Introducing MESA: a task-adaptive multi-structure evidence selection method for long-horizon agents #AIResearch #LongHorizonPlanning
+https://woor.ai/mesatask-adaptive-multi-structure-evidence-selection-for-lon/
