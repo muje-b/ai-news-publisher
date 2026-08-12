@@ -1,0 +1,2 @@
+Introducing NL2SHACL-Bench: a benchmark suite for evaluating the translation of natural language to SHACL rules, enabling more efficient validation of RDF knowledge graphs. #SHACL #KnowledgeGraphs
+https://woor.ai/nl2shacl-bench-a-benchmark-suite-for-natural-language-to-sha/

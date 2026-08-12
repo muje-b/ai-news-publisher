@@ -1,0 +1,2 @@
+Overcome variable long sequence challenges in #DeepLearning with Data-Centric Parallel training! New paper on arXiv: 2608.07524v1
+https://woor.ai/training-variable-long-sequences-with-data-centric-parallel/
