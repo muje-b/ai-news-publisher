@@ -1,0 +1,2 @@
+Weightless Fine-Tuning: Personalizing LLMs via Logit-Space Transport (arXiv:2608.11342v1) - a new approach to adapting LLMs to target distributions. #LLMs #NLP
+https://woor.ai/weightless-fine-tuning-personalizing-llms-via-logit-space-tr/

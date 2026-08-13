@@ -1,0 +1,2 @@
+Revolutionize APO with 'From Monolithic to Modular: Segment-level Automatic Prompt Optimization' (arXiv:2608.11219v1) Enhance prompt rewriting efficiency & effectiveness #PromptEngineering #NLP
+https://woor.ai/from-monolithic-to-modular-segment-level-automatic-prompt-op/
