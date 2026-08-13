@@ -1,0 +1,2 @@
+Introducing AutoWorldModel-Bench: a state-centric benchmark for automated world-model research. Explore the unsettled field of world modeling with this new benchmark! #AutomatedWorldModel #AIResearch
+https://woor.ai/autoworldmodel-bench-a-state-centric-benchmark-for-automated/
