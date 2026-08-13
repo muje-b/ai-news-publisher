@@ -1,0 +1,2 @@
+MaSRead: A new method for content-addressed reading of replicated latent stores, enabling independent agents to share computed state as key-value cache fragments #LatentLearning
+https://woor.ai/masread-content-addressed-reading-of-replicated-latent-store/
