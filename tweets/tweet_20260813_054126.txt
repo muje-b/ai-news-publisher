@@ -1,0 +1,2 @@
+Simulate large LLM-agent societies on a laptop with 'Poor Man's Agentic Modeling': a cost-effective approach to complex AI research #LLM #ArtificialIntelligence
+https://woor.ai/poor-mans-agentic-modeling-simulating-large-llm-agent-societ/

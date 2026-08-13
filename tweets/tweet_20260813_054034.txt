@@ -1,0 +1,2 @@
+New paper on Conway's 99-graph: researchers explore forced-structure reduction & verifiable bounds for a strongly regular graph with parameters srg(99,14,15). #GraphTheory
+https://woor.ai/a-forced-structure-reduction-and-verifiable-bounds-for-conwa/
