@@ -1,0 +1,2 @@
+Decoupling the primary prefill path from additional decode computation in large language models. New paper: Dual-Flow Transformers: arXiv:2608.12385v1 #NLP #Transformers
+https://woor.ai/dual-flow-transformers-decoupling-the-primary-prefill-path-f/
