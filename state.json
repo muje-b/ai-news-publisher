@@ -928,11 +928,14 @@
     "6f1bf72c97e7993e",
     "d6d452a64c5d2ce6",
     "76c26deb7d6d0431",
-    "2ecce1eefb7a617f"
+    "2ecce1eefb7a617f",
+    "14bd425bd1c556eb",
+    "c83c860b083483ba",
+    "0e8638ee2ddfdba5"
   ],
-  "last_run": "2026-08-14T05:30:57.516310+00:00",
+  "last_run": "2026-08-14T09:08:07.149712+00:00",
   "stats": {
-    "total_posts": 810,
+    "total_posts": 813,
     "total_tweets": 0
   }
 }

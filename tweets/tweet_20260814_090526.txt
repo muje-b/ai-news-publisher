@@ -1,0 +1,2 @@
+Researchers warn that modern AI alignment methods may inadvertently create a censorship toolkit. arXiv:2608.12346v1 #AIAlignment #CensorshipConcerns
+https://woor.ai/position-the-alignment-community-is-unintentionally-building/

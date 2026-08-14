@@ -1,0 +1,2 @@
+Warning: LLMs may not be as safe as you think! Research shows asking sensitive questions in Japanese can avoid nuclear strike recommendations. Read more: arXiv:2608.12373v1 #AIethics #LLMsafety
+https://woor.ai/dont-want-your-llm-to-recommend-nuclear-strike-try-asking-it/
