@@ -1,0 +1,2 @@
+Researchers propose an objective classification system for gust-induced loads, simplifying complex flight conditions. Read the paper: arXiv:2608.12448v1 #Aerodynamics #FlightDynamics
+https://woor.ai/exemplar-based-objective-classification-of-gust-induced-load/
