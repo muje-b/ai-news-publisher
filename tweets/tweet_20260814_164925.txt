@@ -1,0 +1,2 @@
+Adapt to user preferences like a pro! Learn to personalize LLMs with Meta-LoRA for cross-domain adaptability. arXiv:2608.12389v1 #LLMPersonalization #AIResearch
+https://woor.ai/learning-to-adapt-cross-domain-preferences-via-meta-lora-for/
