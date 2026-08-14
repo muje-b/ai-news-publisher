@@ -1,0 +1,2 @@
+Introducing Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for efficient stream processing in #MobileEdgeComputing. Read the latest paper on arXiv: arXiv:2608.12371v1
+https://woor.ai/multi-agent-scheduling-with-llm-assisted-contract-net-negoti/

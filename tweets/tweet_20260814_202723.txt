@@ -1,0 +1,2 @@
+New research reveals trained transformers develop privileged bases in residual streams, with coordinate axes showing differing statistics. arXiv:2608.12447v1 #TransformerModels #MachineLearning
+https://woor.ai/geometric-and-behavioral-stratification-in-transformer-resid/
