@@ -1,0 +1,2 @@
+Introducing LabLLM, a native macOS lab for teaching tiny language models from scratch. Build, train & watch a small LLM emerge. Revolutionize AI education with a hands-on approach. #ArtificialIntelligence #MachineLearning
+https://woor.ai/new-tool-labllm/
