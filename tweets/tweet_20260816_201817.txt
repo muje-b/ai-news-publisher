@@ -1,0 +1,2 @@
+Introducing szabot, a lightweight Go LLM Agent framework with a minimalist, modular design & extensibility in mind. Built with pure standard library & zero external dependencies. #GoLang #LLM
+https://woor.ai/new-tool-szabot/
