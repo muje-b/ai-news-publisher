@@ -1,0 +1,2 @@
+Introducing dhunter, an AI-driven autonomous penetration testing platform in Go. Automatically conducts reconnaissance, planning, active testing, and vulnerability validation. Limited to academic & security research use only #AIpoweredSecurity
+https://woor.ai/new-tool-dhunter/
