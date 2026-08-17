@@ -1,0 +1,2 @@
+Introducing the Robust Dual-Model Collaborative RVFL Network, a novel neural model that enhances the performance of RVFL networks with robust dual-model collaboration! #NeuralNetworks #AIResearch
+https://woor.ai/robust-dual-model-collaborative-random-vector-functional-lin/
