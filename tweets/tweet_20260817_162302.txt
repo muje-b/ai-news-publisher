@@ -1,0 +1,1 @@
+From BERT to Frontier Agents: 8 years of language model progress! AI models have evolved from simple systems to massive agents, collapsing the capability-cost curve. Read the latest paper: arXiv:2608.13675v1 #AIAdvancements

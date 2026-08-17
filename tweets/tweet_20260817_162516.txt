@@ -1,0 +1,1 @@
+Unlock seamless knowledge transfer across model scales! Researchers propose Activation-Guided Pruning for heterogeneous model fusion, combining models with different tasks, initializations & architectures [arXiv:2608.13596v1] #AIResearch

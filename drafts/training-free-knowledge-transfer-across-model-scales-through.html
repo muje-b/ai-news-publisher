@@ -1,0 +1,24 @@
+<h1>Training-Free Knowledge Transfer Across Model Scales through Activation-Guided Pruning</h1><p>Imagine taking a massive language model, slicing it down to the size of a much smaller model, and then blending just a whisper of its knowledge into the tiny model—without any retraining. That is the core idea explored in a recent arXiv preprint that examines how we can transfer abilities from a large donor model to a small recipient model when their architectures do not line up neatly.</p>
+
+<h2>What You Need to Know</h2>
+<p>The paper studies a cross‑scale scenario: a small language model (the recipient) that we want to improve, and a much larger donor model that has already learned strong language abilities. The donor and recipient may differ in depth, width, or attention head count, making direct weight copying impossible. Instead of trying to align every neuron, the authors observe that simply truncating the donor to the recipient’s shape and adding it with a tiny mixing weight already yields a measurable boost.</p>
+<p>Building on this observation, they introduce Activation‑Prune‑Merge (APM). First, they run a few representative prompts through the donor and record activation statistics for each layer, hidden dimension, and attention head. These task‑conditioned activation maps highlight which parts of the donor are most active for the given task. APM then prunes away the low‑activation components, keeping only the salient sub‑network. Finally, the pruned donor slice is merged into the recipient model by adding a small scalar weight to the corresponding parameters—no gradient steps or fine‑tuning required.</p>
+<p>The method is deliberately training‑free: all decisions are made from a single forward pass on the donor, and the merge step is a simple linear combination. Experiments show improvements on benchmark tasks such as commonsense reasoning and reading comprehension, even when the donor is up to four times larger than the recipient in terms of parameter count.</p>
+
+<h2>Why It Matters</h2>
+<p>Many real‑world deployment settings demand compact models that run on edge devices or meet strict latency budgets. At the same time, researchers continually release ever‑larger models that push the ceiling of performance. Bridging this gap without costly retraining would let practitioners harvest the latest advances instantly. APM offers a lightweight recipe for doing exactly that, using only the donor’s internal activations as a guide.</p>
+<p>Beyond practical model scaling, the work sheds light on how knowledge is distributed inside neural networks. By showing that a small, activation‑selected subset of a large model can already convey useful abilities, it suggests that much of a model’s competence resides in a few highly active pathways rather than being spread uniformly across all weights.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>APM constructs task‑conditioned activation maps by averaging hidden‑state magnitudes over a batch of prompts.</li>
+<li>Components (layers, hidden dimensions, attention heads) with activation below a percentile threshold are pruned from the donor.</li>
+<li>The remaining donor slice is merged into the recipient via a weighted sum: θ_recipient ← θ_recipient + α·θ_donor_pruned, with α set to a small constant (e.g., 0.1).</li>
+<li>No optimizer, learning rate schedule, or backward pass is used; the entire procedure runs in a single forward pass on the donor.</li>
+<li>Experiments cover models ranging from 125 M to 1.3 B parameters, showing consistent 0.5‑2 point gains on tasks like BoolQ and OpenBookQA.</li>
+<li>Ablation studies reveal that performance drops when activation‑guided pruning is replaced by random pruning, confirming the importance of the salience signal.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could explore how APM behaves when the donor and recipient are trained on different tasks or domains, and whether the activation maps can be reused across multiple recipient models. Another direction is to investigate adaptive mixing weights that vary per layer, potentially closing the performance gap further while still keeping the method training‑free.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.13596" target="_blank">Arxiv Ml</a></blockquote>
