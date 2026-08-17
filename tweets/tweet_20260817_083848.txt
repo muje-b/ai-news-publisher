@@ -1,0 +1,2 @@
+Introducing L-FNO: a novel approach to modeling stochastic event dynamics with Lorentzian Fourier Neural Operators. Read the paper on arXiv:2608.13562v1 #MachineLearning #PhysicsInformedML
+https://woor.ai/l-fno-lorentzian-fourier-neural-operator-for-stochastic-even/
