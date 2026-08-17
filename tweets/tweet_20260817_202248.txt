@@ -1,0 +1,2 @@
+Introducing 'The Query Knows What to Forget': a new direction for linear attention, tackling long context storage with a fixed-size state. arXiv:2608.13668v1 #AttentionMechanisms
+https://woor.ai/the-query-knows-what-to-forget-a-second-erase-direction-for/
