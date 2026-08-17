@@ -1,0 +1,2 @@
+New research on Large Language Models reveals 'Stable Miscalibration' leading to high-confidence errors. What does this mean for AI reliability? #AIreliability #LLMs
+https://woor.ai/stable-miscalibration-in-large-language-models-a-practical-v/
