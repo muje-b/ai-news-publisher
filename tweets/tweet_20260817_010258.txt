@@ -1,0 +1,2 @@
+Unlock AI potential with Web Search on Amazon Bedrock, a new foundation model grounding service from @aws. Seamlessly integrate web knowledge into your models #AWS #ArtificialIntelligence
+https://woor.ai/introducing-web-search-on-amazon-bedrock-for-foundation-mode/
