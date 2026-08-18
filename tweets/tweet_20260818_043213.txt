@@ -1,0 +1,2 @@
+New study: FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment (arXiv:2608.14550v1). Can we trust AI efficiency metrics? #AIefficiency #ReplicationMatters
+https://woor.ai/flops-vs-real-work-the-importance-of-replication-in-ai-effic/
