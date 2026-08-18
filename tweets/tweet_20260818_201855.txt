@@ -1,0 +1,2 @@
+Calibrated trust over sharper predictions? New research explores the effectiveness of uncertainty fusion in legal AI, challenging traditional case-outcome prediction methods. #LegalAI #AIResearch
+https://woor.ai/calibrated-trust-not-sharper-prediction-an-empirical-test-of/
