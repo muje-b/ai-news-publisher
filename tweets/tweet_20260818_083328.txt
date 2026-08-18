@@ -1,0 +1,1 @@
+New study: 'Geometry Is Not Robustness: A Trajectory-Level Study of PGD Evaluation' (arXiv:2608.14594v1) challenges PGD's effectiveness in evaluating adversarial robustness #AdversarialRobustness #MachineLearning
