@@ -1,0 +1,2 @@
+New research reveals neural solvers excel in-constraint satisfaction problems, but symbolic integration is crucial for correctness. Read the full paper on arXiv:2608.14569v1 #ArtificialIntelligence
+https://woor.ai/position-certified-correctness-in-neural-constraint-reasonin/

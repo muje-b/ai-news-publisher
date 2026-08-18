@@ -1,0 +1,2 @@
+Introducing Forward Pass Domain Adaptation (FPDA) for large language models, training without backward pass through layers, as presented in arXiv:2608.14563v1 #MLPTraining
+https://woor.ai/forward-pass-domain-adaptation-without-cross-layer-backpropa/
