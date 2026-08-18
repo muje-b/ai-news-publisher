@@ -1,0 +1,2 @@
+Revive retired GPUs: DumpsterCluster recycles functional accelerators into LLaMA-70B servers on $60 GPUs, reducing e-waste & costs #AIforSustainability #EcoFriendlyComputing
+https://woor.ai/dumpstercluster-from-dumpster-diving-to-serving-llama-70b-on/
