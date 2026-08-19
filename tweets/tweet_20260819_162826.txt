@@ -1,0 +1,2 @@
+New research (arXiv:2608.17124v1) proposes a decodability criterion to predict when hidden-state selection outperforms majority voting in large language models #NLP #AI
+https://woor.ai/a-decodability-criterion-predicts-when-hidden-state-selectio/

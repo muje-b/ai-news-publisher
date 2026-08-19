@@ -1,0 +1,2 @@
+New research: DiSCO tackles safety concerns in text-to-image gen models through distribution-guided contrastive prompt optimization. Read the paper: arXiv:2608.17067v1 #AIethics #GenerativeModels
+https://woor.ai/disco-defending-text-to-image-generation-through-distributio/
