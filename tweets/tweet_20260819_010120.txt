@@ -1,0 +1,1 @@
+AI lock-in is in progress. A new arXiv paper (arXiv:2608.14565v1) highlights the need for preparedness in AI safety research, focusing on technical alignment & value drift to prevent potential AI system misalignment. #AISafety #ArtificialIntelligence
