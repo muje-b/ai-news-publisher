@@ -1,0 +1,2 @@
+Introducing KernelArc: a multi-agent framework for autonomous GPU kernel optimization, enabling efficient optimization across heterogeneous systems #GPU #AI
+https://woor.ai/kernelarc-a-multi-agent-framework-for-gpu-kernel-optimizatio/

@@ -1,0 +1,2 @@
+Researchers unveil SW-ProxyCE, a zero-query transfer method from public EEG encoders to private models, boosting EEG-based AI security. #EEGSecurity #AIAdversarial
+https://woor.ai/sw-proxyce-zero-query-adversarial-transfer-from-public-eeg-e/
