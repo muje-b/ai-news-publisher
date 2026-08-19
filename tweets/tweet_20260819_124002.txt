@@ -1,0 +1,2 @@
+New instrument detects operator misspecification in hybrid PDE-parameter learning w/o oracle, using a single fit #MachineLearning #Mathematics
+https://woor.ai/detecting-and-discriminating-operator-misspecification-in-hy/
