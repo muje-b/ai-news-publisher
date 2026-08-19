@@ -1,0 +1,2 @@
+New paper: "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract" (arXiv:2608.16956v1). API contracts include reasoning effort, not just model names #AIContracts
+https://woor.ai/the-price-of-thinking-reasoning-effort-as-a-model-specific-a/
