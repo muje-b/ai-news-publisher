@@ -1,0 +1,2 @@
+Multi-Agent Systems should prioritize concurrency control to maintain scalable collaboration, as adding agents often reduces response times. #MAS #ConcurrencyControl
+https://woor.ai/position-multi-agent-systems-should-prioritize-concurrency-c/

@@ -1,0 +1,2 @@
+Unraveling the complexity of game worlds: Profiling by Transition Complexity, a new study (arXiv:2608.18079v1) sheds light on the intersection of GWM & RL #GameDev #ArtificialIntelligence
+https://woor.ai/position-profiling-game-worlds-by-transition-complexity/
