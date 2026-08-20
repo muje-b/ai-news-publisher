@@ -1,0 +1,2 @@
+Think shallow, solve deep: Controlling recurrent dynamics for reliable test-time depth. New arXiv paper explores iterating update longer at test time #AIResearch #MachineLearning
+https://woor.ai/think-shallow-solve-deep-controlling-recurrent-dynamics-for/
