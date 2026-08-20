@@ -1,0 +1,2 @@
+Current model cards are insufficient for governing open-weight foundation models. New paper proposes re-evaluation of strategies for OWFMs' downstream governance [arXiv:2608.18086v1] #AIgovernance
+https://woor.ai/position-current-model-cards-are-insufficient-for-downstream/

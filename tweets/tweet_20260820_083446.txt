@@ -1,0 +1,2 @@
+Introducing H$^2$EDL: Hyper Evidential Deep Learning for Hierarchical Classification! This new approach tackles fine-grained recognition in complex label spaces #DeepLearning #HierarchicalClassification
+https://woor.ai/h2edl-hyper-evidential-deep-learning-for-hierarchical-classi/
