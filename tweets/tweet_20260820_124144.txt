@@ -1,0 +1,2 @@
+Reversing the norm: 'Towards Reversible Forgetting' proposes managing obsolete knowledge in continual AI agents, redefining forgetting as a controlled process #AIResearch
+https://woor.ai/towards-reversible-forgetting-managing-obsolete-knowledge-in/
