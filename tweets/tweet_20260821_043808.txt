@@ -1,0 +1,1 @@
+Active Inference as Context Acquisition for AI Agents: a new approach to help interactive AI agents efficiently acquire the right context from users, enhancing their decision-making capabilities #ArtificialIntelligence

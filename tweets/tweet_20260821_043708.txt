@@ -1,0 +1,1 @@
+Introducing a novel supervised Machine Learning model for helicopter weight estimation. Towards on-board implementation, this innovative approach aims to enhance safety & efficiency in flight operations. #MachineLearning #AerospaceEngineering
