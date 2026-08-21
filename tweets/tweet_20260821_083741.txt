@@ -1,0 +1,1 @@
+Introducing adaptive compression for edge-based RAG: a new approach to improve language-model responses at runtime. Learn more about 'From Retrieved Context to Runtime Control' on arXiv:2608.19535v1 #RAG #EdgeAI

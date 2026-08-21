@@ -1,0 +1,24 @@
+<h1>Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress</h1><p>Language models often improve after initial training by learning from a stronger “teacher” model. On‑policy distillation (OPD) lets a student generate its own text while receiving token‑level feedback from the teacher, treating that feedback as a reward signal for reinforcement learning. The method assumes that higher teacher rewards always reflect better reasoning. In practice, however, the teacher’s praise can diverge from the actual progress a student makes toward solving a problem, leading to updates that reinforce imitation rather than genuine understanding.</p>
+
+<h2>What You Need to Know</h2>
+<p>The authors identify a systematic mismatch: a step that clearly advances the student’s reasoning may receive a low distillation reward simply because it deviates from the teacher’s exact wording. Conversely, steps that closely mimic the teacher but add little substantive progress can be rewarded highly. This noise corrupts the policy gradient, causing the student to optimize for surface similarity instead of deeper logical development.</p>
+<p>To counteract this, they introduce Reasoning‑Progress‑Aware Reward Filtering (RPRF). RPRF evaluates each generated token not only by the teacher’s reward but also by an auxiliary measure of reasoning progress—such as the increase in a learned reasoning score or the reduction in uncertainty about the correct answer. Tokens whose teacher reward conflicts with this progress signal are down‑weighted or filtered out before the gradient update. The filtered reward thus aligns more closely with true improvements in the student’s problem‑solving ability.</p>
+<p>The method remains compatible with existing OPD pipelines; it only requires a lightweight progress estimator that can be trained alongside the student or borrowed from a separate verifier model. Experiments on mathematical reasoning and code generation benchmarks show that RPRF yields higher final accuracy while reducing the number of training steps needed to reach a given performance level.</p>
+
+<h2>Why It Matters</h2>
+<p>Current distillation practices risk turning capable models into skilled imitators that parrot teacher outputs without internalizing the underlying reasoning. When deployment environments differ from the teacher’s distribution—such as novel problem formats or edge cases—these models can fail catastrophically because they have not learned to adapt their thought processes. By explicitly rewarding genuine reasoning advances, RPRF helps bridge the gap between imitation and true understanding, making post‑training more robust and efficient.</p>
+<p>Beyond accuracy gains, the approach reduces reliance on massive teacher-generated datasets for fine‑tuning. Since the student learns more from its own exploratory trajectories, fewer costly teacher queries are required. This can lower computational costs and make iterative improvement feasible for smaller research teams or organizations with limited access to large teacher models.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li><strong>Reward filtering mechanism:</strong> combines teacher token‑level reward with a reasoning‑progress score; tokens where the two signals disagree receive a reduced weight.</li>
+<li><strong>Progress estimator:</strong> can be a verifier model that predicts answer correctness or a learned heuristic that measures intermediate reasoning quality (e.g., increase in latent solution confidence).</li>
+<li><strong>Integration:</strong> applied during the on‑policy rollout phase of OPD; no changes to the underlying RL algorithm (e.g., PPO) are required.</li>
+<li><strong>Benchmarks:</strong> tested on GSM‑8K, MATH, and HumanEval; RPRF improved accuracy by 2‑4% absolute over vanilla OPD while using ~30% fewer training steps.</li>
+<li><strong>Ablation:</strong> removing the progress component reverts performance to baseline OPD, confirming that the filter, not just extra training, drives the gain.</li>
+<li><strong>Computational overhead:</strong> the progress estimator adds negligible latency (<5% increase) because it operates on the same forward pass used for teacher reward calculation.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could explore richer progress signals, such as dynamic difficulty adaptation or multi‑step look‑ahead rewards, to further align distillation with the student's evolving reasoning capabilities. Extending RPRF to other domains—like commonsense reasoning or multimodal tasks—would test its generality. Finally, integrating the filter into curriculum‑style training schedules might enable even smoother transitions from imitation to autonomous problem solving.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.19408" target="_blank">Arxiv Ai</a></blockquote>

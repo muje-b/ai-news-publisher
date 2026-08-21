@@ -1,0 +1,22 @@
+<h1>From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG</h1><p>Running large language models on edge devices promises low‑latency AI, but the retrieval‑augmented generation (RAG) pipeline can quickly erode those gains. Every retrieved passage inflates the prompt, swelling the prefill workload, KV‑cache size, memory traffic, and energy draw. While context compression can trim that fat, most approaches lock in a fixed compression ratio ahead of time, ignoring how the device’s workload and available resources shift from moment to moment.</p>
+
+<h2>What You Need to Know</h2>
+<p>The paper introduces an adaptive compression controller that decides, at runtime, how much of the retrieved context to keep based on two signals: the current inference load on the edge SoC and the real‑time state of its compute and memory budgets. Instead of applying a static compression rate, the controller watches metrics such as core utilization, memory bandwidth pressure, and temperature, then selects a compression level that keeps the overall latency and energy within a target envelope.</p>
+<p>To make this work, the authors design a lightweight compressor that can be invoked on the same SoC as the model without adding prohibitive overhead. The compressor operates on tokenized text, dropping or merging tokens according to a learned importance score that reflects both semantic relevance and positional bias. A small reinforcement‑learning policy maps the observed device state to a compression ratio, trading off a modest drop in generation quality for measurable savings in prefill time and KV‑cache footprint.</p>
+
+<h2>Why It Matters</h2>
+<p>Edge deployments often run multiple AI services concurrently, and background tasks can cause sudden spikes in CPU or memory demand. A static compression setting either wastes resources when the device is idle or fails to meet latency targets when the system is busy. By aligning compression intensity with the live runtime condition, the approach ensures that RAG‑augmented generation stays responsive and energy‑efficient across fluctuating workloads.</p>
+<p>Beyond immediate performance gains, the method reduces the thermal and power‑budget pressure on battery‑powered devices, extending usable runtime for applications like mobile assistants, industrial sensors, or autonomous drones. It also opens a path for heterogeneous systems where the compressor could run on a low‑power DSP while the model executes on a higher‑performance core, further decoupling compression cost from generation cost.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Compression policy is trained via reinforcement learning with a reward that balances latency, energy, and a quality proxy (e.g., ROUGE against a reference answer).</li>
+<li>The controller updates its decision every few hundred milliseconds, reacting quickly to shifts in workload without stalling the generation pipeline.</li>
+<li>Experiments on an ARM‑based edge SoC show up to 38 % reduction in prefill latency and 31 % lower energy consumption while keeping answer fidelity within 2 % of the uncompressed baseline.</li>
+<li>The compressor adds less than 0.5 ms of overhead per inference step, confirming that its cost is negligible compared to the savings it enables.</li>
+<li>Ablation studies reveal that incorporating both utilization and temperature signals yields the best trade‑off; using only one metric leads to either over‑compression (quality loss) or under‑compression (missed latency targets).</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work could extend the controller to multi‑modal RAG settings, where retrieved inputs include images or audio, and explore hierarchical compression that first prunes coarse‑grained passages then refines token‑level detail. Integrating the policy directly into the model’s decoding loop—so that compression decisions influence attention scores in real time—might further tighten the loop between resource awareness and generation quality.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.19535" target="_blank">Arxiv Ai</a></blockquote>
