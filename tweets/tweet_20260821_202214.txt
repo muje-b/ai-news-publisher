@@ -1,0 +1,2 @@
+Researchers propose in-context learning approach for tabular anomaly detection using LLMs, enabling efficient identification of rule-violating samples. #TabularAnomalyDetection #LLMs
+https://woor.ai/llm-as-detector-an-in-context-learning-approach-for-tabular/
