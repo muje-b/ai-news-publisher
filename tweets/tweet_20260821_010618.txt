@@ -1,0 +1,2 @@
+New paper on Entropy-Constrained Adaptive Stochastic Quantization (arXiv:2608.18147v1): Optimizing quantization for improved performance. #Quantization #MachineLearning
+https://woor.ai/entropy-constrained-adaptive-stochastic-quantization/
