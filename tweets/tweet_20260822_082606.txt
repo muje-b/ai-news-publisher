@@ -1,0 +1,2 @@
+Nvidia research reveals that a well-designed harness can tame even mediocre AI models, preventing them from going off the rails. Fine-tuning is key to stable AI performance. #AIStability #NvidiaResearch
+https://woor.ai/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now/
