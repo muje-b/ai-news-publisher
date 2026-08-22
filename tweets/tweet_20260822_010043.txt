@@ -1,0 +1,2 @@
+Boosting trust in AI: Researchers propose improved confidence estimates for black-box large language models, paving the way for safer deployment #LLMs #AIUQ
+https://woor.ai/improved-confidence-estimates-for-black-box-large-language-m/
