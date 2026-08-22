@@ -1,0 +1,2 @@
+Anthropic's Opus 4.6 may be a 'smut-machine' in theory, but in practice, its Claude models are forbidden from generating explicit content. The test results are in - did they pass the test? #AIethics #GenerativeModels
+https://woor.ai/anthropics-opus-46-is-a-smut-machine/
