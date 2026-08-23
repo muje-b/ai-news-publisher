@@ -1,0 +1,2 @@
+Introducing mediagen: a unified CLI & MCP server for AI image & video generation, powered by Gemini, OpenAI & Kie AI, with EU AI Act compliance. Unlock new creative possibilities with Claude Code & more! #mediagen #AIgeneration
+https://woor.ai/new-tool-mediagen/
