@@ -1,0 +1,2 @@
+New paper: Shared Physics Responses Recover Hidden Rankings in Neural Operator Libraries (arXiv:2608.20441v1). Simplifying neural-operator prediction during deployment #NeuralOperators
+https://woor.ai/shared-physics-responses-recover-hidden-rankings-in-neural-o/
