@@ -1,0 +1,2 @@
+Introducing Nexus: a novel approach to agentic LLMs on unified memory, enabling efficient tool routing & KV-cache splicing. Read the paper on arXiv:2608.20397v1 #LLMs #UnifiedMemory
+https://woor.ai/nexus-depth-adaptive-kv-cache-splicing-and-retrieval-decoupl/

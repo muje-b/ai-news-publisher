@@ -1,0 +1,2 @@
+Researchers discover wrong-physics backdoors in neural PDE operators, highlighting the need for rigorous validation in reusable solver archives [arXiv:2608.20439v1] #NeuralPDEs #AIsecurity
+https://woor.ai/wrong-physics-backdoors-in-neural-pde-operators/
