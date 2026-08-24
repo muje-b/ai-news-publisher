@@ -1,0 +1,2 @@
+New paper on subliminal trait transfer: "Stored in Optimizer State, Valued by Later Training: A Causal Account" #AI #MachineLearning
+https://woor.ai/stored-in-optimizer-state-valued-by-later-training-a-causal/

@@ -1,0 +1,2 @@
+New arXiv paper: "World Models of Environment, Agent and Joint Agent-Environment Systems" (arXiv:2608.20401v1) explores central components of model-based RL #MachineLearning
+https://woor.ai/world-models-of-environment-agent-and-joint-agent-environmen/
