@@ -1,0 +1,2 @@
+Researchers explore 'Structurally Indirect Prerequisite Eviction' in agentic memory, where retention failures precede retrieval issues under fixed budgets #ArtificialIntelligence #MemoryModels
+https://woor.ai/when-retrieval-fails-before-it-begins-structurally-indirect/
