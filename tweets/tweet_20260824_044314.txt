@@ -1,0 +1,1 @@
+Introducing SDAD: Spec-Driven Agentic Development for AI-Native SDLC. arXiv:2608.20341v1 presents frontier coding agents powered by large language models with context windows. #AI-Native #SDLC

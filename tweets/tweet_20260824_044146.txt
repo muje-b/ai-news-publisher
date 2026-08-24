@@ -1,0 +1,1 @@
+Introducing BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers. This new approach optimizes dense causal attention for long contexts, reducing computational costs. arXiv:2608.20427v1 #NLP #TransformerEfficiency
