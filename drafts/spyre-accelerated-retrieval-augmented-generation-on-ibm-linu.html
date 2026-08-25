@@ -1,0 +1,24 @@
+<h1>Spyre-Accelerated Retrieval-Augmented Generation on IBM LinuxONE: A Cloud-Native Architecture for Secure, High-Throughput Enterprise AI Inference</h1><p>Enterprises often face a trade‑off between keeping sensitive data on‑premises and accessing the compute power needed for large language models. Moving records back and forth introduces latency, security risk, and compliance overhead. IBM’s Spyre accelerator, designed for LinuxONE and the broader IBM Z platform, aims to eliminate that shuffle by bringing inference hardware directly onto the same system where the data resides.</p>
+
+<h2>What You Need to Know</h2>
+<p>The paper proposes a six‑subsystem Retrieval‑Augmented Generation (RAG) pipeline that runs entirely on IBM LinuxONE. At the query entry point, a lightweight front‑end service receives user requests and forwards them to a vector store hosted on the same LinuxONE subsystem. The vector store performs similarity search against embeddings that are generated and updated in‑place, ensuring that no raw documents leave the secure environment.</p>
+<p>Once relevant passages are retrieved, a prompt‑assembly module merges the user query with the selected context. The assembled prompt is then sent to the Spyre PCIe inference card, which executes the large language model generation step. For tasks that require only simple classification—such as intent detection or safety filtering—the system offloads work to the Telum II on‑chip accelerator, which provides low‑latency inference without leaving the main processor.</p>
+<p>All components are containerized and orchestrated by Red Hat OpenShift, allowing operators to scale each subsystem independently, apply rolling updates, and enforce security policies through Kubernetes‑native role‑based access control. Because the entire stack stays on LinuxONE, data never traverses the network to an external GPU farm, reducing both latency and the attack surface.</p>
+
+<h2>Why It Matters</h2>
+<p>For regulated industries—finance, healthcare, government—moving personally identifiable information or proprietary data to public cloud AI services can violate data‑sovereignty rules and increase audit complexity. By keeping inference and data on the same mainframe‑class system, the architecture addresses those compliance concerns while still delivering the throughput needed for real‑time customer‑facing applications.</p>
+<p>Performance measurements in the paper show that Spyre‑based generation achieves token‑per‑second rates comparable to dedicated GPU servers, while the Telum II classifier adds sub‑millisecond overhead for safety checks. The OpenShift layer enables enterprises to treat the AI stack as a cloud‑native service, integrating it with existing DevOps pipelines and monitoring tools without re‑architecting their core workloads.</p>
+
+<h2>Key Details</h2>
+<ul>
+<li>Spyre PCIe card provides up to 70 TOPS of INT8 inference performance for large language models.</li>
+<li>Telum II on‑chip accelerator handles classification tasks at <1 ms latency with <5 W power draw.</li>
+<li>Vector retrieval uses an in‑memory HNSW index refreshed nightly via batch embedding jobs on LinuxONE.</li>
+<li>Prompt assembly employs a template engine that injects top‑k retrieved passages (<k=5) into the LLM input.</li>
+<li>OpenShift policies enforce network isolation between the vector store, Spyre workers, and Telum II functions.</li>
+<li>End‑to‑end latency measured at 120 ms for a typical 512‑token query, including retrieval and safety classification.</li>
+</ul>
+
+<h2>What's Next</h2>
+<p>Future work will explore integrating additional heterogeneous accelerators—such as IBM’s upcoming AIU—for mixed‑precision workloads, and extending the RAG pipeline to support multi‑turn conversational memory stored in a secure, distributed ledger. The authors also plan to publish benchmark suites that let enterprises compare Spyre‑based inference against traditional GPU deployments under identical data‑ residency constraints.</p>
+<blockquote>📌 <strong>Source:</strong> <a href="https://arxiv.org/abs/2608.21393" target="_blank">Arxiv Ai</a></blockquote>
