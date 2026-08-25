@@ -1,0 +1,2 @@
+Exploring Model Collapse in GenAI: I review arXiv:2608.21366v1, a study on countermeasures for this issue. #GenAI #MachineLearning
+https://woor.ai/reviewing-model-collapse-and-countermeasures/

@@ -1,0 +1,2 @@
+Introducing SchemaRouter: a field-aware tool for efficient heterogeneous agentic RAG systems. Optimizes external rules for specific hooks, boosting performance. #RAG #NLP
+https://woor.ai/schemarouter-field-aware-tool-routing-for-efficient-heteroge/
