@@ -1,8 +1,5 @@
 {
   "processed": [
-    "cba9c457dcf4ca1d",
-    "d2a4420febdfbc6e",
-    "8d1c02bf165e39db",
     "9cafba394397a09a",
     "cf746999bc6a3328",
     "1c93ccce0a50ef87",
@@ -999,11 +996,14 @@
     "2e5bc73d029a4983",
     "6c2861183e872b5c",
     "bfd1495c76918d53",
-    "cd36e34ebecc2c2e"
+    "cd36e34ebecc2c2e",
+    "1af13a997ccd1b8b",
+    "a14ffe864c766b71",
+    "f1c8ae9706e46d62"
   ],
-  "last_run": "2026-08-25T16:34:31.233664+00:00",
+  "last_run": "2026-08-25T20:26:18.934224+00:00",
   "stats": {
-    "total_posts": 987,
+    "total_posts": 990,
     "total_tweets": 0
   }
 }

@@ -1,0 +1,2 @@
+KVBoost reduces prefill latency in transformer-based LLMs by reusing chunk-level key-value cache with deviation-guided recomputation #LLMs #AIefficiency
+https://woor.ai/kvboost-chunk-level-key-value-cache-reuse-with-deviation-gui/
